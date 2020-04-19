@@ -2,7 +2,6 @@
 
 const Controller = require('egg').Controller;
 const JWT = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 
 class UserController extends Controller {
     async login() {
