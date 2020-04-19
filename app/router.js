@@ -9,4 +9,5 @@ module.exports = app => {
 
   router.get('/', controller.home.index);
   router.post('/login', controller.user.login);
+  router.get('/list',jwt,controller.todo.getList);
 };

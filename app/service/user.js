@@ -5,14 +5,20 @@ class UserService extends Service{
         const user = await this.app.mysql.get('be_users', {openid: openid});
         return {user};
     }
-    async create(openid,session_key){
-        const result = await this.app.mysql.insert('be_users', {openid: openid, session_key: session_key});
+    async select(id) {
+        const user = await this.app.mysql.get('be_users', {id: id});
+        return {user};
+    }
+    async create(openid,session_key,nickname,avatar){
+        const result = await this.app.mysql.insert('be_users', {openid: openid, session_key: session_key,nickname: nickname,avatar: avatar});
         console.log(result);
         return result.affectedRows === 1;
     }
-    async update_session(id,session_key){
+    async update_session(id,session_key,nickname,avatar){
         const row = {
-            session_key: session_key
+            session_key: session_key,
+            nickname: nickname,
+            avatar: avatar
         };
         const options = {
             where: {

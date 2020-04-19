@@ -8,6 +8,8 @@ class UserController extends Controller {
     async login() {
         const { ctx } = this;
         const code = this.ctx.request.body.code;
+        const wxuser = this.ctx.request.body.user;
+        this.ctx.logger.info(wxuser);
         var wechat = await ctx.curl('https://api.weixin.qq.com/sns/jscode2session?appid='+this.config.wechatappid+'&secret='+this.config.wechatsecret+'&js_code='+code+'&grant_type=authorization_code',{
             method: 'GET',
             dataType: 'json'
@@ -16,7 +18,7 @@ class UserController extends Controller {
             const user = await this.ctx.service.user.find(wechat.data.openid);
             if(user.user === null){
                 this.app.logger.info("OpenID:"+wechat.data.openid+" 不存在 开始注册")
-                if (this.ctx.service.user.create(wechat.data.openid,wechat.data.session_key)){
+                if (this.ctx.service.user.create(wechat.data.openid,wechat.data.session_key,wxuser.nickName,wxuser.avatarUrl)){
                     const new_user = await this.ctx.service.user.find(wechat.data.openid);
                     this.app.logger.info("OpenID:"+wechat.data.openid+" 注册成功");
                     const userToken = JWT.sign({
@@ -39,12 +41,12 @@ class UserController extends Controller {
                 algorithm: 'RS256',
                 expiresIn: '2d',
             });
-            if(user.user.session_key !== wechat.data.session_key){
-                if(!await this.ctx.service.user.update_session(user.user.id,wechat.data.session_key)){
-                    this.app.logger.info("UID:"+user.user.id+" OpenID:"+wechat.data.openid+" session key写入失败 拒绝登录");
+            if(user.user.session_key !== wechat.data.session_key || user.user.nickname !== wxuser.nickName || user.user.avatar !== wxuser.avatarUrl){
+                if(!await this.ctx.service.user.update_session(user.user.id,wechat.data.session_key,wxuser.nickName,wxuser.avatarUrl)){
+                    this.app.logger.info("UID:"+user.user.id+" OpenID:"+wechat.data.openid+"  更新用户信息 失败 拒绝登录");
                     return this.ctx.body = {success:false};
                 }
-                this.app.logger.info("UID:"+user.user.id+" OpenID:"+wechat.data.openid+" 登录系统 已更新session key并颁发Token:" + userToken);
+                this.app.logger.info("UID:"+user.user.id+" OpenID:"+wechat.data.openid+" 登录系统 已更新用户信息 并颁发Token:" + userToken);
                 return this.ctx.body = {success:true,token: userToken};
             }
             this.app.logger.info("UID:"+user.user.id+" OpenID:"+wechat.data.openid+" 登录系统 已颁发Token:" + userToken);
