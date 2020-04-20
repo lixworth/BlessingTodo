@@ -60,7 +60,20 @@ class UserController extends Controller {
         }
     }
 
-
+    async getUser() {
+        const { ctx } = this;
+        var authToken = ctx.header.authorization;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+        return this.ctx.body = user;
+    }
 }
 
 module.exports = UserController;
