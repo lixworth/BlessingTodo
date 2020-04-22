@@ -5,6 +5,11 @@ class UserService extends Service{
         const user = await this.app.mysql.get('be_users', {openid: openid});
         return {user};
     }
+    selectUser(id) {
+        const user = this.app.mysql.get('be_users', {id: id});
+        return {user};
+    }
+
     async select(id) {
         const user = await this.app.mysql.get('be_users', {id: id});
         return {user};

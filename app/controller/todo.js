@@ -24,26 +24,44 @@ class TodoController extends Controller {
         const data = JSON.stringify({
             uid: user.user.id
         });
-        var getTodoInWhichExists = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=getTodoInWhichExists&data='+urlencode('{"uid":1}'),{
+        var result = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=getTodoInWhichExists&data='+urlencode(Base64.encode(data)),{
             dataType: 'json',
             method: 'GET'
         });
-        return this.ctx.body = getTodoInWhichExists.data;
+        if(result.data.status === 1){
+            result.data.message.t.forEach((item,index) => {
+                if(item.MOTHER === user.user.id){
+                    item.MOTHER = "本人";
+                }else{
+                    const mother_user = this.ctx.service.user.selectUser(item.MOTHER);
+                    item.MOTHER = mother_user.user.nickName;
+                }
+            });
+            return this.ctx.body = result.data;
+        }else{
+            this.ctx.status = 500;
+            return this.ctx.body = {
+                success: false,
+                message: "内部错误"
+            };
+        }
     }
 
     async test(){
         const { ctx } = this;
         const data = JSON.stringify({
-            title: "殷伟杰女装",
+            title: "YWJ",
             content: "殷伟杰每日必备任务",
             missions: [
                 {
                     content: "周二殷伟杰女装",
-                    end: "1587468616"
+                    end: "1587468616",
+                    estarto: "1587468616"
                 },
                 {
                     content: "周三殷伟杰女装",
-                    end: "1587555016"
+                    end: "1587555016",
+                    estarto: "1587468616"
                 }
             ],
             creator: 1
@@ -52,7 +70,11 @@ class TodoController extends Controller {
             method: 'GET',
             dataType: 'json'
         });
-        return this.ctx.body = newTodo;
+        return this.ctx.body = {
+            status: newTodo.status,
+            headers: newTodo.headers,
+            package: newTodo.data.message
+        };
     }
 }
 
