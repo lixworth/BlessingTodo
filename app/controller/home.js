@@ -7,6 +7,21 @@ class HomeController extends Controller {
     const { ctx } = this;
     ctx.body = 'hi, egg';
   }
+
+  /**
+   *
+   * 一言 API
+   * 加油 少年！
+   * @returns {Promise<void>}
+   */
+  async yiyan(){
+    const { ctx } = this;
+    var result = await ctx.curl('https://v1.hitokoto.cn/',{
+      method: 'GET',
+      dataType: 'json'
+    });
+    this.ctx.body = result.data;
+  }
 }
 
 module.exports = HomeController;

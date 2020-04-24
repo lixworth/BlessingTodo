@@ -36,16 +36,13 @@ class TodoController extends Controller {
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
                 }
-                if(item.SONS === undefined) {
-                }else {
-                    console.log("233")
-                    for (var i = 0; i < item.SONS.length; i++) {
-                        var userdata = await this.app.mysql.get('be_users', {id: tem.SONS[i]});
-                        item.SONS[i] = {
-                            uid: tem.SONS[i],
-                            name: userdata.nickname
-                        }
-                    }
+                for (var i = 0; i < item.SONs.length; i++) { //TODO: 删除这块
+                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
+                    item.SONs[i] = {
+                        uid: item.SONs[i],
+                        name: son.nickname,
+                        avatar: son.avatar
+                    };
                 }
             }));
 
@@ -56,6 +53,14 @@ class TodoController extends Controller {
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
                 }
+                for (var i = 0; i < item.SONs.length; i++) {
+                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
+                    item.SONs[i] = {
+                        uid: item.SONs[i],
+                        name: son.nickname,
+                        avatar: son.avatar
+                    };
+                }
             }));
             await Promise.all((result.data.message).waitTodo.map(async (item) => {
                 if(item.MOTHER === user.user.id){
@@ -64,6 +69,14 @@ class TodoController extends Controller {
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
                 }
+                for (var i = 0; i < item.SONs.length; i++) {
+                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
+                    item.SONs[i] = {
+                        uid: item.SONs[i],
+                        name: son.nickname,
+                        avatar: son.avatar
+                    };
+                }
             }));
             await Promise.all((result.data.message).todo.map(async (item) => {
                 if(item.MOTHER === user.user.id){
@@ -71,6 +84,14 @@ class TodoController extends Controller {
                 }else{
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
+                }
+                for (var i = 0; i < item.SONs.length; i++) {
+                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
+                    item.SONs[i] = {
+                        uid: item.SONs[i],
+                        name: son.nickname,
+                        avatar: son.avatar
+                    };
                 }
             }));
 
@@ -114,21 +135,72 @@ class TodoController extends Controller {
         });
         return this.ctx.body = sonComplete.data;
     }
+
+    async getTodo(){
+        const { ctx } = this;
+        var authToken = ctx.header.authorization;
+        const tid = this.ctx.query.tid;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+        const data = JSON.stringify({
+            tid: tid
+        });
+        var getTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=getTodo&data='+urlencode(Base64.encode(data)),{
+            method: 'GET',
+            dataType: 'json'
+        });
+
+        if(getTodo.data.status === 1){
+            const mother_user = await this.app.mysql.get('be_users', {id: getTodo.data.message.t.MOTHER});
+            getTodo.data.message.t.MOTHER = {
+                uid: mother_user.id,
+                name: mother_user.nickname,
+                avatar: mother_user.avatar
+            };
+            for (var i = 0; i < getTodo.data.message.t.SONs.length; i++) {
+                var son = await this.app.mysql.get('be_users', {id: getTodo.data.message.t.SONs[i]});
+                getTodo.data.message.t.SONs[i] = {
+                    uid: son.id,
+                    name: son.nickname,
+                    avatar: son.avatar
+                };
+            }
+            await Promise.all((getTodo.data.message.t).Missions.map(async (item) => {
+                for (var i = 0; i < item.SONs_COMPLETED.length; i++) {
+                    var son_com = await this.app.mysql.get('be_users', {id: item.SONs_COMPLETED[i]});
+                    item.SONs_COMPLETED[i] = {
+                        uid: son_com.id,
+                        name: son_com.nickname,
+                        avatar: son_com.avatar
+                    };
+                }
+            }));
+            return this.ctx.body = getTodo.data;
+        }else{
+            this.ctx.status = 403;
+            return this.ctx.body = {
+                success: false
+            };
+        }
+    }
+
     async test(){
         const { ctx } = this;
-        /*        const data = JSON.stringify({
-                    title: "ZZMSB 尚未开始测试",
-                    content: "ZZMSB",
+               /* const data = JSON.stringify({
+                    title: "伟哥测试2",
+                    content: "王健懿写BUG一流",
                     missions: [
                         {
-                            content: "zzm不出货1",
+                            content: "BUGDHDJ",
                             estarto: "2020-04-24 20:00:00",
                             end: "2020-04-24 21:00:00"
-                        },
-                        {
-                            content: "zzm♂ZPH",
-                            estarto: "2020-04-24 20:00:00",
-                            end: "2020-04-24 23:00:00"
                         }
                     ],
                     creator: 1
@@ -144,7 +216,7 @@ class TodoController extends Controller {
                 };*/
         const data = JSON.stringify({
             uid: 2,
-            tid: 6
+            tid: 8
         });
         var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=sonJoin&data='+urlencode(Base64.encode(data)),{
             method: 'GET',
