@@ -12,4 +12,5 @@ module.exports = app => {
   router.get('/list',jwt,controller.todo.getList);
   router.get('/test',controller.todo.test);
   router.get('/user',jwt,controller.user.getUser);
+  router.post('/sonComplete',jwt,controller.todo.sonComplete);
 };
