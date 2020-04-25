@@ -15,4 +15,6 @@ module.exports = app => {
   router.get('/user',jwt,controller.user.getUser);
   router.post('/sonComplete',jwt,controller.todo.sonComplete);
   router.get('/getTodo',jwt,controller.todo.getTodo);
+  router.post('/newTodo',jwt,controller.todo.newtodo);
+
 };

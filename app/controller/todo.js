@@ -36,14 +36,6 @@ class TodoController extends Controller {
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
                 }
-                for (var i = 0; i < item.SONs.length; i++) { //TODO: 删除这块
-                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
-                    item.SONs[i] = {
-                        uid: item.SONs[i],
-                        name: son.nickname,
-                        avatar: son.avatar
-                    };
-                }
             }));
 
             await Promise.all((result.data.message).t.map(async (item) => {
@@ -53,14 +45,6 @@ class TodoController extends Controller {
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
                 }
-                for (var i = 0; i < item.SONs.length; i++) {
-                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
-                    item.SONs[i] = {
-                        uid: item.SONs[i],
-                        name: son.nickname,
-                        avatar: son.avatar
-                    };
-                }
             }));
             await Promise.all((result.data.message).waitTodo.map(async (item) => {
                 if(item.MOTHER === user.user.id){
@@ -68,14 +52,6 @@ class TodoController extends Controller {
                 }else{
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
-                }
-                for (var i = 0; i < item.SONs.length; i++) {
-                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
-                    item.SONs[i] = {
-                        uid: item.SONs[i],
-                        name: son.nickname,
-                        avatar: son.avatar
-                    };
                 }
             }));
             await Promise.all((result.data.message).todo.map(async (item) => {
@@ -85,16 +61,7 @@ class TodoController extends Controller {
                     const mother_user = await this.app.mysql.get('be_users', {id: item.MOTHER});
                     item.MOTHER = mother_user.nickname;
                 }
-                for (var i = 0; i < item.SONs.length; i++) {
-                    var son = await this.app.mysql.get('be_users', {id: item.SONs[i]});
-                    item.SONs[i] = {
-                        uid: item.SONs[i],
-                        name: son.nickname,
-                        avatar: son.avatar
-                    };
-                }
             }));
-
 
             return this.ctx.body = result.data;
         }else{
@@ -159,6 +126,11 @@ class TodoController extends Controller {
 
         if(getTodo.data.status === 1){
             const mother_user = await this.app.mysql.get('be_users', {id: getTodo.data.message.t.MOTHER});
+            if(mother_user.id === user.user.id){
+                getTodo.data.message.t.is_creator = true;
+            }else{
+                getTodo.data.message.t.is_creator = false;
+            }
             getTodo.data.message.t.MOTHER = {
                 uid: mother_user.id,
                 name: mother_user.nickname,
@@ -166,6 +138,7 @@ class TodoController extends Controller {
             };
             for (var i = 0; i < getTodo.data.message.t.SONs.length; i++) {
                 var son = await this.app.mysql.get('be_users', {id: getTodo.data.message.t.SONs[i]});
+                console.log(son)
                 getTodo.data.message.t.SONs[i] = {
                     uid: son.id,
                     name: son.nickname,
@@ -193,30 +166,30 @@ class TodoController extends Controller {
 
     async test(){
         const { ctx } = this;
-               /* const data = JSON.stringify({
-                    title: "伟哥测试2",
-                    content: "王健懿写BUG一流",
-                    missions: [
-                        {
-                            content: "BUGDHDJ",
-                            estarto: "2020-04-24 20:00:00",
-                            end: "2020-04-24 21:00:00"
-                        }
-                    ],
-                    creator: 1
-                });
-                var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=newTodo&data='+urlencode(Base64.encode(data)),{
-                    method: 'GET',
-                    dataType: 'json'
-                });
-                return this.ctx.body = {
-                    status: newTodo.status,
-                    headers: newTodo.headers,
-                    package: newTodo.data.message
-                };*/
+        /* const data = JSON.stringify({
+             title: "伟哥测试2",
+             content: "王健懿写BUG一流",
+             missions: [
+                 {
+                     content: "BUGDHDJ",
+                     estarto: "2020-04-24 20:00:00",
+                     end: "2020-04-24 21:00:00"
+                 }
+             ],
+             creator: 1
+         });
+         var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=newTodo&data='+urlencode(Base64.encode(data)),{
+             method: 'GET',
+             dataType: 'json'
+         });
+         return this.ctx.body = {
+             status: newTodo.status,
+             headers: newTodo.headers,
+             package: newTodo.data.message
+         };*/
         const data = JSON.stringify({
-            uid: 2,
-            tid: 8
+            uid: 3,
+            tid: 7
         });
         var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=sonJoin&data='+urlencode(Base64.encode(data)),{
             method: 'GET',
@@ -228,8 +201,42 @@ class TodoController extends Controller {
             package: newTodo.data.message
         };
     }
-
-
+    async newtodo(){
+        const { ctx } = this;
+        var authToken = ctx.header.authorization;
+        const todo = this.ctx.request.body.new;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+        var missions = [];
+        console.log(todo)
+        todo.todo.forEach((item,index) => {
+            missions.push({
+                content: item.content,
+                estarto: item.solar+" "+item.currentDate+":00",
+                time: item.time,
+            });
+        });
+        console.log(missions)
+        const data = JSON.stringify({
+            title: todo.title,
+            content: todo.content,
+            missions: missions,
+            creator: user.user.id
+        });
+        var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=newTodo&data='+urlencode(Base64.encode(data)),{
+            method: 'GET',
+            dataType: 'json'
+        });
+        console.log(newTodo)
+        return this.ctx.body = newTodo.data;
+    }
 }
 
 module.exports = TodoController;
