@@ -16,5 +16,9 @@ module.exports = app => {
   router.post('/sonComplete',jwt,controller.todo.sonComplete);
   router.get('/getTodo',jwt,controller.todo.getTodo);
   router.post('/newTodo',jwt,controller.todo.newtodo);
-
+  router.get('/getCode',jwt,controller.todo.getCode);
+  router.get('/loadCode',jwt,controller.todo.loadCode);
+  router.post('/fatherJoin',jwt,controller.todo.fatherJoin);
+  router.post('/sonJoin',jwt,controller.todo.sonJoin);
 };
+

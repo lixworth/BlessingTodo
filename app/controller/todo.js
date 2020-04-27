@@ -163,7 +163,202 @@ class TodoController extends Controller {
             };
         }
     }
+    /*loadCode*/
+    async loadCode(){
+        const { ctx } = this;
+        const cid = this.ctx.query.cid;
+        var authToken = ctx.header.authorization;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
 
+        var getCode = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=getCode&data='+urlencode(Base64.encode(JSON.stringify({
+            cid: cid
+        }))),{
+            method: 'GET',
+            dataType: 'json'
+        });
+        if(getCode.data.message.c.UID === null){
+            getCode.data.message.c.user = null;
+
+        }else{
+            const joinuser = await this.ctx.service.user.select(getCode.data.message.c.UID );
+            if(joinuser.user === null){
+                this.ctx.status = 403;
+                return this.ctx.body = {
+                    status: 0,
+                    success: false,
+                    message: getTodo.data.message.error
+                };
+            }
+            getCode.data.message.c.user = joinuser.user;
+        }
+        if(getCode.data.status === 1){
+            var getTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=getTodo&data='+urlencode(Base64.encode(JSON.stringify({
+                tid: getCode.data.message.c.TID
+            }))),{
+                method: 'GET',
+                dataType: 'json'
+            });
+            if(getTodo.data.status === 1){
+                const mother_user = await this.app.mysql.get('be_users', {id: getTodo.data.message.t.MOTHER});
+                getTodo.data.message.t.MOTHER = mother_user.nickname;
+                return this.ctx.body = {
+                    status: 1,
+                    message: {
+                        c: getCode.data.message.c,
+                        t: getTodo.data.message.t
+                    }
+                };
+            }else{
+                this.ctx.status = 403;
+                return this.ctx.body = {
+                    status: 0,
+                    success: false,
+                    message: getTodo.data.message.error
+                };
+            }
+        }else{
+            this.ctx.status = 403;
+            return this.ctx.body = {
+                status: 0,
+                success: false,
+                message: getCode.data.message.error
+            };
+        }
+    }
+    async getCode(){
+        const { ctx } = this;
+        var authToken = ctx.header.authorization;
+        const type = this.ctx.query.type;
+        const tid = this.ctx.query.tid;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+
+/*        var access_token = await ctx.curl('https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='+this.config.wechatappid+'&secret='+this.config.wechatsecret,{
+            method: 'GET',
+            dataType: 'json'
+        });*/
+        if(type === "YQCode"){ //邀请码
+            var setCode = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=setCode&data='+urlencode(Base64.encode(JSON.stringify({
+                tid: tid,
+            }))),{
+                method: 'GET',
+                dataType: 'json'
+            });
+        }else if(type === "DCCode"){ //督促码
+            var setCode = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=setCode&data='+urlencode(Base64.encode(JSON.stringify({
+                tid: tid,
+                uid: user.user.id
+            }))),{
+                method: 'GET',
+                dataType: 'json'
+            });
+        }else {
+            this.ctx.status = 403;
+            return this.ctx.body = {
+                success: false
+            };
+        }
+        if(setCode.data.status === 1){
+            /*
+            * TODO: 这是一个预留的方案，但是这个接口需要小程序上线之后才可以获取，所以暂时弃用了
+            *  这是一个通过生成二维码，使用微信中的扫一扫，一键打开小程序并添加邀请
+            * */
+            /*var qrcode = await ctx.curl('https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token='+access_token.data.access_token,{
+                method: 'POST',
+                dataType: 'json',
+                data: {
+                    page: "/pages/join/index",
+                    scene: "cid="+setCode.data.cid,
+                }
+            });
+            console.log(qrcode.data)
+            return this.ctx.body = qrcode.data;*/
+            return this.ctx.body = setCode.data;
+        }else{
+            this.ctx.status = 403;
+            return this.ctx.body = {
+                status: 0,
+                success: false,
+                message: setCode.data.message.error
+            };
+        }
+    }
+    async fatherJoin(){
+        const { ctx } = this;
+        var authToken = ctx.header.authorization;
+        const tid = this.ctx.request.body.tid;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+        const suid = this.ctx.request.body.suid;
+        const suser = await this.ctx.service.user.select(suid);
+        if(suser.user === null){
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+        if(user.user.id === suid){
+            return this.ctx.body = {
+                status: 2
+            };
+        }
+        var fatherJoin = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=fatherJoin&data='+urlencode(Base64.encode(JSON.stringify({
+            tid: tid,
+            fuid: user.user.id,
+            suid: suid
+        }))),{
+            method: 'GET',
+            dataType: 'json'
+        });
+        return this.ctx.body = fatherJoin.data;
+    }
+
+    async sonJoin(){
+        const { ctx } = this;
+        var authToken = ctx.header.authorization;
+        const tid = this.ctx.request.body.tid;
+        const auth = JWT.verify(authToken, fs.readFileSync(path.resolve(__dirname, '../jwt_pub.pem')));
+        const user = await this.ctx.service.user.select(auth.id);
+        if(user.user === null) {
+            ctx.status = 401;
+            return this.ctx.body = {
+                success: false,
+                message: "用户不存在"
+            };
+        }
+        var sonJoin = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=sonJoin&data='+urlencode(Base64.encode(JSON.stringify({
+            tid: tid,
+            uid: user.user.id
+        }))),{
+            method: 'GET',
+            dataType: 'json'
+        });
+
+        return this.ctx.body = sonJoin.data;
+    }
     async test(){
         const { ctx } = this;
         /* const data = JSON.stringify({
@@ -189,7 +384,7 @@ class TodoController extends Controller {
          };*/
         const data = JSON.stringify({
             uid: 3,
-            tid: 7
+            tid: 2
         });
         var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=sonJoin&data='+urlencode(Base64.encode(data)),{
             method: 'GET',
