@@ -1,0 +1,1214 @@
+2020-04-19 00:02:45,086 ERROR 11120 [-/127.0.0.1/-/2ms GET /list] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\jsonwebtoken\verify.js:75:17)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:15:24)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 11120
+hostname: LixWorth-HP-PC
+
+2020-04-19 00:03:29,188 ERROR 11120 [-/127.0.0.1/-/1ms GET /list] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\jsonwebtoken\verify.js:75:17)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:15:24)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 11120
+hostname: LixWorth-HP-PC
+
+2020-04-19 00:05:16,434 INFO 3992 [-/192.168.3.3/-/16ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-19 00:05:18,770 INFO 3992 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIyNTkxOCwiZXhwIjoxNTg3Mzk4NzE4fQ.Na1Y3Yyv4hZ3HoI_S2gxVvnFPKXmpHrdG5wAt2TszvATqtpntjG5ZUtVo0EVEXTYqbrynqQZ-8BRt467p5Ttjmgza5JcDFds3gcydJx4W0HtXBgGd1fBJmZ5yH2ew37YVEw6J0DxWIrpWQePS1jM_dDuKSai6dHt2KuOt4RYe5o
+2020-04-19 00:18:29,905 ERROR 14524 [-/127.0.0.1/-/8ms GET /list] nodejs.ReferenceError: JWT is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:8:22)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 14524
+hostname: LixWorth-HP-PC
+
+2020-04-19 00:18:41,632 ERROR 14524 [-/127.0.0.1/-/1ms GET /list] nodejs.ReferenceError: JWT is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:8:22)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 14524
+hostname: LixWorth-HP-PC
+
+2020-04-19 00:19:01,177 ERROR 13544 [-/127.0.0.1/-/8ms GET /list] nodejs.ReferenceError: authToken is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:12:33)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 13544
+hostname: LixWorth-HP-PC
+
+2020-04-19 00:19:10,817 ERROR 13544 [-/127.0.0.1/-/2ms GET /list] nodejs.ReferenceError: authToken is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:12:33)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 13544
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:14,922 ERROR 15992 [-/127.0.0.1/-/8ms GET /list] nodejs.ReferenceError: wechat is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:14:55)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 15992
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:28,485 ERROR 15992 [-/127.0.0.1/-/1ms GET /list] nodejs.ReferenceError: wechat is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:14:55)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 15992
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:33,673 ERROR 15992 [-/127.0.0.1/-/1ms GET /list] nodejs.ReferenceError: wechat is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:14:55)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 15992
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:34,627 ERROR 15992 [-/127.0.0.1/-/1ms GET /list] nodejs.ReferenceError: wechat is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:14:55)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 15992
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:38,987 ERROR 15992 [-/127.0.0.1/-/1ms GET /list] nodejs.ReferenceError: wechat is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:14:55)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 15992
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:41,612 ERROR 15992 [-/127.0.0.1/-/1ms GET /list] nodejs.ReferenceError: wechat is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:14:55)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:15)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+
+pid: 15992
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:03:51,868 ERROR 3904 [-/127.0.0.1/-/10ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3904
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:04:00,194 ERROR 3904 [-/127.0.0.1/-/18ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3904
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:04:00,850 ERROR 3904 [-/127.0.0.1/-/1ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3904
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:04:47,716 ERROR 3904 [-/127.0.0.1/-/3ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3904
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:04:48,959 ERROR 3904 [-/127.0.0.1/-/2ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3904
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:04:59,929 ERROR 3904 [-/127.0.0.1/-/1ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3904
+hostname: LixWorth-HP-PC
+
+2020-04-19 01:05:26,429 ERROR 8408 [-/127.0.0.1/-/9ms GET /list] nodejs.TypeError: Cannot read property 'id' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:22:65)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 8408
+hostname: LixWorth-HP-PC
+
+2020-04-20 19:36:01,574 INFO 7880 [-/127.0.0.1/-/5ms GET /test] eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ==
+2020-04-20 19:36:01,610 WARN 7880 [-/127.0.0.1/-/41ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382562,\"memory_peak_usage\":546712,\"req_processing_delay\":\"1.223 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ== 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:36:02 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:36:02 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382562,\"memory_peak_usage\":546712,\"req_processing_delay\":\"1.223 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ=="
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:36:02 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 11:36:02 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":31,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382562,\"memory_peak_usage\":546712,\"req_processing_delay\":\"1.223 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ=="],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 7880
+hostname: LixWorth-HP-PC
+
+2020-04-20 19:39:11,989 INFO 7492 [-/127.0.0.1/-/4ms GET /test] eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ==
+2020-04-20 19:39:12,023 WARN 7492 [-/127.0.0.1/-/38ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382752,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.041 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ== 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:39:12 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:39:12 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382752,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.041 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ=="
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:39:12 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 11:39:12 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":28,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382752,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.041 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ=="],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 7492
+hostname: LixWorth-HP-PC
+
+2020-04-20 19:41:00,393 INFO 14112 [-/127.0.0.1/-/4ms GET /test] {"title":"殷伟杰女装","content":"殷伟杰每日必备任务","missions":[{"content":"周二殷伟杰女装","end":"1587468616"},{"content":"周三殷伟杰女装","end":"1587555016"}],"creator":1}
+2020-04-20 19:41:00,427 WARN 14112 [-/127.0.0.1/-/38ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382861,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.128 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ== 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:41:01 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:41:01 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382861,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.128 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ=="
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 11:41:01 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 11:41:01 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":29,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587382861,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.128 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut+S8n+adsOWls+ijhSIsImNvbnRlbnQiOiLmrrfkvJ/mnbDmr4/ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut+S8n+adsOWls+ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ/mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ=="],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 14112
+hostname: LixWorth-HP-PC
+
+2020-04-20 19:52:10,151 ERROR 17568 [-/127.0.0.1/-/5ms GET /test] nodejs.TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (buffer.js:327:9)
+    at TodoController.test (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:47:37)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 17568
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:09:43,640 ERROR 9712 [-/127.0.0.1/-/4ms GET /test] nodejs.ReferenceError: URLSafeBase64 is not defined
+    at TodoController.test (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:47:101)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 9712
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:11:08,657 WARN 1296 [-/127.0.0.1/-/38ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384669,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.877 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:11:09 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:11:09 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384669,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.877 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:11:09 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:11:09 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":29,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384669,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.877 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 1296
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:14:58,486 WARN 16760 [-/127.0.0.1/-/39ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384899,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.307 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:14:59 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:14:59 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384899,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.307 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:14:59 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:14:59 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":31,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384899,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.307 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 16760
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:15:50,963 WARN 18348 [-/127.0.0.1/-/36ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384951,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.146 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:15:51 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:15:51 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384951,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.146 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:15:51 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:15:51 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":29,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384951,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.146 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 18348
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:16:02,301 WARN 18348 [-/127.0.0.1/-/110ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384963,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.103 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:16:03 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:16:03 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384963,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.103 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:16:03 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:16:03 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":109,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384963,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.103 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 18348
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:16:17,974 WARN 18348 [-/127.0.0.1/-/26ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384978,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.806 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":2,"requestCount":2,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:16:18 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:16:18 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384978,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.806 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:16:18 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:16:18 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":25,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587384978,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.806 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 18348
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:19:31,609 WARN 17624 [-/127.0.0.1/-/37ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385172,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.771 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:19:32 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:19:32 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385172,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.771 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:19:32 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:19:32 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","content":"application/json;chartset=uft-8"},"size":249,"aborted":false,"rt":28,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385172,\"memory_peak_usage\":546688,\"req_processing_delay\":\"0.771 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 17624
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:20:02,571 WARN 17624 [-/127.0.0.1/-/27ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385203,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.065 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:20:03 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:20:03 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385203,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.065 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:20:03 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:20:03 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":25,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385203,\"memory_peak_usage\":546688,\"req_processing_delay\":\"1.065 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=eyJ0aXRsZSI6Iuaut-S8n-adsOWls-ijhSIsImNvbnRlbnQiOiLmrrfkvJ_mnbDmr4_ml6Xlv4XlpIfku7vliqEiLCJtaXNzaW9ucyI6W3siY29udGVudCI6IuWRqOS6jOaut-S8n-adsOWls-ijhSIsImVuZCI6IjE1ODc0Njg2MTYifSx7ImNvbnRlbnQiOiLlkajkuInmrrfkvJ_mnbDlpbPoo4UiLCJlbmQiOiIxNTg3NTU1MDE2In1dLCJjcmVhdG9yIjoxfQ"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 17624
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:23:08,478 WARN 1996 [-/127.0.0.1/-/41ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385389,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.031 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:23:09 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:23:09 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385389,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.031 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:23:09 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:23:09 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":32,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385389,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.031 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 1996
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:25:49,792 WARN 1996 [-/127.0.0.1/-/24ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385550,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.059 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:25:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:25:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385550,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.059 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:25:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:25:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":22,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385550,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.059 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 1996
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:20,322 WARN 1996 [-/127.0.0.1/-/28ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385581,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.306 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":2,"requestCount":2,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:21 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:21 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385581,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.306 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:21 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:21 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":23,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385581,\"memory_peak_usage\":546272,\"req_processing_delay\":\"1.306 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=titlepscontentpmissionscontenthpsend1587468616contenthpsend1587555016creator"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 1996
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:27,462 WARN 8852 [-/127.0.0.1/-/41ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385588,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.956 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385588,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.956 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":32,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385588,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.956 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:28,156 WARN 8852 [-/127.0.0.1/-/15ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385588,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.931 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 2, socketHandledResponses: 2)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385588,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.931 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":14,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385588,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.931 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":2,"socketHandledResponses":2}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:28,712 WARN 8852 [-/127.0.0.1/-/14ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385589,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.065 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":2,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 3, socketHandledResponses: 3)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385589,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.065 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":13,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385589,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.065 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":3,"socketHandledResponses":3}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:29,122 WARN 8852 [-/127.0.0.1/-/15ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385589,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.009 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":3,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 4, socketHandledResponses: 4)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385589,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.009 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":13,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385589,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.009 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":4,"socketHandledResponses":4}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:29,410 WARN 8852 [-/127.0.0.1/-/14ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385590,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.243 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":4,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 5, socketHandledResponses: 5)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385590,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.243 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":13,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385590,\"memory_peak_usage\":546368,\"req_processing_delay\":\"1.243 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":5,"socketHandledResponses":5}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:29,645 WARN 8852 [-/127.0.0.1/-/15ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385590,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.961 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":5,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 6, socketHandledResponses: 6)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385590,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.961 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:30 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":14,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385590,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.961 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":6,"socketHandledResponses":6}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:32,791 WARN 8852 [-/127.0.0.1/-/14ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385593,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.976 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":6,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 7, socketHandledResponses: 7)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385593,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.976 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":12,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385593,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.976 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":7,"socketHandledResponses":7}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:33,471 WARN 8852 [-/127.0.0.1/-/13ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385594,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.885 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":7,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 8, socketHandledResponses: 8)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:34 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:34 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385594,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.885 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:34 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:34 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":12,"keepAliveSocket":true,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385594,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.885 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":8,"socketHandledResponses":8}
+pid: 8852
+hostname: LixWorth-HP-PC
+
+2020-04-20 20:26:54,896 WARN 3408 [-/127.0.0.1/-/40ms GET /test] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385615,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.798 ms\"}"), GET http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"101.200.120.50:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:55 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:55 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385615,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.798 ms\"}"
+path: "/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"
+status: 200
+headers: {"server":"nginx","date":"Mon, 20 Apr 2020 12:26:55 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 20 Apr 2020 12:26:55 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive"},"size":249,"aborted":false,"rt":30,"keepAliveSocket":false,"data":"<br />\n<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/www/wwwroot/blessing/api.php</b> on line <b>26</b><br />\n{\"status\":1,\"message\":{\"tid\":0,\"t\":false},\"time\":1587385615,\"memory_peak_usage\":546368,\"req_processing_delay\":\"0.798 ms\"}","requestUrls":["http://101.200.120.50/api.php?pwd=dhdjnb&action=newTodo&data=b62b657a9b1ca27b5e9eda668acb22a27b1ca27b5e9ed869b1e9ddd79f3be3af3ad7a7289ed7a7b61a6c7a7775e7cef9e79d35e9cade6ada2b"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 3408
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:16:09,022 ERROR 13408 [-/127.0.0.1/-/5066ms GET /list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://undefined?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9 -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5007,"keepAliveSocket":false,"requestUrls":["http://undefined/?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 13408
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:16:43,366 ERROR 18264 [-/127.0.0.1/-/5023ms GET /list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://undefined?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9 -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5008,"keepAliveSocket":false,"requestUrls":["http://undefined/?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18264
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:17:08,835 ERROR 3384 [-/127.0.0.1/-/5020ms GET /list] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://undefined?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9 -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5006,"keepAliveSocket":false,"requestUrls":["http://undefined/?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3384
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:19:07,993 INFO 7768 [-/127.0.0.1/-/62ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:19:08 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:19:08 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 47,
+    keepAliveSocket: false,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2020-04-20 22:19:09,408 INFO 7768 [-/127.0.0.1/-/21ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:19:10 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:19:10 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 17,
+    keepAliveSocket: true,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 2,
+    socketHandledResponses: 2
+  }
+}
+2020-04-20 22:19:33,530 INFO 7768 [-/127.0.0.1/-/26ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:19:34 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:19:34 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 23,
+    keepAliveSocket: false,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2020-04-20 22:19:42,791 INFO 7768 [-/127.0.0.1/-/24ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:19:43 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:19:43 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 22,
+    keepAliveSocket: false,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2020-04-20 22:19:53,925 INFO 7456 [-/127.0.0.1/-/55ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:19:54 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:19:54 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 39,
+    keepAliveSocket: false,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2020-04-20 22:20:04,157 INFO 7456 [-/127.0.0.1/-/33ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:20:04 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:20:04 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 28,
+    keepAliveSocket: false,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2020-04-20 22:20:06,732 INFO 19436 [-/127.0.0.1/-/64ms GET /list] {
+  data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Mon, 20 Apr 2020 14:20:07 GMT',
+    'content-type': 'application/json;charset=uft-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 20 Apr 2020 14:20:07 GMT',
+      'content-type': 'application/json;charset=uft-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive'
+    },
+    size: 160,
+    aborted: false,
+    rt: 42,
+    keepAliveSocket: false,
+    data: <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>,
+    requestUrls: [
+      'http://101.200.120.50/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9'
+    ],
+    timing: null,
+    remoteAddress: '101.200.120.50',
+    remotePort: 80,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2020-04-20 22:20:20,400 INFO 11332 [-/127.0.0.1/-/55ms GET /list] <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>
+2020-04-20 22:20:46,733 INFO 13124 [-/127.0.0.1/-/58ms GET /list] <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>
+2020-04-20 22:21:44,631 INFO 13124 [-/127.0.0.1/-/29ms GET /list] <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>
+2020-04-20 22:21:55,760 INFO 13124 [-/127.0.0.1/-/24ms GET /list] <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>
+2020-04-20 22:22:05,515 INFO 13124 [-/127.0.0.1/-/27ms GET /list] <Buffer 7b 22 73 74 61 74 75 73 22 3a 30 2c 22 6d 65 73 73 61 67 65 22 3a 7b 22 65 72 72 6f 72 22 3a 22 45 52 52 5f 55 49 44 5f 44 45 43 4c 49 4e 45 44 22 7d ... 110 more bytes>
+2020-04-20 22:22:09,396 INFO 10160 [-/127.0.0.1/-/55ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392530,"memory_peak_usage":547032,"req_processing_delay":"0.992 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:22:32,004 INFO 6224 [-/127.0.0.1/-/57ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392552,"memory_peak_usage":547032,"req_processing_delay":"0.637 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:22:41,984 INFO 6224 [-/127.0.0.1/-/30ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392562,"memory_peak_usage":547032,"req_processing_delay":"0.937 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:22:55,164 INFO 17660 [-/127.0.0.1/-/59ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392575,"memory_peak_usage":547032,"req_processing_delay":"1.060 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:23:09,425 INFO 18996 [-/127.0.0.1/-/64ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392590,"memory_peak_usage":547032,"req_processing_delay":"0.914 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:26:33,833 INFO 1548 [-/127.0.0.1/-/55ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392794,"memory_peak_usage":547032,"req_processing_delay":"1.063 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:26:58,536 INFO 10576 [-/127.0.0.1/-/59ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392819,"memory_peak_usage":547032,"req_processing_delay":"0.984 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:27:14,688 INFO 10576 [-/127.0.0.1/-/32ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392835,"memory_peak_usage":547032,"req_processing_delay":"0.592 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:27:15,321 INFO 10576 [-/127.0.0.1/-/18ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392836,"memory_peak_usage":547032,"req_processing_delay":"0.722 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:27:15,909 INFO 16780 [-/127.0.0.1/-/53ms GET /list] {"status":0,"message":{"error":"ERR_UID_DECLINED"},"time":1587392836,"memory_peak_usage":547032,"req_processing_delay":"0.619 ms","GKD_TM_API_version":"\u53c6"}
+2020-04-20 22:29:24,285 ERROR 8948 [-/127.0.0.1/-/12ms GET /list] nodejs.ReferenceError: fetch is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:27:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8948
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:31:55,919 ERROR 17740 [-/127.0.0.1/-/4474ms GET /list] nodejs.ReferenceError: getTodoInWhichExists is not defined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:36:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 17740
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:01,138 ERROR 12008 [-/127.0.0.1/-/18ms GET /list] nodejs.Error: Encoding not recognized: 'gdk' (searched as: 'gdk')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 12008
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:05,152 ERROR 12008 [-/127.0.0.1/-/3ms GET /list] nodejs.Error: Encoding not recognized: 'gdk' (searched as: 'gdk')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 12008
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:06,137 ERROR 12008 [-/127.0.0.1/-/2ms GET /list] nodejs.Error: Encoding not recognized: 'gdk' (searched as: 'gdk')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 12008
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:17,219 ERROR 7392 [-/127.0.0.1/-/23ms GET /list] nodejs.Error: Encoding not recognized: 'gkd' (searched as: 'gkd')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 7392
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:17,873 ERROR 7392 [-/127.0.0.1/-/3ms GET /list] nodejs.Error: Encoding not recognized: 'gkd' (searched as: 'gkd')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 7392
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:18,473 ERROR 7392 [-/127.0.0.1/-/2ms GET /list] nodejs.Error: Encoding not recognized: 'gkd' (searched as: 'gkd')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 7392
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:23,545 ERROR 8948 [-/127.0.0.1/-/19ms GET /list] nodejs.Error: Encoding not recognized: 'gkd' (searched as: 'gkd')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8948
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:24,142 ERROR 8948 [-/127.0.0.1/-/2ms GET /list] nodejs.Error: Encoding not recognized: 'gkd' (searched as: 'gkd')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8948
+hostname: LixWorth-HP-PC
+
+2020-04-20 22:35:31,872 ERROR 18556 [-/127.0.0.1/-/18ms GET /list] nodejs.Error: Encoding not recognized: 'gkd' (searched as: 'gkd')
+    at Object.getCodec (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:106:23)
+    at Object.getEncoder (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:117:23)
+    at Object.encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\iconv-lite\lib\index.js:22:25)
+    at encode (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urlencode\lib\urlencode.js:31:19)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:29:85)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 18556
+hostname: LixWorth-HP-PC
+
+2020-04-20 23:03:48,077 INFO 12724 [-/192.168.3.3/-/16ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-20 23:03:50,420 INFO 12724 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzM5NTAzMCwiZXhwIjoxNTg3NTY3ODMwfQ.adsNoxIVxe0i7sE1tfBFbwXUN7wbPfxtVubMXl-WAKvGyOpKtlkRC9G1p16hrquNa5vxVMpyR6h4q4zPHNqeKC-bAXcYsBBeY2TQvwXwdM7I6aqNQITTTDwJuc7oulqhb7zQ_nFwyIFvfZ-E8EFIfeRr6znEYoMWfSO5ExSrY8o
+2020-04-20 23:51:41,845 INFO 12748 [-/192.168.3.3/-/14ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-20 23:51:44,161 INFO 12748 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzM5NzkwNCwiZXhwIjoxNTg3NTcwNzA0fQ.26o9FNlf2u3WaXvNSFbyUdO8NumYBShCMlVjKPhgWutA-ZX5phoJ0L5VO7oLjt8pqPU0a_-yx0k7lCLLRshi0lKUUST8JarvJek0OGWB933AGjIfuspr-uZY9oZAPS76z27GYcPJAAOLaXA_SP_bdmhhvlC4HgbvhNwwrd89YLQ

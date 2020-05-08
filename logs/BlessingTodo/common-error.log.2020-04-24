@@ -1,0 +1,315 @@
+2020-04-24 02:13:11,360 ERROR 15432 [-/192.168.3.3/-/57ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:39:45
+    at Array.map (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 15432
+hostname: LixWorth-HP-PC
+
+2020-04-24 02:15:15,967 ERROR 8136 [-/192.168.3.3/-/61ms GET /list] nodejs.TypeError: Cannot read property 'length' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:39:41
+    at Array.map (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 8136
+hostname: LixWorth-HP-PC
+
+2020-04-24 02:17:11,139 ERROR 9668 [-/192.168.3.3/-/58ms GET /list] nodejs.TypeError: Cannot read property 'length' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:39:41
+    at Array.map (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 9668
+hostname: LixWorth-HP-PC
+
+2020-04-24 02:19:17,582 ERROR 17748 [-/192.168.3.3/-/73ms GET /list] nodejs.TypeError: Cannot read property 'length' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:40:41
+    at Array.map (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 17748
+hostname: LixWorth-HP-PC
+
+2020-04-24 02:20:24,860 ERROR 17748 [-/192.168.3.3/-/43ms GET /list] nodejs.TypeError: Cannot read property 'length' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:40:41
+    at Array.map (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 17748
+hostname: LixWorth-HP-PC
+
+2020-04-24 13:28:58,926 ERROR 17068 nodejs.ClusterClientNoResponseError: client no response in 7111586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 17068
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:11:44,599 ERROR 18144 [-/127.0.0.1/-/47ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:16:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 18144
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:11:47,168 ERROR 18144 [-/127.0.0.1/-/4ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:16:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 18144
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:12:24,675 ERROR 18144 [-/127.0.0.1/-/6ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:16:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 18144
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:13:01,219 ERROR 18144 [-/127.0.0.1/-/6ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:16:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 18144
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:13:12,206 ERROR 18144 [-/127.0.0.1/-/4ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:16:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 18144
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:13:14,361 ERROR 18144 [-/127.0.0.1/-/5ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:16:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 18144
+hostname: LixWorth-HP-PC
+
+2020-04-24 19:14:44,976 ERROR 23576 [-/127.0.0.1/-/44ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:17:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 23576
+hostname: LixWorth-HP-PC
+
+2020-04-24 22:12:45,077 ERROR 616 nodejs.ServerNoResponseError: server 127.0.0.1:51134 no response in 39999ms, maybe the socket is end on the other side. (address: 127.0.0.1:51134)
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ServerNoResponseError"
+pid: 616
+hostname: LixWorth-HP-PC
+
+2020-04-24 22:16:47,290 ERROR 7508 nodejs.ClusterClientNoResponseError: client no response in 302208ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 7508
+hostname: LixWorth-HP-PC
+
+2020-04-24 22:25:27,347 ERROR 7508 nodejs.ClusterClientNoResponseError: client no response in 76349ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 7508
+hostname: LixWorth-HP-PC
+
+2020-04-24 22:42:56,674 ERROR 4856 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:51134)
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:442:12)
+    at writeOrBuffer (_stream_writable.js:426:5)
+    at Socket.Writable.write (_stream_writable.js:317:11)
+    at Follower.sendHeartBeat (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\tcp-base\lib\base.js:437:12)
+    at listOnTimeout (internal/timers.js:549:17)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 4856
+hostname: LixWorth-HP-PC
+
+2020-04-24 22:44:16,934 ERROR 13268 [-/192.168.3.3/-/2406ms GET /list] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 24 Apr 2020 14:44:17 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Fri, 24 Apr 2020 14:44:17 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+path: "/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"
+status: 502
+headers: {"server":"nginx","date":"Fri, 24 Apr 2020 14:44:17 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"}
+res: {"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx","date":"Fri, 24 Apr 2020 14:44:17 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"},"size":150,"aborted":false,"rt":2389,"keepAliveSocket":false,"data":"<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 13268
+hostname: LixWorth-HP-PC
+
+2020-04-24 22:44:24,891 ERROR 13268 [-/192.168.3.3/-/2609ms GET /list] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 24 Apr 2020 14:44:25 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"}
+headers: {"server":"nginx","date":"Fri, 24 Apr 2020 14:44:25 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+path: "/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"
+status: 502
+headers: {"server":"nginx","date":"Fri, 24 Apr 2020 14:44:25 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"}
+res: {"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx","date":"Fri, 24 Apr 2020 14:44:25 GMT","content-type":"text/html","content-length":"150","connection":"keep-alive"},"size":150,"aborted":false,"rt":2605,"keepAliveSocket":false,"data":"<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=getTodoInWhichExists&data=eyJ1aWQiOjF9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 13268
+hostname: LixWorth-HP-PC
+
+2020-04-24 23:52:35,867 ERROR 8312 [-/192.168.3.3/-/2376ms GET /list] nodejs.TypeError: Cannot read property 'nickname' of null
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:64:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 2)
+    at async TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:52:13)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 8312
+hostname: LixWorth-HP-PC
+
+2020-04-24 23:53:25,857 ERROR 5288 [-/192.168.3.3/-/2276ms GET /list] nodejs.TypeError: Cannot read property 'nickname' of null
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:64:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 2)
+    at async TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:52:13)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 5288
+hostname: LixWorth-HP-PC
+
+2020-04-24 23:54:25,882 ERROR 18168 [-/192.168.3.3/-/2699ms GET /list] nodejs.TypeError: Cannot read property 'nickname' of null
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:64:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 2)
+    at async TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:52:13)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 18168
+hostname: LixWorth-HP-PC
+

@@ -1,0 +1,793 @@
+2020-04-27 01:46:47,620 ERROR 1924 [-/127.0.0.1/-/7ms GET /getCode?type=YQCode&tid=2] nodejs.ReferenceError: code is not defined
+    at TodoController.getCode (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:195:193)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 1924
+hostname: LixWorth-HP-PC
+
+2020-04-27 01:47:22,347 ERROR 6384 [-/127.0.0.1/-/2268ms GET /getCode?type=YQCode&tid=2] nodejs.ReferenceError: data is not defined
+    at TodoController.getCode (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:199:113)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:53:56
+
+pid: 6384
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:23,618 INFO 12344 [-/192.168.3.3/-/18ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 02:19:25,946 INFO 12344 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzkyNTE2NSwiZXhwIjoxNTg4MDk3OTY1fQ.lRrchXyxEIHoBjp3RYWJ8ITXQvd8h79mGjUbMBYKTYEqT6c6jT6_2RE4YByCo2xfxwNIGGws8iMdcV4U4Y-fFdUgo5qRubp9taTVTcpJ554at_ZCo5nSrLomFMViUXgnOYM5oXJmKKbQUTVcBLOrkDJGuoB665pbLZXR3Bfusqg
+2020-04-27 02:19:42,953 ERROR 12344 [-/192.168.3.3/-/1202ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:44,389 ERROR 12344 [-/192.168.3.3/-/17ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:45,854 ERROR 12344 [-/192.168.3.3/-/16ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:47,358 ERROR 12344 [-/192.168.3.3/-/15ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:48,933 ERROR 12344 [-/192.168.3.3/-/17ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:50,459 ERROR 12344 [-/192.168.3.3/-/16ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:52,121 ERROR 12344 [-/192.168.3.3/-/18ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:53,828 ERROR 12344 [-/192.168.3.3/-/16ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:55,893 ERROR 12344 [-/192.168.3.3/-/15ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:19:57,490 ERROR 12344 [-/192.168.3.3/-/17ms GET /getTodo?tid=2] nodejs.TypeError: Cannot read property 'id' of null
+    at TodoController.getTodo (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:129:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:22:29,978 INFO 12344 [-/192.168.3.3/-/1ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 02:22:32,241 ERROR 12344 [-/192.168.3.3/-/2263ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.be_users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `be_users` WHERE `openid` = 'oVGBI40ANe5bd0EdMItJYQwT_4FQ' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.be_users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `be_users` WHERE `openid` = 'oVGBI40ANe5bd0EdMItJYQwT_4FQ' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 12344
+hostname: LixWorth-HP-PC
+
+2020-04-27 02:23:50,819 INFO 12344 [-/192.168.3.3/-/1ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 02:23:53,144 INFO 12344 UID:3 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzkyNTQzMywiZXhwIjoxNTg4MDk4MjMzfQ.d0cba-UfKhgQi4h7A-mH84ofXt3qyjnRKQM6HUcqZ_cDgLK9T_zXuL-OAA--lMKuVa6nKFPZlepAmpsSLe4Ug975vAJcqqRz30vJiIlns-00bCbQz35v7qhhh7J5R1bdbwhnkQzAoZXgI5k6HfMgQJRzzwX7UJynh39xf5cI_is
+2020-04-27 11:04:41,707 INFO 4604 [-/192.168.3.40/-/27ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 11:04:44,022 INFO 4604 UID:3 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk1NjY4MywiZXhwIjoxNTg4MTI5NDgzfQ.zEmzh_dKNckhcAwrfKHqzkSE_wdEtKq--6R7H7YwkITOGvd5OHKMMNM3LHGuTUleNW_yYjZdmEK54WCJi8IZCba3FdLBcNtPNBhVjalNyaF7Ng65aI7vuirDoKuN29OKZywuoHiDOLNkqTMFEn2YGrefK_N4_ajCsI34R2oa1oE
+2020-04-27 11:05:35,331 INFO 4604 [-/192.168.3.3/-/1ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 11:05:36,335 INFO 4604 [-/192.168.3.3/-/0ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 11:05:37,575 INFO 4604 UID:3 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk1NjczNywiZXhwIjoxNTg4MTI5NTM3fQ.byX4TLP2yg4jEuHy2pB1bJ1CclplIa96jlxB_FEhEohEfQlSLdpy0RV_BeyPgHNZY_wKDnaumG2UYWjZprXg-ogN_gDzzKdQKJHNd7J5EHL8MnH4JlAgFEBtBhcPucHjmaiMYURh-dTlO0fAGjsouA17HxBeDtFgQWKRu2A-4Ag
+2020-04-27 11:05:37,592 INFO 4604 UID:3 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk1NjczNywiZXhwIjoxNTg4MTI5NTM3fQ.byX4TLP2yg4jEuHy2pB1bJ1CclplIa96jlxB_FEhEohEfQlSLdpy0RV_BeyPgHNZY_wKDnaumG2UYWjZprXg-ogN_gDzzKdQKJHNd7J5EHL8MnH4JlAgFEBtBhcPucHjmaiMYURh-dTlO0fAGjsouA17HxBeDtFgQWKRu2A-4Ag
+2020-04-27 11:33:14,961 INFO 18428 [-/192.168.3.2/-/13ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-27 11:33:17,221 INFO 18428 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 不存在 开始注册
+2020-04-27 11:33:17,283 INFO 18428 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 注册成功
+2020-04-27 11:33:17,287 INFO 18428 UID:8 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4Nzk1ODM5NywiZXhwIjoxNTg4MTMxMTk3fQ.5ditaTgSYI2OXequX9WrNIFgChuUYEbvGaJNaGmvkchnFKpqqwW0ke9BIH3krC5rg-bh_JhFV8N06kWOa2jkQSLfm21F_5TQVJz5rLgB9h_68UysfLP9SczkDczjjxaRGSBx_OM-eEknPrBKhAY37wXZau7dg6jQOl48LSvjaZ4
+2020-04-27 11:33:52,842 INFO 18428 [-/192.168.3.40/-/0ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 11:33:55,112 INFO 18428 UID:3 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk1ODQzNSwiZXhwIjoxNTg4MTMxMjM1fQ.vo2pVnP1cPanjvJml9WAGTecL5RisVnU7FSdZrzcggAvh4GsbPTY8BAwnFr6ZS9HchNeFEfPfZDb8foOovO2EW3VbH8Eqg__jKaprsip2O5NGBkFWKAP235gJA9_XQuAIqhPuNhsQjp0USVcFQGZNY417dPMmVm7Wg__ksAJTjc
+2020-04-27 15:24:38,234 ERROR 8252 [-/192.168.3.3/-/17ms POST /fatherJoin] nodejs.TypeError: Assignment to constant variable.
+    at TodoController.fatherJoin (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:315:63)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8252
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:16:26,748 INFO 11108 [-/192.168.3.40/-/22ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 19:16:29,001 INFO 11108 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 不存在 开始注册
+2020-04-27 19:16:29,063 INFO 11108 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 注册成功
+2020-04-27 19:16:29,066 INFO 11108 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk4NjE4OSwiZXhwIjoxNTg4MTU4OTg5fQ.szwNYj1LL1WkZw8rNYuzPp1YVS8twugWUtR2DGKcJnXzqBXTjgtmEYAeXDufltaF0kczA2wm8E_6M_6LOqB_C7sIIAsTRouQCP4bzEQQe4cXPFy6OTZbuYvUTUCtFDvIaU-b4Kj2wCi-vp2DHqGOiGR_IxFFS3ZDk7xwFWIWrJU
+2020-04-27 19:18:46,216 INFO 11108 [-/192.168.3.3/-/1ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 19:18:48,432 INFO 11108 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 不存在 开始注册
+2020-04-27 19:18:48,495 INFO 11108 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 注册成功
+2020-04-27 19:18:48,500 INFO 11108 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk4NjMyOCwiZXhwIjoxNTg4MTU5MTI4fQ.nHTHUWH6MvBVtoPdyTWaVEsjz9jqevpumqrpjKxjcb4trW0ulloRVlqCT8gjRcNAjbQjxI1fmbAUGM2Op6pngWxicILzFmZkdlhpmJhjZF28axo7KpPZ7DeNiqTlxb3oNICfJ97EJXsCs0kFVw-GulnjxIDXDiN7Br-ob7JoV6Q
+2020-04-27 19:19:57,781 INFO 11108 [-/192.168.3.40/-/0ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 19:20:00,037 INFO 11108 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk4NjQwMCwiZXhwIjoxNTg4MTU5MjAwfQ.4FT6ZBt3-sKUGRZjcd1sLJKFJme9nVFeN1eu4Vejh_hycWB4UvXOdvfHdljnS-zfDX5MInsrPCY78ER_jipwiECt7DzvzGQCG7lenS93OrKgwn745Ux_7S-el35_5lQVLONxBMjZjk630UPv0Qs3aA2lor3td_gM-ULbs4mQ4Mc
+2020-04-27 19:22:52,125 INFO 11108 [-/192.168.3.40/-/1ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 19:22:54,348 INFO 11108 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 不存在 开始注册
+2020-04-27 19:22:54,400 INFO 11108 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 注册成功
+2020-04-27 19:22:54,401 INFO 11108 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk4NjU3NCwiZXhwIjoxNTg4MTU5Mzc0fQ.sVBvE7eUwptcOLYxoHlY5p5sBkMCkKYVB8ykbIS_mfxsghvFcBERQshcy_WioynddzTbLcrW5iPfPFAmjKYJmyzeJ9NQ98KKuMCEe3hLsRXsCSQ6BnmWRRe2BR33KJ3k0jdn4BHnN_dCx_GH5Hsmx1cOtnimQ_YnJkGZYMHelvY
+2020-04-27 19:26:23,688 INFO 11108 [-/192.168.3.2/-/1ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-27 19:26:25,906 INFO 11108 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 不存在 开始注册
+2020-04-27 19:26:25,974 INFO 11108 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 注册成功
+2020-04-27 19:26:25,976 INFO 11108 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4Nzk4Njc4NSwiZXhwIjoxNTg4MTU5NTg1fQ.19IjDqJ7BO7HAbTpqFIjHuASo_BmOpbNN9HZ9e2h-EfWTdZAxbC-Odt4VKnG6jGjcIv6RWvX7TOJ5L_AnxcTqzC8haVTShafmgKfC6L4kn2z26g9U1Qlg1Q8BiGuSg6vJNjelxVLPdkI0AUGkwbxDluLpaVYO-1M0AXtSbvkosI
+2020-04-27 19:35:26,345 INFO 11108 [-/192.168.3.37/-/0ms POST /login] {
+  nickName: '没那么简单',
+  gender: 2,
+  language: 'zh_CN',
+  city: '',
+  province: 'Tianjin',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Uym9heGmjNLNf44PGo3onzZ4MblrGjt4LqnHanQfibmUgPneoiaaJibjC3KqkpuzUgnXUicU5hGPOqPvJqHicC62mLg/132'
+}
+2020-04-27 19:35:28,594 INFO 11108 OpenID:oVGBI41oCYwlX85lvLBV024rso_M 不存在 开始注册
+2020-04-27 19:35:28,652 INFO 11108 OpenID:oVGBI41oCYwlX85lvLBV024rso_M 注册成功
+2020-04-27 19:35:28,653 INFO 11108 UID:3 OpenID:oVGBI41oCYwlX85lvLBV024rso_M 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MW9DWXdsWDg1bHZMQlYwMjRyc29fTSIsImlhdCI6MTU4Nzk4NzMyOCwiZXhwIjoxNTg4MTYwMTI4fQ.gBmWyu7-EQ5nASacL5zkhLTp7vR1Odx25bwjkinLL3xylAjaE_08cr80dUyRQPVseIs94LhsjYzrfQPpd6O-9IlX-YQueW1iaCQ1c1jk4lNeCeDuv3_pzLDJqQku1FjDfoJbMg__NjXfOnBgYa6pZKhGB7hDonYKbT0kDrUspkI
+2020-04-27 19:36:45,064 INFO 11108 [-/192.168.3.37/-/0ms POST /login] {
+  nickName: '没那么简单',
+  gender: 2,
+  language: 'zh_CN',
+  city: '',
+  province: 'Tianjin',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Uym9heGmjNLNf44PGo3onzZ4MblrGjt4LqnHanQfibmUgPneoiaaJibjC3KqkpuzUgnXUicU5hGPOqPvJqHicC62mLg/132'
+}
+2020-04-27 19:36:47,342 INFO 11108 UID:3 OpenID:oVGBI41oCYwlX85lvLBV024rso_M 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MW9DWXdsWDg1bHZMQlYwMjRyc29fTSIsImlhdCI6MTU4Nzk4NzQwNywiZXhwIjoxNTg4MTYwMjA3fQ.wznXIvc-5RI-we48Q0HU6zPTMObmWiIvqHEDw8AIU8KusVz7nG8Euz62OHv6ajTO9nuAiSajELZOFwcPDEBQHJAvkiuGl5cQFj6xYAMJvqpaU6_OjMnspdUHFgalrfohw1CRouDGJO7Z4YrV-_0Mkkq9JHH2DeK27RNyfq0F80w
+2020-04-27 19:36:59,422 ERROR 11108 [-/192.168.3.37/-/16ms GET /loadCode?cid=undefined] nodejs.TypeError: Cannot read property 'UID' of undefined
+    at TodoController.loadCode (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:186:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11108
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:39:23,134 ERROR 21252 [-/192.168.3.37/-/18ms GET /loadCode?cid=undefined] nodejs.TypeError: Cannot read property 'UID' of undefined
+    at TodoController.loadCode (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:187:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 21252
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:43:24,152 INFO 21252 [-/192.168.3.37/-/15ms POST /login] {
+  nickName: '没那么简单',
+  gender: 2,
+  language: 'zh_CN',
+  city: '',
+  province: 'Tianjin',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Uym9heGmjNLNf44PGo3onzZ4MblrGjt4LqnHanQfibmUgPneoiaaJibjC3KqkpuzUgnXUicU5hGPOqPvJqHicC62mLg/132'
+}
+2020-04-27 19:43:26,428 INFO 21252 UID:3 OpenID:oVGBI41oCYwlX85lvLBV024rso_M 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywib3BlbmlkIjoib1ZHQkk0MW9DWXdsWDg1bHZMQlYwMjRyc29fTSIsImlhdCI6MTU4Nzk4NzgwNiwiZXhwIjoxNTg4MTYwNjA2fQ.FeFi4vR1l6Bss0BL9aHtdrUtF9CfykdBiTebl9RoBMDkH7W7D50O-CH2Fs2ZWqL9oSgiA6ms_hxzKGwUEOfBfOln-ydyZ5UcPdfKwlr7Gq2xn9jpRLydxmiL2ch220bZ2RDtuprRZTY6kFoqXCbHtwtPnj4gRl1W1VanT4eoR_A
+2020-04-27 19:48:45,330 WARN 21036 [-/192.168.3.37/-/2107ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":3,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:44 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:44 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:44 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:44 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":2101,"keepAliveSocket":false,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:48:48,082 WARN 21036 [-/192.168.3.37/-/22ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":4,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 2, socketHandledResponses: 2)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:47 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:47 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:47 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:47 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":16,"keepAliveSocket":true,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":2,"socketHandledResponses":2}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:48:49,029 WARN 21036 [-/192.168.3.37/-/14ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":5,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 3, socketHandledResponses: 3)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":10,"keepAliveSocket":true,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":3,"socketHandledResponses":3}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:48:49,233 WARN 21036 [-/192.168.3.37/-/12ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":6,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 4, socketHandledResponses: 4)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:48 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":9,"keepAliveSocket":true,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":4,"socketHandledResponses":4}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:48:49,450 WARN 21036 [-/192.168.3.37/-/13ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":7,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 5, socketHandledResponses: 5)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":9,"keepAliveSocket":true,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":5,"socketHandledResponses":5}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:48:49,629 WARN 21036 [-/192.168.3.37/-/12ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":8,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 6, socketHandledResponses: 6)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:49 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":9,"keepAliveSocket":true,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":6,"socketHandledResponses":6}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 19:48:50,919 WARN 21036 [-/192.168.3.37/-/14ms POST /fatherJoin] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"), GET https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":9,"freeSockets":{},"sockets":{"api.lixworth.m78.co:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 7, socketHandledResponses: 7)
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:50 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:50 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:1153:24)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "JSONResponseFormatError"
+data: "<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n"
+path: "/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"
+status: 200
+headers: {"server":"nginx","date":"Mon, 27 Apr 2020 11:48:50 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Mon, 27 Apr 2020 11:48:50 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding"},"size":133,"aborted":false,"rt":9,"keepAliveSocket":true,"data":"<br />\n<b>Parse error</b>:  syntax error, unexpected 'case' (T_CASE) in <b>/www/wwwroot/blessing/api.php</b> on line <b>96</b><br />\n","requestUrls":["https://api.lixworth.m78.co/api.php?pwd=dhdjnb&action=fatherJoin&data=eyJ0aWQiOjAsImZ1aWQiOjIsInN1aWQiOjN9"],"timing":null,"remoteAddress":"101.200.120.50","remotePort":443,"socketHandledRequests":7,"socketHandledResponses":7}
+pid: 21036
+hostname: LixWorth-HP-PC
+
+2020-04-27 20:07:06,462 INFO 11084 [-/192.168.3.40/-/15ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-27 20:07:08,764 INFO 11084 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Nzk4OTIyOCwiZXhwIjoxNTg4MTYyMDI4fQ.Q5c-hnhjNrqqMSvw-WaC0Zx6DFDokc5i3agOHl_bqeoK0YxZ4P_8Ia_9Kq4IojBhd10G4aLKCIeA3FhcpJFtMpU3uu6p5rtjgcv-06Is5ePhxlAw4O8IH523mNdOoSxb9IXsfr7fzeXYKAby5za9GVmITuVkQFdz2SvT6FxJS8s
+2020-05-02 14:34:12,172 INFO 7364 [-/192.168.3.3/-/17ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa9E6v1bqN2EVb25IAaX2ZZQ/132'
+}
+2020-05-02 14:34:12,381 INFO 7364 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 不存在 开始注册
+2020-05-02 14:34:12,415 INFO 7364 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 注册成功
+2020-05-02 14:34:12,420 INFO 7364 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4ODQwMTI1MiwiZXhwIjoxNTg4NTc0MDUyfQ.b-GJY-GCLugGP_bcZX783M5Ughf0uOejVia_HVdall-pCvpxCWmzYmMMXIhJdOUDSwoDzTG-9hP1r0vI9FXwUMmpku8yjViC3i929crSVHCFeWFPSYr9XQSTTrPz54Qwm-xBNZXZfT8Lysht5OExjLZIK427clnacBuaNCOw5WE
+2020-05-02 14:37:02,477 INFO 7364 [-/192.168.3.40/-/0ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa9E6v1bqN2EVb25IAaX2ZZQ/132'
+}
+2020-05-02 14:37:02,699 INFO 7364 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4ODQwMTQyMiwiZXhwIjoxNTg4NTc0MjIyfQ.LX6eqtDhXGf0xad5WOybA8zBoBblihAQM_teE-5jItOjt8f7tKaO_3Og7nbYM6cGrO77hlw0P5DVxqEXoQcCBLfLyjrLvBGnf3Ua3soXWLdHLnwcqGmoSgNuVYSw7hl8meHYIYNPX6tWHvfUoYNe9E7J57n5Y8aSgVpqU9-1fOE
+2020-05-02 14:37:03,018 ERROR 7364 [-/192.168.3.40/-/48ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:37:55,212 ERROR 7364 [-/192.168.3.40/-/50ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:38:04,969 INFO 7364 [-/192.168.3.16/-/1ms POST /login] {
+  nickName: '海阔天空',
+  gender: 1,
+  language: 'zh_CN',
+  city: 'Chaoyang',
+  province: 'Beijing',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJelKoFibsEicGNib9lsdKx4b65rWnyicFxSPbPREME49McaFkuYJsyYMq7mNhGEbia39rsuKiaHPic9SdMg/132'
+}
+2020-05-02 14:38:05,086 INFO 7364 OpenID:oVGBI4-yF0tSBkZGgS-EQ8wEUJKE 不存在 开始注册
+2020-05-02 14:38:05,110 INFO 7364 OpenID:oVGBI4-yF0tSBkZGgS-EQ8wEUJKE 注册成功
+2020-05-02 14:38:05,111 INFO 7364 UID:2 OpenID:oVGBI4-yF0tSBkZGgS-EQ8wEUJKE 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0LXlGMHRTQmtaR2dTLUVROHdFVUpLRSIsImlhdCI6MTU4ODQwMTQ4NSwiZXhwIjoxNTg4NTc0Mjg1fQ.CZZx4CzMv1Y_gp1dkm9C8r3ud-I1wy6Od984g49wfl5vLp348I471RMA5oEmFwBKpDs9tVxiQch6bACgeD5wF6dXsAwzIGY1WjzJmwmAe2IhoZNczlT7RYjdywUQhJumxypPuppme2BIzxZ8A4o2CMYg2mkfOPXDBdwv1c1FtVM
+2020-05-02 14:38:05,266 ERROR 7364 [-/192.168.3.16/-/39ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:38:12,073 ERROR 7364 [-/192.168.3.16/-/34ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:38:20,888 ERROR 7364 [-/192.168.3.40/-/57ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:38:54,780 ERROR 7364 [-/192.168.3.16/-/36ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:39:04,798 ERROR 7364 [-/192.168.3.40/-/37ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:39:06,456 ERROR 7364 [-/192.168.3.40/-/13ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:39:08,635 ERROR 7364 [-/192.168.3.40/-/69ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:39:09,656 ERROR 7364 [-/192.168.3.40/-/14ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:39:12,126 ERROR 7364 [-/192.168.3.40/-/16ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+
+2020-05-02 14:39:38,791 ERROR 7364 [-/192.168.3.16/-/12ms GET /list] nodejs.TypeError: Cannot read property 'map' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:33:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7364
+hostname: LixWorth-HP-PC
+

@@ -1,0 +1,529 @@
+2020-04-14 11:06:03,856 ERROR 19708 [-/192.168.3.3/-/2282ms POST /login] nodejs.TypeError: Cannot read property 'openid' of undefined
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:14:70)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 19708
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:06:31,280 ERROR 804 [-/192.168.3.3/-/2335ms POST /login] nodejs.TypeError: this.ctx.service.user.find is not a function
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:14:48)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 804
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:08:06,214 ERROR 17620 [-/192.168.3.3/-/2310ms POST /login] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:14:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 17620
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:41:01,220 ERROR 16524 [-/192.168.3.3/-/2297ms POST /login] nodejs.TypeError: user.isEmpty is not a function
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:15:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16524
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:41:31,179 ERROR 5344 [-/192.168.3.3/-/2342ms POST /login] nodejs.TypeError: Cannot read property 'openid' of undefined
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:19:62)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 5344
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:42:23,321 ERROR 2704 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2704
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:42:27,665 ERROR 3756 nodejs.TypeError: this.app.mysql.insert is not a function
+    at UserService.create (W:\LeeXinMing\BlessingTodoBackend\app\service\user.js:9:45)
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:19:38)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3756
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:44:44,375 ERROR 16132 nodejs.TypeError: this.app.mysql.insert is not a function
+    at UserService.create (W:\LeeXinMing\BlessingTodoBackend\app\service\user.js:9:45)
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:19:38)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16132
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:46:35,636 ERROR 11340 nodejs.TypeError: this.app.mysql.insert is not a function
+    at UserService.create (W:\LeeXinMing\BlessingTodoBackend\app\service\user.js:9:45)
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:19:38)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11340
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:48:33,064 ERROR 17460 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'password' in 'field list'
+    at Query.Sequence._packetToError (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (W:\LeeXinMing\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at W:\LeeXinMing\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`openid`, `password`) VALUES('oVGBI40ANe5bd0EdMItJYQwT_4FQ', 'jqSQ+KYpvebfOhS5FNZ2kA==')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'password' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `users`(`openid`, `password`) VALUES('oVGBI40ANe5bd0EdMItJYQwT_4FQ', 'jqSQ+KYpvebfOhS5FNZ2kA==')"
+name: "unhandledRejectionError"
+pid: 17460
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:49:39,357 ERROR 12996 nodejs.unhandledRejectionError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'oVGBI40ANe5bd0EdMItJYQwT_4FQ' for column 'openid' at row 1
+    at Query.Sequence._packetToError (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (W:\LeeXinMing\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (W:\LeeXinMing\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (W:\LeeXinMing\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at W:\LeeXinMing\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`openid`, `session_key`) VALUES('oVGBI40ANe5bd0EdMItJYQwT_4FQ', 'jqSQ+KYpvebfOhS5FNZ2kA==')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect integer value: 'oVGBI40ANe5bd0EdMItJYQwT_4FQ' for column 'openid' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `users`(`openid`, `session_key`) VALUES('oVGBI40ANe5bd0EdMItJYQwT_4FQ', 'jqSQ+KYpvebfOhS5FNZ2kA==')"
+name: "unhandledRejectionError"
+pid: 12996
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 12:17:13,645 ERROR 13832 nodejs.ClusterClientNoResponseError: client no response in 1501622ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (W:\LeeXinMing\BlessingTodoBackend\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 13832
+hostname: DESKTOP-IFUQ83F
+
+2020-04-15 10:32:02,760 ERROR 17556 [-/192.168.3.3/-/4078ms POST /login] nodejs.RequestError: getaddrinfo ENOTFOUND api.wexin.qq.com, GET https://api.wexin.qq.com/sns/jscode2session?appid=wx9895be4dce40a6c7&secret=54f2f5fae7af2fb39b15529101121e88&js_code=0335ALOc0b9cuz1z3ROc0Qs1Pc05ALOn&grant_type=authorization_code -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.wexin.qq.com:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "api.wexin.qq.com"
+name: "RequestError"
+data: undefined
+path: "/sns/jscode2session?appid=wx9895be4dce40a6c7&secret=54f2f5fae7af2fb39b15529101121e88&js_code=0335ALOc0b9cuz1z3ROc0Qs1Pc05ALOn&grant_type=authorization_code"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4059,"keepAliveSocket":false,"requestUrls":["https://api.wexin.qq.com/sns/jscode2session?appid=wx9895be4dce40a6c7&secret=54f2f5fae7af2fb39b15529101121e88&js_code=0335ALOc0b9cuz1z3ROc0Qs1Pc05ALOn&grant_type=authorization_code"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17556
+hostname: LixWorth-HP-PC
+
+2020-04-15 10:33:14,949 ERROR 18396 [-/192.168.3.3/-/2281ms POST /login] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 18396
+hostname: LixWorth-HP-PC
+
+2020-04-15 10:34:16,899 ERROR 4392 [-/192.168.3.3/-/2312ms POST /login] nodejs.TypeError: Cannot read property 'isEmpty' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 4392
+hostname: LixWorth-HP-PC
+
+2020-04-15 10:48:11,761 ERROR 14344 [-/192.168.3.3/-/2288ms POST /login] nodejs.TypeError: Cannot set property 'body' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 14344
+hostname: LixWorth-HP-PC
+
+2020-04-15 13:38:21,576 ERROR 9856 nodejs.ClusterClientNoResponseError: client no response in 7818867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9856
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:07:35,200 ERROR 16716 [-/192.168.3.3/-/2290ms POST /login] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16716
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:09:06,106 ERROR 16716 [-/192.168.3.3/-/2264ms POST /login] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16716
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:20:21,327 ERROR 8144 [-/192.168.3.3/-/38ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:24)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 8144
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:21:09,112 ERROR 20756 [-/192.168.3.3/-/36ms POST /login] nodejs.TypeError: wechat.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 20756
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:24:54,784 ERROR 21088 [-/192.168.3.3/-/2279ms POST /login] nodejs.TypeError: console is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 21088
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:25:19,677 ERROR 16788 [-/192.168.3.3/-/2284ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:18:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16788
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:27:12,256 ERROR 16788 [-/192.168.3.3/-/2220ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:18:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16788
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:27:46,780 ERROR 13596 [-/192.168.3.3/-/2293ms POST /login] nodejs.TypeError: Cannot read property 'toString' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 13596
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:44:52,907 ERROR 20756 [-/192.168.3.3/-/2326ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:19:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 20756
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:46:40,852 ERROR 9084 [-/192.168.3.3/-/2290ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:19:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 9084
+hostname: LixWorth-HP-PC
+
+2020-04-16 01:26:45,129 ERROR 19732 [-/192.168.3.3/-/2368ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.posts' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.posts' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 19732
+hostname: LixWorth-HP-PC
+
+2020-04-16 01:27:37,288 ERROR 19732 [-/192.168.3.3/-/2237ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.posts' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.posts' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 19732
+hostname: LixWorth-HP-PC
+
+2020-04-16 01:27:57,986 ERROR 9084 [-/192.168.3.3/-/2293ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: UPDATE `users` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "UPDATE `users` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 9084
+hostname: LixWorth-HP-PC
+
+2020-04-16 13:43:35,533 ERROR 17996 nodejs.ClusterClientNoResponseError: client no response in 7916269ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 17996
+hostname: LixWorth-HP-PC
+

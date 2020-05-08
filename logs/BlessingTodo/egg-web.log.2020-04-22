@@ -1,0 +1,1585 @@
+2020-04-21 00:00:01,014 INFO 12748 [egg-logrotator] app logger reload: got log-reload message
+2020-04-21 14:20:24,383 INFO 19152 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:20:24,414 INFO 19152 [egg-multipart] stream mode enable
+2020-04-21 14:20:24,415 INFO 19152 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:20:24,627 INFO 19152 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:20:24,631 INFO 19152 [egg-security] use methodnoallow middleware
+2020-04-21 14:20:24,632 INFO 19152 [egg-security] use noopen middleware
+2020-04-21 14:20:24,633 INFO 19152 [egg-security] use nosniff middleware
+2020-04-21 14:20:24,634 INFO 19152 [egg-security] use xssProtection middleware
+2020-04-21 14:20:24,635 INFO 19152 [egg-security] use xframe middleware
+2020-04-21 14:20:24,635 INFO 19152 [egg-security] use dta middleware
+2020-04-21 14:20:24,635 INFO 19152 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:20:24,667 INFO 19152 [egg:core] dump config after load, 10ms
+2020-04-21 14:20:24,695 INFO 19152 [egg-watcher:application] watcher start success
+2020-04-21 14:23:15,248 INFO 7372 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:23:15,280 INFO 7372 [egg-multipart] stream mode enable
+2020-04-21 14:23:15,281 INFO 7372 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:23:15,468 INFO 7372 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:23:15,471 INFO 7372 [egg-security] use methodnoallow middleware
+2020-04-21 14:23:15,472 INFO 7372 [egg-security] use noopen middleware
+2020-04-21 14:23:15,472 INFO 7372 [egg-security] use nosniff middleware
+2020-04-21 14:23:15,473 INFO 7372 [egg-security] use xssProtection middleware
+2020-04-21 14:23:15,473 INFO 7372 [egg-security] use xframe middleware
+2020-04-21 14:23:15,474 INFO 7372 [egg-security] use dta middleware
+2020-04-21 14:23:15,474 INFO 7372 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:23:15,491 INFO 7372 [egg:core] dump config after load, 6ms
+2020-04-21 14:23:15,507 INFO 7372 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:23:15 GMT+0800 (GMT+08:00)
+2020-04-21 14:23:15,509 INFO 7372 [egg-watcher:application] watcher start success
+2020-04-21 14:23:15,517 INFO 7372 [egg:core] dump config after ready, 7ms
+2020-04-21 14:56:15,421 INFO 13052 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:56:15,454 INFO 13052 [egg-multipart] stream mode enable
+2020-04-21 14:56:15,454 INFO 13052 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:56:15,627 INFO 13052 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:56:15,630 INFO 13052 [egg-security] use methodnoallow middleware
+2020-04-21 14:56:15,631 INFO 13052 [egg-security] use noopen middleware
+2020-04-21 14:56:15,632 INFO 13052 [egg-security] use nosniff middleware
+2020-04-21 14:56:15,632 INFO 13052 [egg-security] use xssProtection middleware
+2020-04-21 14:56:15,633 INFO 13052 [egg-security] use xframe middleware
+2020-04-21 14:56:15,634 INFO 13052 [egg-security] use dta middleware
+2020-04-21 14:56:15,634 INFO 13052 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:56:15,652 INFO 13052 [egg:core] dump config after load, 5ms
+2020-04-21 14:56:15,670 INFO 13052 [egg-watcher:application] watcher start success
+2020-04-21 14:56:15,672 INFO 13052 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:56:15 GMT+0800 (GMT+08:00)
+2020-04-21 14:56:15,681 INFO 13052 [egg:core] dump config after ready, 8ms
+2020-04-21 14:56:29,180 INFO 15156 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:56:29,209 INFO 15156 [egg-multipart] stream mode enable
+2020-04-21 14:56:29,209 INFO 15156 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:56:29,368 INFO 15156 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:56:29,371 INFO 15156 [egg-security] use methodnoallow middleware
+2020-04-21 14:56:29,372 INFO 15156 [egg-security] use noopen middleware
+2020-04-21 14:56:29,373 INFO 15156 [egg-security] use nosniff middleware
+2020-04-21 14:56:29,374 INFO 15156 [egg-security] use xssProtection middleware
+2020-04-21 14:56:29,374 INFO 15156 [egg-security] use xframe middleware
+2020-04-21 14:56:29,375 INFO 15156 [egg-security] use dta middleware
+2020-04-21 14:56:29,375 INFO 15156 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:56:29,393 INFO 15156 [egg:core] dump config after load, 7ms
+2020-04-21 14:56:29,409 INFO 15156 [egg-watcher:application] watcher start success
+2020-04-21 14:56:29,411 INFO 15156 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:56:29 GMT+0800 (GMT+08:00)
+2020-04-21 14:56:29,421 INFO 15156 [egg:core] dump config after ready, 8ms
+2020-04-21 14:56:47,175 INFO 8308 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:56:47,207 INFO 8308 [egg-multipart] stream mode enable
+2020-04-21 14:56:47,207 INFO 8308 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:56:47,368 INFO 8308 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:56:47,370 INFO 8308 [egg-security] use methodnoallow middleware
+2020-04-21 14:56:47,371 INFO 8308 [egg-security] use noopen middleware
+2020-04-21 14:56:47,372 INFO 8308 [egg-security] use nosniff middleware
+2020-04-21 14:56:47,373 INFO 8308 [egg-security] use xssProtection middleware
+2020-04-21 14:56:47,373 INFO 8308 [egg-security] use xframe middleware
+2020-04-21 14:56:47,374 INFO 8308 [egg-security] use dta middleware
+2020-04-21 14:56:47,374 INFO 8308 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:56:47,391 INFO 8308 [egg:core] dump config after load, 6ms
+2020-04-21 14:56:47,408 INFO 8308 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:56:47 GMT+0800 (GMT+08:00)
+2020-04-21 14:56:47,410 INFO 8308 [egg-watcher:application] watcher start success
+2020-04-21 14:56:47,420 INFO 8308 [egg:core] dump config after ready, 9ms
+2020-04-21 14:57:03,004 INFO 1696 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:57:03,036 INFO 1696 [egg-multipart] stream mode enable
+2020-04-21 14:57:03,036 INFO 1696 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:57:03,206 INFO 1696 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:57:03,209 INFO 1696 [egg-security] use methodnoallow middleware
+2020-04-21 14:57:03,210 INFO 1696 [egg-security] use noopen middleware
+2020-04-21 14:57:03,210 INFO 1696 [egg-security] use nosniff middleware
+2020-04-21 14:57:03,211 INFO 1696 [egg-security] use xssProtection middleware
+2020-04-21 14:57:03,212 INFO 1696 [egg-security] use xframe middleware
+2020-04-21 14:57:03,212 INFO 1696 [egg-security] use dta middleware
+2020-04-21 14:57:03,212 INFO 1696 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:57:03,231 INFO 1696 [egg:core] dump config after load, 6ms
+2020-04-21 14:57:03,250 INFO 1696 [egg-watcher:application] watcher start success
+2020-04-21 14:57:03,253 INFO 1696 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:57:03 GMT+0800 (GMT+08:00)
+2020-04-21 14:57:03,264 INFO 1696 [egg:core] dump config after ready, 9ms
+2020-04-21 14:57:52,662 INFO 6784 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:57:52,693 INFO 6784 [egg-multipart] stream mode enable
+2020-04-21 14:57:52,694 INFO 6784 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:57:52,876 INFO 6784 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:57:52,880 INFO 6784 [egg-security] use methodnoallow middleware
+2020-04-21 14:57:52,880 INFO 6784 [egg-security] use noopen middleware
+2020-04-21 14:57:52,881 INFO 6784 [egg-security] use nosniff middleware
+2020-04-21 14:57:52,882 INFO 6784 [egg-security] use xssProtection middleware
+2020-04-21 14:57:52,882 INFO 6784 [egg-security] use xframe middleware
+2020-04-21 14:57:52,883 INFO 6784 [egg-security] use dta middleware
+2020-04-21 14:57:52,883 INFO 6784 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:57:52,902 INFO 6784 [egg:core] dump config after load, 6ms
+2020-04-21 14:57:52,922 INFO 6784 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:57:52 GMT+0800 (GMT+08:00)
+2020-04-21 14:57:52,925 INFO 6784 [egg-watcher:application] watcher start success
+2020-04-21 14:57:52,934 INFO 6784 [egg:core] dump config after ready, 8ms
+2020-04-21 14:57:57,021 INFO 7668 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:57:57,055 INFO 7668 [egg-multipart] stream mode enable
+2020-04-21 14:57:57,055 INFO 7668 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:57:57,221 INFO 7668 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:57:57,223 INFO 7668 [egg-security] use methodnoallow middleware
+2020-04-21 14:57:57,224 INFO 7668 [egg-security] use noopen middleware
+2020-04-21 14:57:57,225 INFO 7668 [egg-security] use nosniff middleware
+2020-04-21 14:57:57,226 INFO 7668 [egg-security] use xssProtection middleware
+2020-04-21 14:57:57,227 INFO 7668 [egg-security] use xframe middleware
+2020-04-21 14:57:57,227 INFO 7668 [egg-security] use dta middleware
+2020-04-21 14:57:57,227 INFO 7668 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:57:57,246 INFO 7668 [egg:core] dump config after load, 7ms
+2020-04-21 14:57:57,264 INFO 7668 [egg-watcher:application] watcher start success
+2020-04-21 14:57:57,267 INFO 7668 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:57:57 GMT+0800 (GMT+08:00)
+2020-04-21 14:57:57,277 INFO 7668 [egg:core] dump config after ready, 8ms
+2020-04-21 14:58:17,542 INFO 8908 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:58:17,575 INFO 8908 [egg-multipart] stream mode enable
+2020-04-21 14:58:17,575 INFO 8908 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:58:17,773 INFO 8908 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:58:17,778 INFO 8908 [egg-security] use methodnoallow middleware
+2020-04-21 14:58:17,778 INFO 8908 [egg-security] use noopen middleware
+2020-04-21 14:58:17,779 INFO 8908 [egg-security] use nosniff middleware
+2020-04-21 14:58:17,780 INFO 8908 [egg-security] use xssProtection middleware
+2020-04-21 14:58:17,781 INFO 8908 [egg-security] use xframe middleware
+2020-04-21 14:58:17,781 INFO 8908 [egg-security] use dta middleware
+2020-04-21 14:58:17,781 INFO 8908 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:58:17,800 INFO 8908 [egg:core] dump config after load, 6ms
+2020-04-21 14:58:17,822 INFO 8908 [egg-watcher:application] watcher start success
+2020-04-21 14:58:17,826 INFO 8908 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:58:17 GMT+0800 (GMT+08:00)
+2020-04-21 14:58:17,836 INFO 8908 [egg:core] dump config after ready, 8ms
+2020-04-21 14:59:07,982 INFO 2408 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:59:08,015 INFO 2408 [egg-multipart] stream mode enable
+2020-04-21 14:59:08,015 INFO 2408 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:59:08,184 INFO 2408 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:59:08,187 INFO 2408 [egg-security] use methodnoallow middleware
+2020-04-21 14:59:08,188 INFO 2408 [egg-security] use noopen middleware
+2020-04-21 14:59:08,189 INFO 2408 [egg-security] use nosniff middleware
+2020-04-21 14:59:08,190 INFO 2408 [egg-security] use xssProtection middleware
+2020-04-21 14:59:08,191 INFO 2408 [egg-security] use xframe middleware
+2020-04-21 14:59:08,191 INFO 2408 [egg-security] use dta middleware
+2020-04-21 14:59:08,192 INFO 2408 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:59:08,211 INFO 2408 [egg:core] dump config after load, 6ms
+2020-04-21 14:59:08,228 INFO 2408 [egg-watcher:application] watcher start success
+2020-04-21 14:59:08,231 INFO 2408 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:59:08 GMT+0800 (GMT+08:00)
+2020-04-21 14:59:08,240 INFO 2408 [egg:core] dump config after ready, 7ms
+2020-04-21 14:59:15,986 INFO 16492 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:59:16,018 INFO 16492 [egg-multipart] stream mode enable
+2020-04-21 14:59:16,018 INFO 16492 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:59:16,192 INFO 16492 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:59:16,195 INFO 16492 [egg-security] use methodnoallow middleware
+2020-04-21 14:59:16,195 INFO 16492 [egg-security] use noopen middleware
+2020-04-21 14:59:16,196 INFO 16492 [egg-security] use nosniff middleware
+2020-04-21 14:59:16,197 INFO 16492 [egg-security] use xssProtection middleware
+2020-04-21 14:59:16,198 INFO 16492 [egg-security] use xframe middleware
+2020-04-21 14:59:16,200 INFO 16492 [egg-security] use dta middleware
+2020-04-21 14:59:16,200 INFO 16492 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:59:16,219 INFO 16492 [egg:core] dump config after load, 6ms
+2020-04-21 14:59:16,236 INFO 16492 [egg-watcher:application] watcher start success
+2020-04-21 14:59:16,237 INFO 16492 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:59:16 GMT+0800 (GMT+08:00)
+2020-04-21 14:59:16,247 INFO 16492 [egg:core] dump config after ready, 7ms
+2020-04-21 14:59:21,812 INFO 9896 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:59:21,852 INFO 9896 [egg-multipart] stream mode enable
+2020-04-21 14:59:21,852 INFO 9896 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:59:22,102 INFO 9896 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:59:22,104 INFO 9896 [egg-security] use methodnoallow middleware
+2020-04-21 14:59:22,105 INFO 9896 [egg-security] use noopen middleware
+2020-04-21 14:59:22,106 INFO 9896 [egg-security] use nosniff middleware
+2020-04-21 14:59:22,106 INFO 9896 [egg-security] use xssProtection middleware
+2020-04-21 14:59:22,107 INFO 9896 [egg-security] use xframe middleware
+2020-04-21 14:59:22,108 INFO 9896 [egg-security] use dta middleware
+2020-04-21 14:59:22,108 INFO 9896 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:59:22,127 INFO 9896 [egg:core] dump config after load, 6ms
+2020-04-21 14:59:22,147 INFO 9896 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:59:22 GMT+0800 (GMT+08:00)
+2020-04-21 14:59:22,149 INFO 9896 [egg-watcher:application] watcher start success
+2020-04-21 14:59:22,162 INFO 9896 [egg:core] dump config after ready, 11ms
+2020-04-21 14:59:41,352 INFO 6768 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 14:59:41,384 INFO 6768 [egg-multipart] stream mode enable
+2020-04-21 14:59:41,385 INFO 6768 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 14:59:41,553 INFO 6768 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 14:59:41,555 INFO 6768 [egg-security] use methodnoallow middleware
+2020-04-21 14:59:41,556 INFO 6768 [egg-security] use noopen middleware
+2020-04-21 14:59:41,557 INFO 6768 [egg-security] use nosniff middleware
+2020-04-21 14:59:41,557 INFO 6768 [egg-security] use xssProtection middleware
+2020-04-21 14:59:41,558 INFO 6768 [egg-security] use xframe middleware
+2020-04-21 14:59:41,558 INFO 6768 [egg-security] use dta middleware
+2020-04-21 14:59:41,559 INFO 6768 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 14:59:41,575 INFO 6768 [egg:core] dump config after load, 5ms
+2020-04-21 14:59:41,600 INFO 6768 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 14:59:41 GMT+0800 (GMT+08:00)
+2020-04-21 14:59:41,602 INFO 6768 [egg-watcher:application] watcher start success
+2020-04-21 14:59:41,613 INFO 6768 [egg:core] dump config after ready, 9ms
+2020-04-21 15:00:17,788 INFO 17776 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:00:17,818 INFO 17776 [egg-multipart] stream mode enable
+2020-04-21 15:00:17,819 INFO 17776 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-21 15:00:17,984 INFO 17776 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-21 15:00:17,987 INFO 17776 [egg-security] use methodnoallow middleware
+2020-04-21 15:00:17,987 INFO 17776 [egg-security] use noopen middleware
+2020-04-21 15:00:17,988 INFO 17776 [egg-security] use nosniff middleware
+2020-04-21 15:00:17,989 INFO 17776 [egg-security] use xssProtection middleware
+2020-04-21 15:00:17,990 INFO 17776 [egg-security] use xframe middleware
+2020-04-21 15:00:17,990 INFO 17776 [egg-security] use dta middleware
+2020-04-21 15:00:17,990 INFO 17776 [egg-security] compose 6 middlewares into one security middleware
+2020-04-21 15:00:18,006 INFO 17776 [egg:core] dump config after load, 5ms
+2020-04-21 15:00:18,022 INFO 17776 [egg-watcher:application] watcher start success
+2020-04-21 15:00:18,024 INFO 17776 [egg-mysql] instance[0] status OK, rds currentTime: Tue Apr 21 2020 15:00:18 GMT+0800 (GMT+08:00)
+2020-04-21 15:00:18,034 INFO 17776 [egg:core] dump config after ready, 8ms
+2020-04-21 18:19:45,819 WARN 17776 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-22 00:00:02,602 INFO 12792 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 00:00:02,697 INFO 12792 [egg-multipart] stream mode enable
+2020-04-22 00:00:02,698 INFO 12792 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 00:00:03,085 INFO 12792 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 00:00:03,090 INFO 12792 [egg-security] use methodnoallow middleware
+2020-04-22 00:00:03,091 INFO 12792 [egg-security] use noopen middleware
+2020-04-22 00:00:03,092 INFO 12792 [egg-security] use nosniff middleware
+2020-04-22 00:00:03,095 INFO 12792 [egg-security] use xssProtection middleware
+2020-04-22 00:00:03,098 INFO 12792 [egg-security] use xframe middleware
+2020-04-22 00:00:03,099 INFO 12792 [egg-security] use dta middleware
+2020-04-22 00:00:03,099 INFO 12792 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 00:00:03,141 INFO 12792 [egg:core] dump config after load, 20ms
+2020-04-22 00:00:03,167 INFO 12792 [egg-watcher:application] watcher start success
+2020-04-22 00:00:40,986 INFO 17516 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 00:00:41,023 INFO 17516 [egg-multipart] stream mode enable
+2020-04-22 00:00:41,023 INFO 17516 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 00:00:41,227 INFO 17516 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 00:00:41,232 INFO 17516 [egg-security] use methodnoallow middleware
+2020-04-22 00:00:41,233 INFO 17516 [egg-security] use noopen middleware
+2020-04-22 00:00:41,235 INFO 17516 [egg-security] use nosniff middleware
+2020-04-22 00:00:41,236 INFO 17516 [egg-security] use xssProtection middleware
+2020-04-22 00:00:41,237 INFO 17516 [egg-security] use xframe middleware
+2020-04-22 00:00:41,238 INFO 17516 [egg-security] use dta middleware
+2020-04-22 00:00:41,238 INFO 17516 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 00:00:41,256 INFO 17516 [egg:core] dump config after load, 8ms
+2020-04-22 00:00:41,277 INFO 17516 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 00:00:41 GMT+0800 (GMT+08:00)
+2020-04-22 00:00:41,279 INFO 17516 [egg-watcher:application] watcher start success
+2020-04-22 00:00:41,289 INFO 17516 [egg:core] dump config after ready, 8ms
+2020-04-22 00:09:14,436 INFO 1856 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 00:09:14,476 INFO 1856 [egg-multipart] stream mode enable
+2020-04-22 00:09:14,477 INFO 1856 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 00:09:14,678 INFO 1856 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 00:09:14,682 INFO 1856 [egg-security] use methodnoallow middleware
+2020-04-22 00:09:14,684 INFO 1856 [egg-security] use noopen middleware
+2020-04-22 00:09:14,687 INFO 1856 [egg-security] use nosniff middleware
+2020-04-22 00:09:14,687 INFO 1856 [egg-security] use xssProtection middleware
+2020-04-22 00:09:14,688 INFO 1856 [egg-security] use xframe middleware
+2020-04-22 00:09:14,690 INFO 1856 [egg-security] use dta middleware
+2020-04-22 00:09:14,690 INFO 1856 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 00:09:14,710 INFO 1856 [egg:core] dump config after load, 7ms
+2020-04-22 00:09:14,730 INFO 1856 [egg-watcher:application] watcher start success
+2020-04-22 00:09:14,733 INFO 1856 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 00:09:14 GMT+0800 (GMT+08:00)
+2020-04-22 00:09:14,745 INFO 1856 [egg:core] dump config after ready, 9ms
+2020-04-22 01:29:09,902 INFO 10072 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:29:09,933 INFO 10072 [egg-multipart] stream mode enable
+2020-04-22 01:29:09,933 INFO 10072 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:29:10,112 INFO 10072 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:29:10,114 INFO 10072 [egg-security] use methodnoallow middleware
+2020-04-22 01:29:10,115 INFO 10072 [egg-security] use noopen middleware
+2020-04-22 01:29:10,116 INFO 10072 [egg-security] use nosniff middleware
+2020-04-22 01:29:10,116 INFO 10072 [egg-security] use xssProtection middleware
+2020-04-22 01:29:10,117 INFO 10072 [egg-security] use xframe middleware
+2020-04-22 01:29:10,118 INFO 10072 [egg-security] use dta middleware
+2020-04-22 01:29:10,118 INFO 10072 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:29:10,141 INFO 10072 [egg:core] dump config after load, 8ms
+2020-04-22 01:29:10,160 INFO 10072 [egg-watcher:application] watcher start success
+2020-04-22 01:29:10,162 INFO 10072 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:29:10 GMT+0800 (GMT+08:00)
+2020-04-22 01:29:10,170 INFO 10072 [egg:core] dump config after ready, 7ms
+2020-04-22 01:30:15,725 INFO 4104 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:30:15,755 INFO 4104 [egg-multipart] stream mode enable
+2020-04-22 01:30:15,756 INFO 4104 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:30:15,935 INFO 4104 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:30:15,938 INFO 4104 [egg-security] use methodnoallow middleware
+2020-04-22 01:30:15,939 INFO 4104 [egg-security] use noopen middleware
+2020-04-22 01:30:15,939 INFO 4104 [egg-security] use nosniff middleware
+2020-04-22 01:30:15,940 INFO 4104 [egg-security] use xssProtection middleware
+2020-04-22 01:30:15,941 INFO 4104 [egg-security] use xframe middleware
+2020-04-22 01:30:15,942 INFO 4104 [egg-security] use dta middleware
+2020-04-22 01:30:15,942 INFO 4104 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:30:15,959 INFO 4104 [egg:core] dump config after load, 6ms
+2020-04-22 01:30:15,977 INFO 4104 [egg-watcher:application] watcher start success
+2020-04-22 01:30:15,978 INFO 4104 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:30:15 GMT+0800 (GMT+08:00)
+2020-04-22 01:30:15,987 INFO 4104 [egg:core] dump config after ready, 7ms
+2020-04-22 01:30:37,877 INFO 15388 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:30:37,906 INFO 15388 [egg-multipart] stream mode enable
+2020-04-22 01:30:37,906 INFO 15388 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:30:38,066 INFO 15388 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:30:38,068 INFO 15388 [egg-security] use methodnoallow middleware
+2020-04-22 01:30:38,069 INFO 15388 [egg-security] use noopen middleware
+2020-04-22 01:30:38,071 INFO 15388 [egg-security] use nosniff middleware
+2020-04-22 01:30:38,071 INFO 15388 [egg-security] use xssProtection middleware
+2020-04-22 01:30:38,072 INFO 15388 [egg-security] use xframe middleware
+2020-04-22 01:30:38,073 INFO 15388 [egg-security] use dta middleware
+2020-04-22 01:30:38,073 INFO 15388 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:30:38,090 INFO 15388 [egg:core] dump config after load, 6ms
+2020-04-22 01:30:38,107 INFO 15388 [egg-watcher:application] watcher start success
+2020-04-22 01:30:38,108 INFO 15388 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:30:38 GMT+0800 (GMT+08:00)
+2020-04-22 01:30:38,119 INFO 15388 [egg:core] dump config after ready, 8ms
+2020-04-22 01:30:54,661 INFO 17684 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:30:54,691 INFO 17684 [egg-multipart] stream mode enable
+2020-04-22 01:30:54,692 INFO 17684 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:30:54,850 INFO 17684 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:30:54,853 INFO 17684 [egg-security] use methodnoallow middleware
+2020-04-22 01:30:54,853 INFO 17684 [egg-security] use noopen middleware
+2020-04-22 01:30:54,854 INFO 17684 [egg-security] use nosniff middleware
+2020-04-22 01:30:54,855 INFO 17684 [egg-security] use xssProtection middleware
+2020-04-22 01:30:54,855 INFO 17684 [egg-security] use xframe middleware
+2020-04-22 01:30:54,856 INFO 17684 [egg-security] use dta middleware
+2020-04-22 01:30:54,856 INFO 17684 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:30:54,874 INFO 17684 [egg:core] dump config after load, 7ms
+2020-04-22 01:30:54,892 INFO 17684 [egg-watcher:application] watcher start success
+2020-04-22 01:30:54,893 INFO 17684 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:30:54 GMT+0800 (GMT+08:00)
+2020-04-22 01:30:54,902 INFO 17684 [egg:core] dump config after ready, 7ms
+2020-04-22 01:33:35,953 INFO 4820 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:33:35,984 INFO 4820 [egg-multipart] stream mode enable
+2020-04-22 01:33:35,984 INFO 4820 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:33:36,147 INFO 4820 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:33:36,150 INFO 4820 [egg-security] use methodnoallow middleware
+2020-04-22 01:33:36,151 INFO 4820 [egg-security] use noopen middleware
+2020-04-22 01:33:36,152 INFO 4820 [egg-security] use nosniff middleware
+2020-04-22 01:33:36,152 INFO 4820 [egg-security] use xssProtection middleware
+2020-04-22 01:33:36,153 INFO 4820 [egg-security] use xframe middleware
+2020-04-22 01:33:36,153 INFO 4820 [egg-security] use dta middleware
+2020-04-22 01:33:36,154 INFO 4820 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:33:36,171 INFO 4820 [egg:core] dump config after load, 7ms
+2020-04-22 01:33:36,188 INFO 4820 [egg-watcher:application] watcher start success
+2020-04-22 01:33:36,190 INFO 4820 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:33:36 GMT+0800 (GMT+08:00)
+2020-04-22 01:33:36,199 INFO 4820 [egg:core] dump config after ready, 8ms
+2020-04-22 01:34:22,105 INFO 17712 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:34:22,134 INFO 17712 [egg-multipart] stream mode enable
+2020-04-22 01:34:22,135 INFO 17712 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:34:22,296 INFO 17712 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:34:22,299 INFO 17712 [egg-security] use methodnoallow middleware
+2020-04-22 01:34:22,299 INFO 17712 [egg-security] use noopen middleware
+2020-04-22 01:34:22,300 INFO 17712 [egg-security] use nosniff middleware
+2020-04-22 01:34:22,301 INFO 17712 [egg-security] use xssProtection middleware
+2020-04-22 01:34:22,301 INFO 17712 [egg-security] use xframe middleware
+2020-04-22 01:34:22,302 INFO 17712 [egg-security] use dta middleware
+2020-04-22 01:34:22,302 INFO 17712 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:34:22,320 INFO 17712 [egg:core] dump config after load, 5ms
+2020-04-22 01:34:22,337 INFO 17712 [egg-watcher:application] watcher start success
+2020-04-22 01:34:22,339 INFO 17712 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:34:22 GMT+0800 (GMT+08:00)
+2020-04-22 01:34:22,348 INFO 17712 [egg:core] dump config after ready, 6ms
+2020-04-22 01:35:48,714 INFO 13176 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:35:48,744 INFO 13176 [egg-multipart] stream mode enable
+2020-04-22 01:35:48,745 INFO 13176 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:35:48,911 INFO 13176 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:35:48,914 INFO 13176 [egg-security] use methodnoallow middleware
+2020-04-22 01:35:48,914 INFO 13176 [egg-security] use noopen middleware
+2020-04-22 01:35:48,915 INFO 13176 [egg-security] use nosniff middleware
+2020-04-22 01:35:48,916 INFO 13176 [egg-security] use xssProtection middleware
+2020-04-22 01:35:48,916 INFO 13176 [egg-security] use xframe middleware
+2020-04-22 01:35:48,917 INFO 13176 [egg-security] use dta middleware
+2020-04-22 01:35:48,917 INFO 13176 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:35:48,934 INFO 13176 [egg:core] dump config after load, 7ms
+2020-04-22 01:35:48,951 INFO 13176 [egg-watcher:application] watcher start success
+2020-04-22 01:35:48,952 INFO 13176 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:35:48 GMT+0800 (GMT+08:00)
+2020-04-22 01:35:48,963 INFO 13176 [egg:core] dump config after ready, 9ms
+2020-04-22 01:37:18,192 INFO 16524 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:37:18,221 INFO 16524 [egg-multipart] stream mode enable
+2020-04-22 01:37:18,221 INFO 16524 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:37:18,386 INFO 16524 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:37:18,389 INFO 16524 [egg-security] use methodnoallow middleware
+2020-04-22 01:37:18,390 INFO 16524 [egg-security] use noopen middleware
+2020-04-22 01:37:18,391 INFO 16524 [egg-security] use nosniff middleware
+2020-04-22 01:37:18,391 INFO 16524 [egg-security] use xssProtection middleware
+2020-04-22 01:37:18,392 INFO 16524 [egg-security] use xframe middleware
+2020-04-22 01:37:18,392 INFO 16524 [egg-security] use dta middleware
+2020-04-22 01:37:18,392 INFO 16524 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:37:18,411 INFO 16524 [egg:core] dump config after load, 7ms
+2020-04-22 01:37:18,429 INFO 16524 [egg-watcher:application] watcher start success
+2020-04-22 01:37:18,431 INFO 16524 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:37:18 GMT+0800 (GMT+08:00)
+2020-04-22 01:37:18,440 INFO 16524 [egg:core] dump config after ready, 8ms
+2020-04-22 01:37:43,938 INFO 4256 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:37:43,971 INFO 4256 [egg-multipart] stream mode enable
+2020-04-22 01:37:43,971 INFO 4256 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:37:44,245 INFO 4256 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:37:44,252 INFO 4256 [egg-security] use methodnoallow middleware
+2020-04-22 01:37:44,253 INFO 4256 [egg-security] use noopen middleware
+2020-04-22 01:37:44,254 INFO 4256 [egg-security] use nosniff middleware
+2020-04-22 01:37:44,255 INFO 4256 [egg-security] use xssProtection middleware
+2020-04-22 01:37:44,255 INFO 4256 [egg-security] use xframe middleware
+2020-04-22 01:37:44,256 INFO 4256 [egg-security] use dta middleware
+2020-04-22 01:37:44,256 INFO 4256 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:37:44,276 INFO 4256 [egg:core] dump config after load, 7ms
+2020-04-22 01:37:44,296 INFO 4256 [egg-watcher:application] watcher start success
+2020-04-22 01:37:44,297 INFO 4256 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:37:44 GMT+0800 (GMT+08:00)
+2020-04-22 01:37:44,309 INFO 4256 [egg:core] dump config after ready, 9ms
+2020-04-22 01:37:55,802 INFO 16552 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:37:55,832 INFO 16552 [egg-multipart] stream mode enable
+2020-04-22 01:37:55,833 INFO 16552 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:37:56,136 INFO 16552 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:37:56,139 INFO 16552 [egg-security] use methodnoallow middleware
+2020-04-22 01:37:56,140 INFO 16552 [egg-security] use noopen middleware
+2020-04-22 01:37:56,140 INFO 16552 [egg-security] use nosniff middleware
+2020-04-22 01:37:56,141 INFO 16552 [egg-security] use xssProtection middleware
+2020-04-22 01:37:56,143 INFO 16552 [egg-security] use xframe middleware
+2020-04-22 01:37:56,143 INFO 16552 [egg-security] use dta middleware
+2020-04-22 01:37:56,143 INFO 16552 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:37:56,159 INFO 16552 [egg:core] dump config after load, 5ms
+2020-04-22 01:37:56,178 INFO 16552 [egg-watcher:application] watcher start success
+2020-04-22 01:37:56,179 INFO 16552 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:37:56 GMT+0800 (GMT+08:00)
+2020-04-22 01:37:56,191 INFO 16552 [egg:core] dump config after ready, 10ms
+2020-04-22 01:38:15,332 INFO 15180 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:38:15,364 INFO 15180 [egg-multipart] stream mode enable
+2020-04-22 01:38:15,364 INFO 15180 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:38:15,526 INFO 15180 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:38:15,529 INFO 15180 [egg-security] use methodnoallow middleware
+2020-04-22 01:38:15,530 INFO 15180 [egg-security] use noopen middleware
+2020-04-22 01:38:15,531 INFO 15180 [egg-security] use nosniff middleware
+2020-04-22 01:38:15,532 INFO 15180 [egg-security] use xssProtection middleware
+2020-04-22 01:38:15,532 INFO 15180 [egg-security] use xframe middleware
+2020-04-22 01:38:15,533 INFO 15180 [egg-security] use dta middleware
+2020-04-22 01:38:15,533 INFO 15180 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:38:15,553 INFO 15180 [egg:core] dump config after load, 7ms
+2020-04-22 01:38:15,573 INFO 15180 [egg-watcher:application] watcher start success
+2020-04-22 01:38:15,574 INFO 15180 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:38:15 GMT+0800 (GMT+08:00)
+2020-04-22 01:38:15,587 INFO 15180 [egg:core] dump config after ready, 9ms
+2020-04-22 01:39:28,625 INFO 19356 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:39:28,653 INFO 19356 [egg-multipart] stream mode enable
+2020-04-22 01:39:28,654 INFO 19356 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:39:28,828 INFO 19356 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:39:28,830 INFO 19356 [egg-security] use methodnoallow middleware
+2020-04-22 01:39:28,831 INFO 19356 [egg-security] use noopen middleware
+2020-04-22 01:39:28,832 INFO 19356 [egg-security] use nosniff middleware
+2020-04-22 01:39:28,832 INFO 19356 [egg-security] use xssProtection middleware
+2020-04-22 01:39:28,833 INFO 19356 [egg-security] use xframe middleware
+2020-04-22 01:39:28,834 INFO 19356 [egg-security] use dta middleware
+2020-04-22 01:39:28,834 INFO 19356 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:39:28,886 INFO 19356 [egg:core] dump config after load, 34ms
+2020-04-22 01:39:28,913 INFO 19356 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:39:28 GMT+0800 (GMT+08:00)
+2020-04-22 01:39:28,914 INFO 19356 [egg-watcher:application] watcher start success
+2020-04-22 01:39:28,924 INFO 19356 [egg:core] dump config after ready, 8ms
+2020-04-22 01:39:57,812 INFO 19148 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:39:57,845 INFO 19148 [egg-multipart] stream mode enable
+2020-04-22 01:39:57,845 INFO 19148 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:39:58,018 INFO 19148 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:39:58,021 INFO 19148 [egg-security] use methodnoallow middleware
+2020-04-22 01:39:58,022 INFO 19148 [egg-security] use noopen middleware
+2020-04-22 01:39:58,022 INFO 19148 [egg-security] use nosniff middleware
+2020-04-22 01:39:58,023 INFO 19148 [egg-security] use xssProtection middleware
+2020-04-22 01:39:58,023 INFO 19148 [egg-security] use xframe middleware
+2020-04-22 01:39:58,024 INFO 19148 [egg-security] use dta middleware
+2020-04-22 01:39:58,024 INFO 19148 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:39:58,043 INFO 19148 [egg:core] dump config after load, 5ms
+2020-04-22 01:39:58,062 INFO 19148 [egg-watcher:application] watcher start success
+2020-04-22 01:39:58,064 INFO 19148 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:39:58 GMT+0800 (GMT+08:00)
+2020-04-22 01:39:58,074 INFO 19148 [egg:core] dump config after ready, 8ms
+2020-04-22 01:40:05,142 INFO 3804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:40:05,175 INFO 3804 [egg-multipart] stream mode enable
+2020-04-22 01:40:05,175 INFO 3804 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:40:05,334 INFO 3804 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:40:05,336 INFO 3804 [egg-security] use methodnoallow middleware
+2020-04-22 01:40:05,337 INFO 3804 [egg-security] use noopen middleware
+2020-04-22 01:40:05,338 INFO 3804 [egg-security] use nosniff middleware
+2020-04-22 01:40:05,338 INFO 3804 [egg-security] use xssProtection middleware
+2020-04-22 01:40:05,339 INFO 3804 [egg-security] use xframe middleware
+2020-04-22 01:40:05,339 INFO 3804 [egg-security] use dta middleware
+2020-04-22 01:40:05,339 INFO 3804 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:40:05,356 INFO 3804 [egg:core] dump config after load, 5ms
+2020-04-22 01:40:05,373 INFO 3804 [egg-watcher:application] watcher start success
+2020-04-22 01:40:05,375 INFO 3804 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:40:05 GMT+0800 (GMT+08:00)
+2020-04-22 01:40:05,384 INFO 3804 [egg:core] dump config after ready, 7ms
+2020-04-22 01:41:09,229 INFO 17300 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:41:09,261 INFO 17300 [egg-multipart] stream mode enable
+2020-04-22 01:41:09,261 INFO 17300 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:41:09,424 INFO 17300 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:41:09,427 INFO 17300 [egg-security] use methodnoallow middleware
+2020-04-22 01:41:09,427 INFO 17300 [egg-security] use noopen middleware
+2020-04-22 01:41:09,428 INFO 17300 [egg-security] use nosniff middleware
+2020-04-22 01:41:09,429 INFO 17300 [egg-security] use xssProtection middleware
+2020-04-22 01:41:09,429 INFO 17300 [egg-security] use xframe middleware
+2020-04-22 01:41:09,430 INFO 17300 [egg-security] use dta middleware
+2020-04-22 01:41:09,430 INFO 17300 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:41:09,447 INFO 17300 [egg:core] dump config after load, 5ms
+2020-04-22 01:41:09,467 INFO 17300 [egg-watcher:application] watcher start success
+2020-04-22 01:41:09,469 INFO 17300 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:41:09 GMT+0800 (GMT+08:00)
+2020-04-22 01:41:09,479 INFO 17300 [egg:core] dump config after ready, 9ms
+2020-04-22 01:41:54,543 INFO 10616 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:41:54,576 INFO 10616 [egg-multipart] stream mode enable
+2020-04-22 01:41:54,577 INFO 10616 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:41:54,753 INFO 10616 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:41:54,755 INFO 10616 [egg-security] use methodnoallow middleware
+2020-04-22 01:41:54,756 INFO 10616 [egg-security] use noopen middleware
+2020-04-22 01:41:54,757 INFO 10616 [egg-security] use nosniff middleware
+2020-04-22 01:41:54,757 INFO 10616 [egg-security] use xssProtection middleware
+2020-04-22 01:41:54,758 INFO 10616 [egg-security] use xframe middleware
+2020-04-22 01:41:54,759 INFO 10616 [egg-security] use dta middleware
+2020-04-22 01:41:54,759 INFO 10616 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:41:54,776 INFO 10616 [egg:core] dump config after load, 5ms
+2020-04-22 01:41:54,794 INFO 10616 [egg-watcher:application] watcher start success
+2020-04-22 01:41:54,796 INFO 10616 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:41:54 GMT+0800 (GMT+08:00)
+2020-04-22 01:41:54,806 INFO 10616 [egg:core] dump config after ready, 8ms
+2020-04-22 01:42:18,242 INFO 18400 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:42:18,294 INFO 18400 [egg-multipart] stream mode enable
+2020-04-22 01:42:18,295 INFO 18400 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:42:18,577 INFO 18400 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:42:18,585 INFO 18400 [egg-security] use methodnoallow middleware
+2020-04-22 01:42:18,586 INFO 18400 [egg-security] use noopen middleware
+2020-04-22 01:42:18,587 INFO 18400 [egg-security] use nosniff middleware
+2020-04-22 01:42:18,588 INFO 18400 [egg-security] use xssProtection middleware
+2020-04-22 01:42:18,589 INFO 18400 [egg-security] use xframe middleware
+2020-04-22 01:42:18,590 INFO 18400 [egg-security] use dta middleware
+2020-04-22 01:42:18,590 INFO 18400 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:42:18,618 INFO 18400 [egg:core] dump config after load, 15ms
+2020-04-22 01:42:18,640 INFO 18400 [egg-watcher:application] watcher start success
+2020-04-22 01:42:18,642 INFO 18400 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:42:18 GMT+0800 (GMT+08:00)
+2020-04-22 01:42:18,652 INFO 18400 [egg:core] dump config after ready, 9ms
+2020-04-22 01:42:54,681 INFO 17444 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:42:54,711 INFO 17444 [egg-multipart] stream mode enable
+2020-04-22 01:42:54,711 INFO 17444 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:42:54,907 INFO 17444 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:42:54,910 INFO 17444 [egg-security] use methodnoallow middleware
+2020-04-22 01:42:54,911 INFO 17444 [egg-security] use noopen middleware
+2020-04-22 01:42:54,913 INFO 17444 [egg-security] use nosniff middleware
+2020-04-22 01:42:54,913 INFO 17444 [egg-security] use xssProtection middleware
+2020-04-22 01:42:54,914 INFO 17444 [egg-security] use xframe middleware
+2020-04-22 01:42:54,916 INFO 17444 [egg-security] use dta middleware
+2020-04-22 01:42:54,916 INFO 17444 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:42:54,962 INFO 17444 [egg:core] dump config after load, 15ms
+2020-04-22 01:42:54,984 INFO 17444 [egg-watcher:application] watcher start success
+2020-04-22 01:42:54,986 INFO 17444 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:42:54 GMT+0800 (GMT+08:00)
+2020-04-22 01:42:55,006 INFO 17444 [egg:core] dump config after ready, 18ms
+2020-04-22 01:43:00,490 INFO 12980 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:43:00,522 INFO 12980 [egg-multipart] stream mode enable
+2020-04-22 01:43:00,522 INFO 12980 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:43:00,694 INFO 12980 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:43:00,696 INFO 12980 [egg-security] use methodnoallow middleware
+2020-04-22 01:43:00,697 INFO 12980 [egg-security] use noopen middleware
+2020-04-22 01:43:00,698 INFO 12980 [egg-security] use nosniff middleware
+2020-04-22 01:43:00,699 INFO 12980 [egg-security] use xssProtection middleware
+2020-04-22 01:43:00,699 INFO 12980 [egg-security] use xframe middleware
+2020-04-22 01:43:00,700 INFO 12980 [egg-security] use dta middleware
+2020-04-22 01:43:00,700 INFO 12980 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:43:00,718 INFO 12980 [egg:core] dump config after load, 7ms
+2020-04-22 01:43:00,735 INFO 12980 [egg-watcher:application] watcher start success
+2020-04-22 01:43:00,737 INFO 12980 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:43:00 GMT+0800 (GMT+08:00)
+2020-04-22 01:43:00,747 INFO 12980 [egg:core] dump config after ready, 8ms
+2020-04-22 01:43:08,118 INFO 7372 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:43:08,155 INFO 7372 [egg-multipart] stream mode enable
+2020-04-22 01:43:08,155 INFO 7372 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:43:08,321 INFO 7372 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:43:08,324 INFO 7372 [egg-security] use methodnoallow middleware
+2020-04-22 01:43:08,326 INFO 7372 [egg-security] use noopen middleware
+2020-04-22 01:43:08,327 INFO 7372 [egg-security] use nosniff middleware
+2020-04-22 01:43:08,327 INFO 7372 [egg-security] use xssProtection middleware
+2020-04-22 01:43:08,328 INFO 7372 [egg-security] use xframe middleware
+2020-04-22 01:43:08,329 INFO 7372 [egg-security] use dta middleware
+2020-04-22 01:43:08,329 INFO 7372 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:43:08,346 INFO 7372 [egg:core] dump config after load, 7ms
+2020-04-22 01:43:08,363 INFO 7372 [egg-watcher:application] watcher start success
+2020-04-22 01:43:08,364 INFO 7372 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:43:08 GMT+0800 (GMT+08:00)
+2020-04-22 01:43:08,376 INFO 7372 [egg:core] dump config after ready, 10ms
+2020-04-22 01:49:17,879 INFO 12252 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:49:17,914 INFO 12252 [egg-multipart] stream mode enable
+2020-04-22 01:49:17,915 INFO 12252 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:49:18,090 INFO 12252 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:49:18,094 INFO 12252 [egg-security] use methodnoallow middleware
+2020-04-22 01:49:18,095 INFO 12252 [egg-security] use noopen middleware
+2020-04-22 01:49:18,096 INFO 12252 [egg-security] use nosniff middleware
+2020-04-22 01:49:18,097 INFO 12252 [egg-security] use xssProtection middleware
+2020-04-22 01:49:18,097 INFO 12252 [egg-security] use xframe middleware
+2020-04-22 01:49:18,098 INFO 12252 [egg-security] use dta middleware
+2020-04-22 01:49:18,098 INFO 12252 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:49:18,114 INFO 12252 [egg:core] dump config after load, 5ms
+2020-04-22 01:49:18,134 INFO 12252 [egg-watcher:application] watcher start success
+2020-04-22 01:49:18,135 INFO 12252 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:49:18 GMT+0800 (GMT+08:00)
+2020-04-22 01:49:18,146 INFO 12252 [egg:core] dump config after ready, 9ms
+2020-04-22 01:52:30,451 INFO 16232 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:52:30,483 INFO 16232 [egg-multipart] stream mode enable
+2020-04-22 01:52:30,483 INFO 16232 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:52:30,661 INFO 16232 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:52:30,665 INFO 16232 [egg-security] use methodnoallow middleware
+2020-04-22 01:52:30,666 INFO 16232 [egg-security] use noopen middleware
+2020-04-22 01:52:30,667 INFO 16232 [egg-security] use nosniff middleware
+2020-04-22 01:52:30,668 INFO 16232 [egg-security] use xssProtection middleware
+2020-04-22 01:52:30,669 INFO 16232 [egg-security] use xframe middleware
+2020-04-22 01:52:30,669 INFO 16232 [egg-security] use dta middleware
+2020-04-22 01:52:30,670 INFO 16232 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:52:30,691 INFO 16232 [egg:core] dump config after load, 5ms
+2020-04-22 01:52:30,709 INFO 16232 [egg-watcher:application] watcher start success
+2020-04-22 01:52:30,711 INFO 16232 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:52:30 GMT+0800 (GMT+08:00)
+2020-04-22 01:52:30,722 INFO 16232 [egg:core] dump config after ready, 8ms
+2020-04-22 01:53:24,432 INFO 13136 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:53:24,463 INFO 13136 [egg-multipart] stream mode enable
+2020-04-22 01:53:24,463 INFO 13136 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:53:24,621 INFO 13136 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:53:24,624 INFO 13136 [egg-security] use methodnoallow middleware
+2020-04-22 01:53:24,624 INFO 13136 [egg-security] use noopen middleware
+2020-04-22 01:53:24,625 INFO 13136 [egg-security] use nosniff middleware
+2020-04-22 01:53:24,626 INFO 13136 [egg-security] use xssProtection middleware
+2020-04-22 01:53:24,626 INFO 13136 [egg-security] use xframe middleware
+2020-04-22 01:53:24,627 INFO 13136 [egg-security] use dta middleware
+2020-04-22 01:53:24,627 INFO 13136 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:53:24,644 INFO 13136 [egg:core] dump config after load, 7ms
+2020-04-22 01:53:24,660 INFO 13136 [egg-watcher:application] watcher start success
+2020-04-22 01:53:24,662 INFO 13136 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:53:24 GMT+0800 (GMT+08:00)
+2020-04-22 01:53:24,672 INFO 13136 [egg:core] dump config after ready, 8ms
+2020-04-22 01:53:33,788 INFO 10616 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:53:33,821 INFO 10616 [egg-multipart] stream mode enable
+2020-04-22 01:53:33,821 INFO 10616 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:53:34,004 INFO 10616 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:53:34,007 INFO 10616 [egg-security] use methodnoallow middleware
+2020-04-22 01:53:34,008 INFO 10616 [egg-security] use noopen middleware
+2020-04-22 01:53:34,010 INFO 10616 [egg-security] use nosniff middleware
+2020-04-22 01:53:34,011 INFO 10616 [egg-security] use xssProtection middleware
+2020-04-22 01:53:34,012 INFO 10616 [egg-security] use xframe middleware
+2020-04-22 01:53:34,012 INFO 10616 [egg-security] use dta middleware
+2020-04-22 01:53:34,012 INFO 10616 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:53:34,034 INFO 10616 [egg:core] dump config after load, 8ms
+2020-04-22 01:53:34,052 INFO 10616 [egg-watcher:application] watcher start success
+2020-04-22 01:53:34,054 INFO 10616 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:53:34 GMT+0800 (GMT+08:00)
+2020-04-22 01:53:34,064 INFO 10616 [egg:core] dump config after ready, 8ms
+2020-04-22 01:53:45,448 INFO 18940 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:53:45,478 INFO 18940 [egg-multipart] stream mode enable
+2020-04-22 01:53:45,478 INFO 18940 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:53:45,644 INFO 18940 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:53:45,646 INFO 18940 [egg-security] use methodnoallow middleware
+2020-04-22 01:53:45,647 INFO 18940 [egg-security] use noopen middleware
+2020-04-22 01:53:45,647 INFO 18940 [egg-security] use nosniff middleware
+2020-04-22 01:53:45,648 INFO 18940 [egg-security] use xssProtection middleware
+2020-04-22 01:53:45,649 INFO 18940 [egg-security] use xframe middleware
+2020-04-22 01:53:45,649 INFO 18940 [egg-security] use dta middleware
+2020-04-22 01:53:45,649 INFO 18940 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:53:45,665 INFO 18940 [egg:core] dump config after load, 5ms
+2020-04-22 01:53:45,681 INFO 18940 [egg-watcher:application] watcher start success
+2020-04-22 01:53:45,683 INFO 18940 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:53:45 GMT+0800 (GMT+08:00)
+2020-04-22 01:53:45,693 INFO 18940 [egg:core] dump config after ready, 9ms
+2020-04-22 01:54:21,314 INFO 12452 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:54:21,346 INFO 12452 [egg-multipart] stream mode enable
+2020-04-22 01:54:21,347 INFO 12452 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:54:21,533 INFO 12452 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:54:21,536 INFO 12452 [egg-security] use methodnoallow middleware
+2020-04-22 01:54:21,537 INFO 12452 [egg-security] use noopen middleware
+2020-04-22 01:54:21,537 INFO 12452 [egg-security] use nosniff middleware
+2020-04-22 01:54:21,538 INFO 12452 [egg-security] use xssProtection middleware
+2020-04-22 01:54:21,538 INFO 12452 [egg-security] use xframe middleware
+2020-04-22 01:54:21,539 INFO 12452 [egg-security] use dta middleware
+2020-04-22 01:54:21,539 INFO 12452 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:54:21,557 INFO 12452 [egg:core] dump config after load, 5ms
+2020-04-22 01:54:21,574 INFO 12452 [egg-watcher:application] watcher start success
+2020-04-22 01:54:21,575 INFO 12452 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:54:21 GMT+0800 (GMT+08:00)
+2020-04-22 01:54:21,585 INFO 12452 [egg:core] dump config after ready, 8ms
+2020-04-22 01:54:53,409 INFO 3728 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:54:53,440 INFO 3728 [egg-multipart] stream mode enable
+2020-04-22 01:54:53,440 INFO 3728 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:54:53,618 INFO 3728 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:54:53,622 INFO 3728 [egg-security] use methodnoallow middleware
+2020-04-22 01:54:53,626 INFO 3728 [egg-security] use noopen middleware
+2020-04-22 01:54:53,626 INFO 3728 [egg-security] use nosniff middleware
+2020-04-22 01:54:53,627 INFO 3728 [egg-security] use xssProtection middleware
+2020-04-22 01:54:53,628 INFO 3728 [egg-security] use xframe middleware
+2020-04-22 01:54:53,629 INFO 3728 [egg-security] use dta middleware
+2020-04-22 01:54:53,629 INFO 3728 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:54:53,690 INFO 3728 [egg:core] dump config after load, 22ms
+2020-04-22 01:54:53,713 INFO 3728 [egg-watcher:application] watcher start success
+2020-04-22 01:54:53,717 INFO 3728 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:54:53 GMT+0800 (GMT+08:00)
+2020-04-22 01:54:53,731 INFO 3728 [egg:core] dump config after ready, 13ms
+2020-04-22 01:54:58,237 INFO 19148 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:54:58,271 INFO 19148 [egg-multipart] stream mode enable
+2020-04-22 01:54:58,272 INFO 19148 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:54:58,438 INFO 19148 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:54:58,441 INFO 19148 [egg-security] use methodnoallow middleware
+2020-04-22 01:54:58,441 INFO 19148 [egg-security] use noopen middleware
+2020-04-22 01:54:58,442 INFO 19148 [egg-security] use nosniff middleware
+2020-04-22 01:54:58,443 INFO 19148 [egg-security] use xssProtection middleware
+2020-04-22 01:54:58,444 INFO 19148 [egg-security] use xframe middleware
+2020-04-22 01:54:58,444 INFO 19148 [egg-security] use dta middleware
+2020-04-22 01:54:58,444 INFO 19148 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:54:58,462 INFO 19148 [egg:core] dump config after load, 5ms
+2020-04-22 01:54:58,478 INFO 19148 [egg-watcher:application] watcher start success
+2020-04-22 01:54:58,479 INFO 19148 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:54:58 GMT+0800 (GMT+08:00)
+2020-04-22 01:54:58,489 INFO 19148 [egg:core] dump config after ready, 8ms
+2020-04-22 01:55:10,173 INFO 6584 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:55:10,221 INFO 6584 [egg-multipart] stream mode enable
+2020-04-22 01:55:10,221 INFO 6584 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:55:10,376 INFO 6584 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:55:10,379 INFO 6584 [egg-security] use methodnoallow middleware
+2020-04-22 01:55:10,379 INFO 6584 [egg-security] use noopen middleware
+2020-04-22 01:55:10,380 INFO 6584 [egg-security] use nosniff middleware
+2020-04-22 01:55:10,381 INFO 6584 [egg-security] use xssProtection middleware
+2020-04-22 01:55:10,381 INFO 6584 [egg-security] use xframe middleware
+2020-04-22 01:55:10,382 INFO 6584 [egg-security] use dta middleware
+2020-04-22 01:55:10,382 INFO 6584 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:55:10,398 INFO 6584 [egg:core] dump config after load, 6ms
+2020-04-22 01:55:10,414 INFO 6584 [egg-watcher:application] watcher start success
+2020-04-22 01:55:10,416 INFO 6584 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:55:10 GMT+0800 (GMT+08:00)
+2020-04-22 01:55:10,426 INFO 6584 [egg:core] dump config after ready, 9ms
+2020-04-22 01:55:22,446 INFO 3724 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:55:22,479 INFO 3724 [egg-multipart] stream mode enable
+2020-04-22 01:55:22,479 INFO 3724 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:55:22,649 INFO 3724 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:55:22,654 INFO 3724 [egg-security] use methodnoallow middleware
+2020-04-22 01:55:22,655 INFO 3724 [egg-security] use noopen middleware
+2020-04-22 01:55:22,656 INFO 3724 [egg-security] use nosniff middleware
+2020-04-22 01:55:22,657 INFO 3724 [egg-security] use xssProtection middleware
+2020-04-22 01:55:22,657 INFO 3724 [egg-security] use xframe middleware
+2020-04-22 01:55:22,658 INFO 3724 [egg-security] use dta middleware
+2020-04-22 01:55:22,658 INFO 3724 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:55:22,674 INFO 3724 [egg:core] dump config after load, 5ms
+2020-04-22 01:55:22,693 INFO 3724 [egg-watcher:application] watcher start success
+2020-04-22 01:55:22,695 INFO 3724 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:55:22 GMT+0800 (GMT+08:00)
+2020-04-22 01:55:22,704 INFO 3724 [egg:core] dump config after ready, 7ms
+2020-04-22 01:56:39,753 INFO 12936 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:56:39,784 INFO 12936 [egg-multipart] stream mode enable
+2020-04-22 01:56:39,784 INFO 12936 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:56:40,005 INFO 12936 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:56:40,008 INFO 12936 [egg-security] use methodnoallow middleware
+2020-04-22 01:56:40,010 INFO 12936 [egg-security] use noopen middleware
+2020-04-22 01:56:40,011 INFO 12936 [egg-security] use nosniff middleware
+2020-04-22 01:56:40,012 INFO 12936 [egg-security] use xssProtection middleware
+2020-04-22 01:56:40,012 INFO 12936 [egg-security] use xframe middleware
+2020-04-22 01:56:40,013 INFO 12936 [egg-security] use dta middleware
+2020-04-22 01:56:40,013 INFO 12936 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:56:40,031 INFO 12936 [egg:core] dump config after load, 6ms
+2020-04-22 01:56:40,047 INFO 12936 [egg-watcher:application] watcher start success
+2020-04-22 01:56:40,048 INFO 12936 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:56:40 GMT+0800 (GMT+08:00)
+2020-04-22 01:56:40,057 INFO 12936 [egg:core] dump config after ready, 7ms
+2020-04-22 01:56:41,430 INFO 4088 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:56:41,461 INFO 4088 [egg-multipart] stream mode enable
+2020-04-22 01:56:41,461 INFO 4088 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:56:41,636 INFO 4088 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:56:41,640 INFO 4088 [egg-security] use methodnoallow middleware
+2020-04-22 01:56:41,641 INFO 4088 [egg-security] use noopen middleware
+2020-04-22 01:56:41,642 INFO 4088 [egg-security] use nosniff middleware
+2020-04-22 01:56:41,642 INFO 4088 [egg-security] use xssProtection middleware
+2020-04-22 01:56:41,643 INFO 4088 [egg-security] use xframe middleware
+2020-04-22 01:56:41,644 INFO 4088 [egg-security] use dta middleware
+2020-04-22 01:56:41,644 INFO 4088 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:56:41,663 INFO 4088 [egg:core] dump config after load, 6ms
+2020-04-22 01:56:41,682 INFO 4088 [egg-watcher:application] watcher start success
+2020-04-22 01:56:41,685 INFO 4088 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:56:41 GMT+0800 (GMT+08:00)
+2020-04-22 01:56:41,696 INFO 4088 [egg:core] dump config after ready, 8ms
+2020-04-22 01:57:32,259 INFO 14992 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:57:32,290 INFO 14992 [egg-multipart] stream mode enable
+2020-04-22 01:57:32,290 INFO 14992 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:57:32,455 INFO 14992 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:57:32,458 INFO 14992 [egg-security] use methodnoallow middleware
+2020-04-22 01:57:32,459 INFO 14992 [egg-security] use noopen middleware
+2020-04-22 01:57:32,460 INFO 14992 [egg-security] use nosniff middleware
+2020-04-22 01:57:32,461 INFO 14992 [egg-security] use xssProtection middleware
+2020-04-22 01:57:32,461 INFO 14992 [egg-security] use xframe middleware
+2020-04-22 01:57:32,462 INFO 14992 [egg-security] use dta middleware
+2020-04-22 01:57:32,462 INFO 14992 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:57:32,479 INFO 14992 [egg:core] dump config after load, 6ms
+2020-04-22 01:57:32,496 INFO 14992 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:57:32 GMT+0800 (GMT+08:00)
+2020-04-22 01:57:32,498 INFO 14992 [egg-watcher:application] watcher start success
+2020-04-22 01:57:32,524 INFO 14992 [egg:core] dump config after ready, 21ms
+2020-04-22 01:58:10,832 INFO 18148 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:58:10,863 INFO 18148 [egg-multipart] stream mode enable
+2020-04-22 01:58:10,863 INFO 18148 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:58:11,050 INFO 18148 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:58:11,054 INFO 18148 [egg-security] use methodnoallow middleware
+2020-04-22 01:58:11,057 INFO 18148 [egg-security] use noopen middleware
+2020-04-22 01:58:11,063 INFO 18148 [egg-security] use nosniff middleware
+2020-04-22 01:58:11,063 INFO 18148 [egg-security] use xssProtection middleware
+2020-04-22 01:58:11,064 INFO 18148 [egg-security] use xframe middleware
+2020-04-22 01:58:11,065 INFO 18148 [egg-security] use dta middleware
+2020-04-22 01:58:11,065 INFO 18148 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:58:11,081 INFO 18148 [egg:core] dump config after load, 6ms
+2020-04-22 01:58:11,098 INFO 18148 [egg-watcher:application] watcher start success
+2020-04-22 01:58:11,100 INFO 18148 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:58:11 GMT+0800 (GMT+08:00)
+2020-04-22 01:58:11,110 INFO 18148 [egg:core] dump config after ready, 8ms
+2020-04-22 01:58:31,771 INFO 18352 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:58:31,805 INFO 18352 [egg-multipart] stream mode enable
+2020-04-22 01:58:31,806 INFO 18352 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:58:31,976 INFO 18352 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:58:31,980 INFO 18352 [egg-security] use methodnoallow middleware
+2020-04-22 01:58:31,980 INFO 18352 [egg-security] use noopen middleware
+2020-04-22 01:58:31,981 INFO 18352 [egg-security] use nosniff middleware
+2020-04-22 01:58:31,982 INFO 18352 [egg-security] use xssProtection middleware
+2020-04-22 01:58:31,983 INFO 18352 [egg-security] use xframe middleware
+2020-04-22 01:58:31,983 INFO 18352 [egg-security] use dta middleware
+2020-04-22 01:58:31,983 INFO 18352 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:58:32,003 INFO 18352 [egg:core] dump config after load, 8ms
+2020-04-22 01:58:32,021 INFO 18352 [egg-watcher:application] watcher start success
+2020-04-22 01:58:32,022 INFO 18352 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:58:32 GMT+0800 (GMT+08:00)
+2020-04-22 01:58:32,033 INFO 18352 [egg:core] dump config after ready, 8ms
+2020-04-22 01:58:46,642 INFO 18424 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:58:46,675 INFO 18424 [egg-multipart] stream mode enable
+2020-04-22 01:58:46,676 INFO 18424 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:58:46,897 INFO 18424 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:58:46,899 INFO 18424 [egg-security] use methodnoallow middleware
+2020-04-22 01:58:46,900 INFO 18424 [egg-security] use noopen middleware
+2020-04-22 01:58:46,901 INFO 18424 [egg-security] use nosniff middleware
+2020-04-22 01:58:46,901 INFO 18424 [egg-security] use xssProtection middleware
+2020-04-22 01:58:46,902 INFO 18424 [egg-security] use xframe middleware
+2020-04-22 01:58:46,903 INFO 18424 [egg-security] use dta middleware
+2020-04-22 01:58:46,903 INFO 18424 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:58:46,919 INFO 18424 [egg:core] dump config after load, 5ms
+2020-04-22 01:58:46,936 INFO 18424 [egg-watcher:application] watcher start success
+2020-04-22 01:58:46,937 INFO 18424 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:58:46 GMT+0800 (GMT+08:00)
+2020-04-22 01:58:46,946 INFO 18424 [egg:core] dump config after ready, 7ms
+2020-04-22 01:58:53,138 INFO 7004 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:58:53,168 INFO 7004 [egg-multipart] stream mode enable
+2020-04-22 01:58:53,168 INFO 7004 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:58:53,395 INFO 7004 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:58:53,399 INFO 7004 [egg-security] use methodnoallow middleware
+2020-04-22 01:58:53,400 INFO 7004 [egg-security] use noopen middleware
+2020-04-22 01:58:53,401 INFO 7004 [egg-security] use nosniff middleware
+2020-04-22 01:58:53,402 INFO 7004 [egg-security] use xssProtection middleware
+2020-04-22 01:58:53,402 INFO 7004 [egg-security] use xframe middleware
+2020-04-22 01:58:53,403 INFO 7004 [egg-security] use dta middleware
+2020-04-22 01:58:53,403 INFO 7004 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:58:53,421 INFO 7004 [egg:core] dump config after load, 5ms
+2020-04-22 01:58:53,438 INFO 7004 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:58:53 GMT+0800 (GMT+08:00)
+2020-04-22 01:58:53,440 INFO 7004 [egg-watcher:application] watcher start success
+2020-04-22 01:58:53,450 INFO 7004 [egg:core] dump config after ready, 8ms
+2020-04-22 01:58:57,019 INFO 7016 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:58:57,052 INFO 7016 [egg-multipart] stream mode enable
+2020-04-22 01:58:57,052 INFO 7016 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:58:57,231 INFO 7016 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:58:57,235 INFO 7016 [egg-security] use methodnoallow middleware
+2020-04-22 01:58:57,236 INFO 7016 [egg-security] use noopen middleware
+2020-04-22 01:58:57,237 INFO 7016 [egg-security] use nosniff middleware
+2020-04-22 01:58:57,238 INFO 7016 [egg-security] use xssProtection middleware
+2020-04-22 01:58:57,239 INFO 7016 [egg-security] use xframe middleware
+2020-04-22 01:58:57,239 INFO 7016 [egg-security] use dta middleware
+2020-04-22 01:58:57,239 INFO 7016 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:58:57,260 INFO 7016 [egg:core] dump config after load, 6ms
+2020-04-22 01:58:57,279 INFO 7016 [egg-watcher:application] watcher start success
+2020-04-22 01:58:57,280 INFO 7016 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:58:57 GMT+0800 (GMT+08:00)
+2020-04-22 01:58:57,290 INFO 7016 [egg:core] dump config after ready, 8ms
+2020-04-22 01:59:25,847 INFO 5660 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 01:59:25,882 INFO 5660 [egg-multipart] stream mode enable
+2020-04-22 01:59:25,882 INFO 5660 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 01:59:26,063 INFO 5660 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 01:59:26,067 INFO 5660 [egg-security] use methodnoallow middleware
+2020-04-22 01:59:26,069 INFO 5660 [egg-security] use noopen middleware
+2020-04-22 01:59:26,070 INFO 5660 [egg-security] use nosniff middleware
+2020-04-22 01:59:26,070 INFO 5660 [egg-security] use xssProtection middleware
+2020-04-22 01:59:26,071 INFO 5660 [egg-security] use xframe middleware
+2020-04-22 01:59:26,071 INFO 5660 [egg-security] use dta middleware
+2020-04-22 01:59:26,071 INFO 5660 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 01:59:26,092 INFO 5660 [egg:core] dump config after load, 9ms
+2020-04-22 01:59:26,108 INFO 5660 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 01:59:26 GMT+0800 (GMT+08:00)
+2020-04-22 01:59:26,111 INFO 5660 [egg-watcher:application] watcher start success
+2020-04-22 01:59:26,124 INFO 5660 [egg:core] dump config after ready, 12ms
+2020-04-22 02:01:11,638 INFO 17076 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 02:01:11,668 INFO 17076 [egg-multipart] stream mode enable
+2020-04-22 02:01:11,668 INFO 17076 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 02:01:11,841 INFO 17076 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 02:01:11,844 INFO 17076 [egg-security] use methodnoallow middleware
+2020-04-22 02:01:11,845 INFO 17076 [egg-security] use noopen middleware
+2020-04-22 02:01:11,846 INFO 17076 [egg-security] use nosniff middleware
+2020-04-22 02:01:11,846 INFO 17076 [egg-security] use xssProtection middleware
+2020-04-22 02:01:11,847 INFO 17076 [egg-security] use xframe middleware
+2020-04-22 02:01:11,848 INFO 17076 [egg-security] use dta middleware
+2020-04-22 02:01:11,848 INFO 17076 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 02:01:11,866 INFO 17076 [egg:core] dump config after load, 6ms
+2020-04-22 02:01:11,886 INFO 17076 [egg-watcher:application] watcher start success
+2020-04-22 02:01:11,887 INFO 17076 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 02:01:11 GMT+0800 (GMT+08:00)
+2020-04-22 02:01:11,898 INFO 17076 [egg:core] dump config after ready, 8ms
+2020-04-22 02:01:23,140 INFO 13000 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 02:01:23,170 INFO 13000 [egg-multipart] stream mode enable
+2020-04-22 02:01:23,170 INFO 13000 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 02:01:23,391 INFO 13000 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 02:01:23,394 INFO 13000 [egg-security] use methodnoallow middleware
+2020-04-22 02:01:23,394 INFO 13000 [egg-security] use noopen middleware
+2020-04-22 02:01:23,395 INFO 13000 [egg-security] use nosniff middleware
+2020-04-22 02:01:23,396 INFO 13000 [egg-security] use xssProtection middleware
+2020-04-22 02:01:23,397 INFO 13000 [egg-security] use xframe middleware
+2020-04-22 02:01:23,397 INFO 13000 [egg-security] use dta middleware
+2020-04-22 02:01:23,397 INFO 13000 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 02:01:23,414 INFO 13000 [egg:core] dump config after load, 5ms
+2020-04-22 02:01:23,430 INFO 13000 [egg-watcher:application] watcher start success
+2020-04-22 02:01:23,431 INFO 13000 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 02:01:23 GMT+0800 (GMT+08:00)
+2020-04-22 02:01:23,440 INFO 13000 [egg:core] dump config after ready, 7ms
+2020-04-22 02:04:08,038 INFO 3692 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 02:04:08,070 INFO 3692 [egg-multipart] stream mode enable
+2020-04-22 02:04:08,070 INFO 3692 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 02:04:08,228 INFO 3692 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 02:04:08,230 INFO 3692 [egg-security] use methodnoallow middleware
+2020-04-22 02:04:08,231 INFO 3692 [egg-security] use noopen middleware
+2020-04-22 02:04:08,232 INFO 3692 [egg-security] use nosniff middleware
+2020-04-22 02:04:08,233 INFO 3692 [egg-security] use xssProtection middleware
+2020-04-22 02:04:08,234 INFO 3692 [egg-security] use xframe middleware
+2020-04-22 02:04:08,235 INFO 3692 [egg-security] use dta middleware
+2020-04-22 02:04:08,235 INFO 3692 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 02:04:08,253 INFO 3692 [egg:core] dump config after load, 7ms
+2020-04-22 02:04:08,269 INFO 3692 [egg-watcher:application] watcher start success
+2020-04-22 02:04:08,271 INFO 3692 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 02:04:08 GMT+0800 (GMT+08:00)
+2020-04-22 02:04:08,281 INFO 3692 [egg:core] dump config after ready, 8ms
+2020-04-22 02:04:29,067 INFO 3772 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 02:04:29,095 INFO 3772 [egg-multipart] stream mode enable
+2020-04-22 02:04:29,096 INFO 3772 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 02:04:29,257 INFO 3772 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 02:04:29,259 INFO 3772 [egg-security] use methodnoallow middleware
+2020-04-22 02:04:29,260 INFO 3772 [egg-security] use noopen middleware
+2020-04-22 02:04:29,261 INFO 3772 [egg-security] use nosniff middleware
+2020-04-22 02:04:29,262 INFO 3772 [egg-security] use xssProtection middleware
+2020-04-22 02:04:29,263 INFO 3772 [egg-security] use xframe middleware
+2020-04-22 02:04:29,263 INFO 3772 [egg-security] use dta middleware
+2020-04-22 02:04:29,263 INFO 3772 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 02:04:29,282 INFO 3772 [egg:core] dump config after load, 7ms
+2020-04-22 02:04:29,300 INFO 3772 [egg-watcher:application] watcher start success
+2020-04-22 02:04:29,302 INFO 3772 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 02:04:29 GMT+0800 (GMT+08:00)
+2020-04-22 02:04:29,312 INFO 3772 [egg:core] dump config after ready, 8ms
+2020-04-22 02:04:30,015 ERROR 3772 nodejs.TypeError: Cannot read property 't' of null
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:44:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3772
+hostname: LixWorth-HP-PC
+
+2020-04-22 02:04:30,850 ERROR 3772 nodejs.TypeError: Cannot read property 't' of null
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:44:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 3772
+hostname: LixWorth-HP-PC
+
+2020-04-22 09:09:07,643 INFO 17976 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 09:09:07,675 INFO 17976 [egg-multipart] stream mode enable
+2020-04-22 09:09:07,676 INFO 17976 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 09:09:07,880 INFO 17976 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 09:09:07,883 INFO 17976 [egg-security] use methodnoallow middleware
+2020-04-22 09:09:07,883 INFO 17976 [egg-security] use noopen middleware
+2020-04-22 09:09:07,884 INFO 17976 [egg-security] use nosniff middleware
+2020-04-22 09:09:07,885 INFO 17976 [egg-security] use xssProtection middleware
+2020-04-22 09:09:07,886 INFO 17976 [egg-security] use xframe middleware
+2020-04-22 09:09:07,887 INFO 17976 [egg-security] use dta middleware
+2020-04-22 09:09:07,887 INFO 17976 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 09:09:07,905 INFO 17976 [egg:core] dump config after load, 6ms
+2020-04-22 09:09:07,919 INFO 17976 [egg-watcher:application] watcher start success
+2020-04-22 13:10:29,898 INFO 4636 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 13:10:29,932 INFO 4636 [egg-multipart] stream mode enable
+2020-04-22 13:10:29,933 INFO 4636 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 13:10:30,135 INFO 4636 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 13:10:30,137 INFO 4636 [egg-security] use methodnoallow middleware
+2020-04-22 13:10:30,138 INFO 4636 [egg-security] use noopen middleware
+2020-04-22 13:10:30,140 INFO 4636 [egg-security] use nosniff middleware
+2020-04-22 13:10:30,141 INFO 4636 [egg-security] use xssProtection middleware
+2020-04-22 13:10:30,142 INFO 4636 [egg-security] use xframe middleware
+2020-04-22 13:10:30,143 INFO 4636 [egg-security] use dta middleware
+2020-04-22 13:10:30,143 INFO 4636 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 13:10:30,161 INFO 4636 [egg:core] dump config after load, 5ms
+2020-04-22 13:10:30,176 INFO 4636 [egg-watcher:application] watcher start success
+2020-04-22 13:11:09,134 INFO 18528 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 13:11:09,165 INFO 18528 [egg-multipart] stream mode enable
+2020-04-22 13:11:09,165 INFO 18528 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 13:11:09,326 INFO 18528 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 13:11:09,330 INFO 18528 [egg-security] use methodnoallow middleware
+2020-04-22 13:11:09,331 INFO 18528 [egg-security] use noopen middleware
+2020-04-22 13:11:09,335 INFO 18528 [egg-security] use nosniff middleware
+2020-04-22 13:11:09,336 INFO 18528 [egg-security] use xssProtection middleware
+2020-04-22 13:11:09,337 INFO 18528 [egg-security] use xframe middleware
+2020-04-22 13:11:09,340 INFO 18528 [egg-security] use dta middleware
+2020-04-22 13:11:09,340 INFO 18528 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 13:11:09,361 INFO 18528 [egg:core] dump config after load, 9ms
+2020-04-22 13:11:09,380 INFO 18528 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 13:11:09 GMT+0800 (GMT+08:00)
+2020-04-22 13:11:09,382 INFO 18528 [egg-watcher:application] watcher start success
+2020-04-22 13:11:09,403 INFO 18528 [egg:core] dump config after ready, 19ms
+2020-04-22 13:49:43,250 INFO 8472 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 13:49:43,279 INFO 8472 [egg-multipart] stream mode enable
+2020-04-22 13:49:43,279 INFO 8472 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 13:49:43,440 INFO 8472 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 13:49:43,442 INFO 8472 [egg-security] use methodnoallow middleware
+2020-04-22 13:49:43,443 INFO 8472 [egg-security] use noopen middleware
+2020-04-22 13:49:43,444 INFO 8472 [egg-security] use nosniff middleware
+2020-04-22 13:49:43,445 INFO 8472 [egg-security] use xssProtection middleware
+2020-04-22 13:49:43,446 INFO 8472 [egg-security] use xframe middleware
+2020-04-22 13:49:43,447 INFO 8472 [egg-security] use dta middleware
+2020-04-22 13:49:43,447 INFO 8472 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 13:49:43,464 INFO 8472 [egg:core] dump config after load, 7ms
+2020-04-22 13:49:43,480 INFO 8472 [egg-watcher:application] watcher start success
+2020-04-22 13:49:43,482 INFO 8472 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 13:49:43 GMT+0800 (GMT+08:00)
+2020-04-22 13:49:43,491 INFO 8472 [egg:core] dump config after ready, 7ms
+2020-04-22 13:50:48,841 INFO 6616 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 13:50:48,871 INFO 6616 [egg-multipart] stream mode enable
+2020-04-22 13:50:48,872 INFO 6616 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 13:50:49,050 INFO 6616 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 13:50:49,053 INFO 6616 [egg-security] use methodnoallow middleware
+2020-04-22 13:50:49,054 INFO 6616 [egg-security] use noopen middleware
+2020-04-22 13:50:49,055 INFO 6616 [egg-security] use nosniff middleware
+2020-04-22 13:50:49,055 INFO 6616 [egg-security] use xssProtection middleware
+2020-04-22 13:50:49,056 INFO 6616 [egg-security] use xframe middleware
+2020-04-22 13:50:49,056 INFO 6616 [egg-security] use dta middleware
+2020-04-22 13:50:49,056 INFO 6616 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 13:50:49,075 INFO 6616 [egg:core] dump config after load, 6ms
+2020-04-22 13:50:49,093 INFO 6616 [egg-watcher:application] watcher start success
+2020-04-22 13:50:49,094 INFO 6616 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 13:50:49 GMT+0800 (GMT+08:00)
+2020-04-22 13:50:49,105 INFO 6616 [egg:core] dump config after ready, 9ms
+2020-04-22 13:50:59,421 INFO 16408 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 13:50:59,452 INFO 16408 [egg-multipart] stream mode enable
+2020-04-22 13:50:59,452 INFO 16408 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 13:50:59,624 INFO 16408 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 13:50:59,627 INFO 16408 [egg-security] use methodnoallow middleware
+2020-04-22 13:50:59,628 INFO 16408 [egg-security] use noopen middleware
+2020-04-22 13:50:59,628 INFO 16408 [egg-security] use nosniff middleware
+2020-04-22 13:50:59,629 INFO 16408 [egg-security] use xssProtection middleware
+2020-04-22 13:50:59,630 INFO 16408 [egg-security] use xframe middleware
+2020-04-22 13:50:59,630 INFO 16408 [egg-security] use dta middleware
+2020-04-22 13:50:59,630 INFO 16408 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 13:50:59,653 INFO 16408 [egg:core] dump config after load, 9ms
+2020-04-22 13:50:59,673 INFO 16408 [egg-watcher:application] watcher start success
+2020-04-22 13:50:59,675 INFO 16408 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 13:50:59 GMT+0800 (GMT+08:00)
+2020-04-22 13:50:59,685 INFO 16408 [egg:core] dump config after ready, 8ms
+2020-04-22 13:51:09,855 INFO 11780 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 13:51:09,886 INFO 11780 [egg-multipart] stream mode enable
+2020-04-22 13:51:09,886 INFO 11780 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 13:51:10,046 INFO 11780 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 13:51:10,049 INFO 11780 [egg-security] use methodnoallow middleware
+2020-04-22 13:51:10,050 INFO 11780 [egg-security] use noopen middleware
+2020-04-22 13:51:10,050 INFO 11780 [egg-security] use nosniff middleware
+2020-04-22 13:51:10,051 INFO 11780 [egg-security] use xssProtection middleware
+2020-04-22 13:51:10,052 INFO 11780 [egg-security] use xframe middleware
+2020-04-22 13:51:10,052 INFO 11780 [egg-security] use dta middleware
+2020-04-22 13:51:10,052 INFO 11780 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 13:51:10,070 INFO 11780 [egg:core] dump config after load, 5ms
+2020-04-22 13:51:10,086 INFO 11780 [egg-watcher:application] watcher start success
+2020-04-22 13:51:10,088 INFO 11780 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 13:51:10 GMT+0800 (GMT+08:00)
+2020-04-22 13:51:10,097 INFO 11780 [egg:core] dump config after ready, 8ms
+2020-04-22 14:21:07,052 INFO 6940 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 14:21:07,082 INFO 6940 [egg-multipart] stream mode enable
+2020-04-22 14:21:07,082 INFO 6940 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 14:21:07,262 INFO 6940 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 14:21:07,265 INFO 6940 [egg-security] use methodnoallow middleware
+2020-04-22 14:21:07,265 INFO 6940 [egg-security] use noopen middleware
+2020-04-22 14:21:07,266 INFO 6940 [egg-security] use nosniff middleware
+2020-04-22 14:21:07,267 INFO 6940 [egg-security] use xssProtection middleware
+2020-04-22 14:21:07,267 INFO 6940 [egg-security] use xframe middleware
+2020-04-22 14:21:07,268 INFO 6940 [egg-security] use dta middleware
+2020-04-22 14:21:07,268 INFO 6940 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 14:21:07,284 INFO 6940 [egg:core] dump config after load, 5ms
+2020-04-22 14:21:07,301 INFO 6940 [egg-watcher:application] watcher start success
+2020-04-22 14:21:07,302 INFO 6940 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 14:21:07 GMT+0800 (GMT+08:00)
+2020-04-22 14:21:07,312 INFO 6940 [egg:core] dump config after ready, 8ms
+2020-04-22 14:21:35,977 INFO 18064 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 14:21:36,008 INFO 18064 [egg-multipart] stream mode enable
+2020-04-22 14:21:36,008 INFO 18064 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 14:21:36,175 INFO 18064 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 14:21:36,178 INFO 18064 [egg-security] use methodnoallow middleware
+2020-04-22 14:21:36,179 INFO 18064 [egg-security] use noopen middleware
+2020-04-22 14:21:36,181 INFO 18064 [egg-security] use nosniff middleware
+2020-04-22 14:21:36,181 INFO 18064 [egg-security] use xssProtection middleware
+2020-04-22 14:21:36,182 INFO 18064 [egg-security] use xframe middleware
+2020-04-22 14:21:36,183 INFO 18064 [egg-security] use dta middleware
+2020-04-22 14:21:36,183 INFO 18064 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 14:21:36,200 INFO 18064 [egg:core] dump config after load, 6ms
+2020-04-22 14:21:36,217 INFO 18064 [egg-watcher:application] watcher start success
+2020-04-22 14:21:36,219 INFO 18064 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 14:21:36 GMT+0800 (GMT+08:00)
+2020-04-22 14:21:36,228 INFO 18064 [egg:core] dump config after ready, 8ms
+2020-04-22 15:40:20,711 INFO 8920 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 15:40:20,742 INFO 8920 [egg-multipart] stream mode enable
+2020-04-22 15:40:20,743 INFO 8920 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 15:40:20,908 INFO 8920 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 15:40:20,911 INFO 8920 [egg-security] use methodnoallow middleware
+2020-04-22 15:40:20,911 INFO 8920 [egg-security] use noopen middleware
+2020-04-22 15:40:20,912 INFO 8920 [egg-security] use nosniff middleware
+2020-04-22 15:40:20,913 INFO 8920 [egg-security] use xssProtection middleware
+2020-04-22 15:40:20,913 INFO 8920 [egg-security] use xframe middleware
+2020-04-22 15:40:20,914 INFO 8920 [egg-security] use dta middleware
+2020-04-22 15:40:20,914 INFO 8920 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 15:40:20,931 INFO 8920 [egg:core] dump config after load, 5ms
+2020-04-22 15:40:20,947 INFO 8920 [egg-watcher:application] watcher start success
+2020-04-22 15:40:20,948 INFO 8920 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 15:40:20 GMT+0800 (GMT+08:00)
+2020-04-22 15:40:20,959 INFO 8920 [egg:core] dump config after ready, 9ms
+2020-04-22 16:56:32,938 INFO 18064 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 16:56:32,970 INFO 18064 [egg-multipart] stream mode enable
+2020-04-22 16:56:32,970 INFO 18064 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 16:56:33,133 INFO 18064 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 16:56:33,138 INFO 18064 [egg-security] use methodnoallow middleware
+2020-04-22 16:56:33,139 INFO 18064 [egg-security] use noopen middleware
+2020-04-22 16:56:33,140 INFO 18064 [egg-security] use nosniff middleware
+2020-04-22 16:56:33,140 INFO 18064 [egg-security] use xssProtection middleware
+2020-04-22 16:56:33,141 INFO 18064 [egg-security] use xframe middleware
+2020-04-22 16:56:33,141 INFO 18064 [egg-security] use dta middleware
+2020-04-22 16:56:33,141 INFO 18064 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 16:56:33,157 INFO 18064 [egg:core] dump config after load, 5ms
+2020-04-22 16:56:33,174 INFO 18064 [egg-watcher:application] watcher start success
+2020-04-22 16:56:33,175 INFO 18064 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 16:56:33 GMT+0800 (GMT+08:00)
+2020-04-22 16:56:33,184 INFO 18064 [egg:core] dump config after ready, 7ms
+2020-04-22 17:42:01,828 INFO 18392 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:42:01,863 INFO 18392 [egg-multipart] stream mode enable
+2020-04-22 17:42:01,863 INFO 18392 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:42:02,031 INFO 18392 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:42:02,033 INFO 18392 [egg-security] use methodnoallow middleware
+2020-04-22 17:42:02,034 INFO 18392 [egg-security] use noopen middleware
+2020-04-22 17:42:02,035 INFO 18392 [egg-security] use nosniff middleware
+2020-04-22 17:42:02,035 INFO 18392 [egg-security] use xssProtection middleware
+2020-04-22 17:42:02,036 INFO 18392 [egg-security] use xframe middleware
+2020-04-22 17:42:02,037 INFO 18392 [egg-security] use dta middleware
+2020-04-22 17:42:02,037 INFO 18392 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:42:02,053 INFO 18392 [egg:core] dump config after load, 5ms
+2020-04-22 17:42:02,071 INFO 18392 [egg-watcher:application] watcher start success
+2020-04-22 17:42:02,073 INFO 18392 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:42:02 GMT+0800 (GMT+08:00)
+2020-04-22 17:42:02,084 INFO 18392 [egg:core] dump config after ready, 9ms
+2020-04-22 17:42:49,102 INFO 15856 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:42:49,133 INFO 15856 [egg-multipart] stream mode enable
+2020-04-22 17:42:49,134 INFO 15856 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:42:49,301 INFO 15856 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:42:49,304 INFO 15856 [egg-security] use methodnoallow middleware
+2020-04-22 17:42:49,305 INFO 15856 [egg-security] use noopen middleware
+2020-04-22 17:42:49,306 INFO 15856 [egg-security] use nosniff middleware
+2020-04-22 17:42:49,306 INFO 15856 [egg-security] use xssProtection middleware
+2020-04-22 17:42:49,307 INFO 15856 [egg-security] use xframe middleware
+2020-04-22 17:42:49,307 INFO 15856 [egg-security] use dta middleware
+2020-04-22 17:42:49,307 INFO 15856 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:42:49,327 INFO 15856 [egg:core] dump config after load, 6ms
+2020-04-22 17:42:49,345 INFO 15856 [egg-watcher:application] watcher start success
+2020-04-22 17:42:49,347 INFO 15856 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:42:49 GMT+0800 (GMT+08:00)
+2020-04-22 17:42:49,357 INFO 15856 [egg:core] dump config after ready, 8ms
+2020-04-22 17:42:56,955 INFO 11748 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:42:56,985 INFO 11748 [egg-multipart] stream mode enable
+2020-04-22 17:42:56,985 INFO 11748 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:42:57,148 INFO 11748 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:42:57,153 INFO 11748 [egg-security] use methodnoallow middleware
+2020-04-22 17:42:57,154 INFO 11748 [egg-security] use noopen middleware
+2020-04-22 17:42:57,156 INFO 11748 [egg-security] use nosniff middleware
+2020-04-22 17:42:57,157 INFO 11748 [egg-security] use xssProtection middleware
+2020-04-22 17:42:57,158 INFO 11748 [egg-security] use xframe middleware
+2020-04-22 17:42:57,158 INFO 11748 [egg-security] use dta middleware
+2020-04-22 17:42:57,158 INFO 11748 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:42:57,175 INFO 11748 [egg:core] dump config after load, 6ms
+2020-04-22 17:42:57,192 INFO 11748 [egg-watcher:application] watcher start success
+2020-04-22 17:42:57,194 INFO 11748 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:42:57 GMT+0800 (GMT+08:00)
+2020-04-22 17:42:57,204 INFO 11748 [egg:core] dump config after ready, 8ms
+2020-04-22 17:43:31,959 INFO 7864 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:43:31,988 INFO 7864 [egg-multipart] stream mode enable
+2020-04-22 17:43:31,988 INFO 7864 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:43:32,159 INFO 7864 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:43:32,161 INFO 7864 [egg-security] use methodnoallow middleware
+2020-04-22 17:43:32,162 INFO 7864 [egg-security] use noopen middleware
+2020-04-22 17:43:32,163 INFO 7864 [egg-security] use nosniff middleware
+2020-04-22 17:43:32,164 INFO 7864 [egg-security] use xssProtection middleware
+2020-04-22 17:43:32,165 INFO 7864 [egg-security] use xframe middleware
+2020-04-22 17:43:32,166 INFO 7864 [egg-security] use dta middleware
+2020-04-22 17:43:32,166 INFO 7864 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:43:32,183 INFO 7864 [egg:core] dump config after load, 6ms
+2020-04-22 17:43:32,200 INFO 7864 [egg-watcher:application] watcher start success
+2020-04-22 17:43:32,201 INFO 7864 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:43:32 GMT+0800 (GMT+08:00)
+2020-04-22 17:43:32,211 INFO 7864 [egg:core] dump config after ready, 8ms
+2020-04-22 17:43:44,134 INFO 14496 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:43:44,167 INFO 14496 [egg-multipart] stream mode enable
+2020-04-22 17:43:44,168 INFO 14496 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:43:44,334 INFO 14496 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:43:44,338 INFO 14496 [egg-security] use methodnoallow middleware
+2020-04-22 17:43:44,339 INFO 14496 [egg-security] use noopen middleware
+2020-04-22 17:43:44,340 INFO 14496 [egg-security] use nosniff middleware
+2020-04-22 17:43:44,342 INFO 14496 [egg-security] use xssProtection middleware
+2020-04-22 17:43:44,343 INFO 14496 [egg-security] use xframe middleware
+2020-04-22 17:43:44,343 INFO 14496 [egg-security] use dta middleware
+2020-04-22 17:43:44,343 INFO 14496 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:43:44,360 INFO 14496 [egg:core] dump config after load, 7ms
+2020-04-22 17:43:44,377 INFO 14496 [egg-watcher:application] watcher start success
+2020-04-22 17:43:44,379 INFO 14496 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:43:44 GMT+0800 (GMT+08:00)
+2020-04-22 17:43:44,389 INFO 14496 [egg:core] dump config after ready, 8ms
+2020-04-22 17:45:09,490 INFO 18500 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:45:09,520 INFO 18500 [egg-multipart] stream mode enable
+2020-04-22 17:45:09,521 INFO 18500 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:45:09,701 INFO 18500 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:45:09,704 INFO 18500 [egg-security] use methodnoallow middleware
+2020-04-22 17:45:09,704 INFO 18500 [egg-security] use noopen middleware
+2020-04-22 17:45:09,705 INFO 18500 [egg-security] use nosniff middleware
+2020-04-22 17:45:09,706 INFO 18500 [egg-security] use xssProtection middleware
+2020-04-22 17:45:09,706 INFO 18500 [egg-security] use xframe middleware
+2020-04-22 17:45:09,707 INFO 18500 [egg-security] use dta middleware
+2020-04-22 17:45:09,707 INFO 18500 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:45:09,725 INFO 18500 [egg:core] dump config after load, 6ms
+2020-04-22 17:45:09,742 INFO 18500 [egg-watcher:application] watcher start success
+2020-04-22 17:45:09,747 INFO 18500 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:45:09 GMT+0800 (GMT+08:00)
+2020-04-22 17:45:09,757 INFO 18500 [egg:core] dump config after ready, 8ms
+2020-04-22 17:46:05,504 INFO 10152 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:46:05,555 INFO 10152 [egg-multipart] stream mode enable
+2020-04-22 17:46:05,555 INFO 10152 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:46:05,744 INFO 10152 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:46:05,764 INFO 10152 [egg-security] use methodnoallow middleware
+2020-04-22 17:46:05,767 INFO 10152 [egg-security] use noopen middleware
+2020-04-22 17:46:05,769 INFO 10152 [egg-security] use nosniff middleware
+2020-04-22 17:46:05,770 INFO 10152 [egg-security] use xssProtection middleware
+2020-04-22 17:46:05,772 INFO 10152 [egg-security] use xframe middleware
+2020-04-22 17:46:05,773 INFO 10152 [egg-security] use dta middleware
+2020-04-22 17:46:05,774 INFO 10152 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:46:05,803 INFO 10152 [egg:core] dump config after load, 7ms
+2020-04-22 17:46:05,820 INFO 10152 [egg-watcher:application] watcher start success
+2020-04-22 17:46:05,822 INFO 10152 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:46:05 GMT+0800 (GMT+08:00)
+2020-04-22 17:46:05,832 INFO 10152 [egg:core] dump config after ready, 7ms
+2020-04-22 17:46:39,194 INFO 6436 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:46:39,247 INFO 6436 [egg-multipart] stream mode enable
+2020-04-22 17:46:39,248 INFO 6436 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:46:39,471 INFO 6436 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:46:39,473 INFO 6436 [egg-security] use methodnoallow middleware
+2020-04-22 17:46:39,474 INFO 6436 [egg-security] use noopen middleware
+2020-04-22 17:46:39,475 INFO 6436 [egg-security] use nosniff middleware
+2020-04-22 17:46:39,475 INFO 6436 [egg-security] use xssProtection middleware
+2020-04-22 17:46:39,476 INFO 6436 [egg-security] use xframe middleware
+2020-04-22 17:46:39,477 INFO 6436 [egg-security] use dta middleware
+2020-04-22 17:46:39,477 INFO 6436 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:46:39,493 INFO 6436 [egg:core] dump config after load, 5ms
+2020-04-22 17:46:39,512 INFO 6436 [egg-watcher:application] watcher start success
+2020-04-22 17:46:39,513 INFO 6436 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:46:39 GMT+0800 (GMT+08:00)
+2020-04-22 17:46:39,526 INFO 6436 [egg:core] dump config after ready, 11ms
+2020-04-22 17:47:22,888 INFO 5136 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:47:22,918 INFO 5136 [egg-multipart] stream mode enable
+2020-04-22 17:47:22,918 INFO 5136 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:47:23,112 INFO 5136 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:47:23,115 INFO 5136 [egg-security] use methodnoallow middleware
+2020-04-22 17:47:23,115 INFO 5136 [egg-security] use noopen middleware
+2020-04-22 17:47:23,116 INFO 5136 [egg-security] use nosniff middleware
+2020-04-22 17:47:23,117 INFO 5136 [egg-security] use xssProtection middleware
+2020-04-22 17:47:23,131 INFO 5136 [egg-security] use xframe middleware
+2020-04-22 17:47:23,148 INFO 5136 [egg-security] use dta middleware
+2020-04-22 17:47:23,149 INFO 5136 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:47:23,203 INFO 5136 [egg:core] dump config after load, 7ms
+2020-04-22 17:47:23,230 INFO 5136 [egg-watcher:application] watcher start success
+2020-04-22 17:47:23,231 INFO 5136 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:47:23 GMT+0800 (GMT+08:00)
+2020-04-22 17:47:23,248 INFO 5136 [egg:core] dump config after ready, 15ms
+2020-04-22 17:47:27,028 ERROR 5136 nodejs.TypeError: item.push is not a function
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:38:26
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5136
+hostname: LixWorth-HP-PC
+
+2020-04-22 17:47:27,030 ERROR 5136 nodejs.TypeError: item.push is not a function
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:38:26
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5136
+hostname: LixWorth-HP-PC
+
+2020-04-22 17:49:22,849 INFO 7820 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:49:22,881 INFO 7820 [egg-multipart] stream mode enable
+2020-04-22 17:49:22,882 INFO 7820 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:49:23,066 INFO 7820 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:49:23,070 INFO 7820 [egg-security] use methodnoallow middleware
+2020-04-22 17:49:23,071 INFO 7820 [egg-security] use noopen middleware
+2020-04-22 17:49:23,072 INFO 7820 [egg-security] use nosniff middleware
+2020-04-22 17:49:23,073 INFO 7820 [egg-security] use xssProtection middleware
+2020-04-22 17:49:23,074 INFO 7820 [egg-security] use xframe middleware
+2020-04-22 17:49:23,074 INFO 7820 [egg-security] use dta middleware
+2020-04-22 17:49:23,074 INFO 7820 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:49:23,094 INFO 7820 [egg:core] dump config after load, 6ms
+2020-04-22 17:49:23,111 INFO 7820 [egg-watcher:application] watcher start success
+2020-04-22 17:49:23,113 INFO 7820 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:49:23 GMT+0800 (GMT+08:00)
+2020-04-22 17:49:23,125 INFO 7820 [egg:core] dump config after ready, 10ms
+2020-04-22 17:49:34,989 INFO 17484 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:49:35,022 INFO 17484 [egg-multipart] stream mode enable
+2020-04-22 17:49:35,022 INFO 17484 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:49:35,190 INFO 17484 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:49:35,192 INFO 17484 [egg-security] use methodnoallow middleware
+2020-04-22 17:49:35,193 INFO 17484 [egg-security] use noopen middleware
+2020-04-22 17:49:35,194 INFO 17484 [egg-security] use nosniff middleware
+2020-04-22 17:49:35,195 INFO 17484 [egg-security] use xssProtection middleware
+2020-04-22 17:49:35,196 INFO 17484 [egg-security] use xframe middleware
+2020-04-22 17:49:35,196 INFO 17484 [egg-security] use dta middleware
+2020-04-22 17:49:35,196 INFO 17484 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:49:35,214 INFO 17484 [egg:core] dump config after load, 7ms
+2020-04-22 17:49:35,231 INFO 17484 [egg-watcher:application] watcher start success
+2020-04-22 17:49:35,232 INFO 17484 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:49:35 GMT+0800 (GMT+08:00)
+2020-04-22 17:49:35,242 INFO 17484 [egg:core] dump config after ready, 8ms
+2020-04-22 17:50:13,228 INFO 16852 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:50:13,259 INFO 16852 [egg-multipart] stream mode enable
+2020-04-22 17:50:13,259 INFO 16852 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:50:13,428 INFO 16852 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:50:13,430 INFO 16852 [egg-security] use methodnoallow middleware
+2020-04-22 17:50:13,431 INFO 16852 [egg-security] use noopen middleware
+2020-04-22 17:50:13,435 INFO 16852 [egg-security] use nosniff middleware
+2020-04-22 17:50:13,436 INFO 16852 [egg-security] use xssProtection middleware
+2020-04-22 17:50:13,436 INFO 16852 [egg-security] use xframe middleware
+2020-04-22 17:50:13,437 INFO 16852 [egg-security] use dta middleware
+2020-04-22 17:50:13,437 INFO 16852 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:50:13,456 INFO 16852 [egg:core] dump config after load, 6ms
+2020-04-22 17:50:13,473 INFO 16852 [egg-watcher:application] watcher start success
+2020-04-22 17:50:13,475 INFO 16852 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:50:13 GMT+0800 (GMT+08:00)
+2020-04-22 17:50:13,485 INFO 16852 [egg:core] dump config after ready, 8ms
+2020-04-22 17:51:00,810 INFO 15648 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:51:00,843 INFO 15648 [egg-multipart] stream mode enable
+2020-04-22 17:51:00,843 INFO 15648 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:51:01,011 INFO 15648 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:51:01,015 INFO 15648 [egg-security] use methodnoallow middleware
+2020-04-22 17:51:01,016 INFO 15648 [egg-security] use noopen middleware
+2020-04-22 17:51:01,016 INFO 15648 [egg-security] use nosniff middleware
+2020-04-22 17:51:01,017 INFO 15648 [egg-security] use xssProtection middleware
+2020-04-22 17:51:01,017 INFO 15648 [egg-security] use xframe middleware
+2020-04-22 17:51:01,018 INFO 15648 [egg-security] use dta middleware
+2020-04-22 17:51:01,018 INFO 15648 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:51:01,035 INFO 15648 [egg:core] dump config after load, 6ms
+2020-04-22 17:51:01,051 INFO 15648 [egg-watcher:application] watcher start success
+2020-04-22 17:51:01,052 INFO 15648 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:51:01 GMT+0800 (GMT+08:00)
+2020-04-22 17:51:01,063 INFO 15648 [egg:core] dump config after ready, 8ms
+2020-04-22 17:51:17,174 INFO 18064 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:51:17,205 INFO 18064 [egg-multipart] stream mode enable
+2020-04-22 17:51:17,205 INFO 18064 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:51:17,373 INFO 18064 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:51:17,377 INFO 18064 [egg-security] use methodnoallow middleware
+2020-04-22 17:51:17,378 INFO 18064 [egg-security] use noopen middleware
+2020-04-22 17:51:17,380 INFO 18064 [egg-security] use nosniff middleware
+2020-04-22 17:51:17,380 INFO 18064 [egg-security] use xssProtection middleware
+2020-04-22 17:51:17,381 INFO 18064 [egg-security] use xframe middleware
+2020-04-22 17:51:17,381 INFO 18064 [egg-security] use dta middleware
+2020-04-22 17:51:17,381 INFO 18064 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:51:17,399 INFO 18064 [egg:core] dump config after load, 6ms
+2020-04-22 17:51:17,417 INFO 18064 [egg-watcher:application] watcher start success
+2020-04-22 17:51:17,419 INFO 18064 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:51:17 GMT+0800 (GMT+08:00)
+2020-04-22 17:51:17,428 INFO 18064 [egg:core] dump config after ready, 8ms
+2020-04-22 17:52:31,917 INFO 2180 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 17:52:31,950 INFO 2180 [egg-multipart] stream mode enable
+2020-04-22 17:52:31,950 INFO 2180 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 17:52:32,113 INFO 2180 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 17:52:32,115 INFO 2180 [egg-security] use methodnoallow middleware
+2020-04-22 17:52:32,116 INFO 2180 [egg-security] use noopen middleware
+2020-04-22 17:52:32,116 INFO 2180 [egg-security] use nosniff middleware
+2020-04-22 17:52:32,117 INFO 2180 [egg-security] use xssProtection middleware
+2020-04-22 17:52:32,117 INFO 2180 [egg-security] use xframe middleware
+2020-04-22 17:52:32,118 INFO 2180 [egg-security] use dta middleware
+2020-04-22 17:52:32,118 INFO 2180 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 17:52:32,135 INFO 2180 [egg:core] dump config after load, 5ms
+2020-04-22 17:52:32,151 INFO 2180 [egg-watcher:application] watcher start success
+2020-04-22 17:52:32,152 INFO 2180 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 17:52:32 GMT+0800 (GMT+08:00)
+2020-04-22 17:52:32,163 INFO 2180 [egg:core] dump config after ready, 9ms
+2020-04-22 19:36:09,927 INFO 13604 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:36:09,960 INFO 13604 [egg-multipart] stream mode enable
+2020-04-22 19:36:09,961 INFO 13604 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:36:10,322 INFO 13604 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:36:10,326 INFO 13604 [egg-security] use methodnoallow middleware
+2020-04-22 19:36:10,328 INFO 13604 [egg-security] use noopen middleware
+2020-04-22 19:36:10,329 INFO 13604 [egg-security] use nosniff middleware
+2020-04-22 19:36:10,329 INFO 13604 [egg-security] use xssProtection middleware
+2020-04-22 19:36:10,330 INFO 13604 [egg-security] use xframe middleware
+2020-04-22 19:36:10,332 INFO 13604 [egg-security] use dta middleware
+2020-04-22 19:36:10,332 INFO 13604 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:36:10,375 INFO 13604 [egg:core] dump config after load, 27ms
+2020-04-22 19:36:10,400 INFO 13604 [egg-watcher:application] watcher start success
+2020-04-22 19:36:10,401 INFO 13604 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:36:10 GMT+0800 (GMT+08:00)
+2020-04-22 19:36:10,426 INFO 13604 [egg:core] dump config after ready, 23ms
+2020-04-22 19:36:38,288 INFO 2880 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:36:38,321 INFO 2880 [egg-multipart] stream mode enable
+2020-04-22 19:36:38,322 INFO 2880 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:36:38,499 INFO 2880 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:36:38,502 INFO 2880 [egg-security] use methodnoallow middleware
+2020-04-22 19:36:38,503 INFO 2880 [egg-security] use noopen middleware
+2020-04-22 19:36:38,504 INFO 2880 [egg-security] use nosniff middleware
+2020-04-22 19:36:38,504 INFO 2880 [egg-security] use xssProtection middleware
+2020-04-22 19:36:38,505 INFO 2880 [egg-security] use xframe middleware
+2020-04-22 19:36:38,505 INFO 2880 [egg-security] use dta middleware
+2020-04-22 19:36:38,505 INFO 2880 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:36:38,523 INFO 2880 [egg:core] dump config after load, 5ms
+2020-04-22 19:36:38,543 INFO 2880 [egg-watcher:application] watcher start success
+2020-04-22 19:36:38,544 INFO 2880 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:36:38 GMT+0800 (GMT+08:00)
+2020-04-22 19:36:38,554 INFO 2880 [egg:core] dump config after ready, 8ms
+2020-04-22 19:36:52,561 INFO 12864 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:36:52,589 INFO 12864 [egg-multipart] stream mode enable
+2020-04-22 19:36:52,590 INFO 12864 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:36:52,750 INFO 12864 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:36:52,753 INFO 12864 [egg-security] use methodnoallow middleware
+2020-04-22 19:36:52,753 INFO 12864 [egg-security] use noopen middleware
+2020-04-22 19:36:52,754 INFO 12864 [egg-security] use nosniff middleware
+2020-04-22 19:36:52,755 INFO 12864 [egg-security] use xssProtection middleware
+2020-04-22 19:36:52,755 INFO 12864 [egg-security] use xframe middleware
+2020-04-22 19:36:52,756 INFO 12864 [egg-security] use dta middleware
+2020-04-22 19:36:52,756 INFO 12864 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:36:52,773 INFO 12864 [egg:core] dump config after load, 5ms
+2020-04-22 19:36:52,791 INFO 12864 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:36:52 GMT+0800 (GMT+08:00)
+2020-04-22 19:36:52,793 INFO 12864 [egg-watcher:application] watcher start success
+2020-04-22 19:36:52,801 INFO 12864 [egg:core] dump config after ready, 6ms
+2020-04-22 19:37:12,436 INFO 10088 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:37:12,469 INFO 10088 [egg-multipart] stream mode enable
+2020-04-22 19:37:12,471 INFO 10088 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:37:12,635 INFO 10088 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:37:12,637 INFO 10088 [egg-security] use methodnoallow middleware
+2020-04-22 19:37:12,638 INFO 10088 [egg-security] use noopen middleware
+2020-04-22 19:37:12,639 INFO 10088 [egg-security] use nosniff middleware
+2020-04-22 19:37:12,640 INFO 10088 [egg-security] use xssProtection middleware
+2020-04-22 19:37:12,641 INFO 10088 [egg-security] use xframe middleware
+2020-04-22 19:37:12,641 INFO 10088 [egg-security] use dta middleware
+2020-04-22 19:37:12,641 INFO 10088 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:37:12,658 INFO 10088 [egg:core] dump config after load, 5ms
+2020-04-22 19:37:12,674 INFO 10088 [egg-watcher:application] watcher start success
+2020-04-22 19:37:12,676 INFO 10088 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:37:12 GMT+0800 (GMT+08:00)
+2020-04-22 19:37:12,685 INFO 10088 [egg:core] dump config after ready, 8ms
+2020-04-22 19:41:16,826 INFO 3712 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:41:16,859 INFO 3712 [egg-multipart] stream mode enable
+2020-04-22 19:41:16,859 INFO 3712 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:41:17,025 INFO 3712 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:41:17,029 INFO 3712 [egg-security] use methodnoallow middleware
+2020-04-22 19:41:17,029 INFO 3712 [egg-security] use noopen middleware
+2020-04-22 19:41:17,030 INFO 3712 [egg-security] use nosniff middleware
+2020-04-22 19:41:17,031 INFO 3712 [egg-security] use xssProtection middleware
+2020-04-22 19:41:17,031 INFO 3712 [egg-security] use xframe middleware
+2020-04-22 19:41:17,032 INFO 3712 [egg-security] use dta middleware
+2020-04-22 19:41:17,032 INFO 3712 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:41:17,049 INFO 3712 [egg:core] dump config after load, 6ms
+2020-04-22 19:41:17,066 INFO 3712 [egg-watcher:application] watcher start success
+2020-04-22 19:41:17,067 INFO 3712 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:41:17 GMT+0800 (GMT+08:00)
+2020-04-22 19:41:17,077 INFO 3712 [egg:core] dump config after ready, 8ms
+2020-04-22 19:51:04,402 INFO 6100 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:51:04,432 INFO 6100 [egg-multipart] stream mode enable
+2020-04-22 19:51:04,432 INFO 6100 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:51:04,631 INFO 6100 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:51:04,634 INFO 6100 [egg-security] use methodnoallow middleware
+2020-04-22 19:51:04,634 INFO 6100 [egg-security] use noopen middleware
+2020-04-22 19:51:04,635 INFO 6100 [egg-security] use nosniff middleware
+2020-04-22 19:51:04,636 INFO 6100 [egg-security] use xssProtection middleware
+2020-04-22 19:51:04,636 INFO 6100 [egg-security] use xframe middleware
+2020-04-22 19:51:04,637 INFO 6100 [egg-security] use dta middleware
+2020-04-22 19:51:04,637 INFO 6100 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:51:04,653 INFO 6100 [egg:core] dump config after load, 5ms
+2020-04-22 19:51:04,673 INFO 6100 [egg-watcher:application] watcher start success
+2020-04-22 19:51:04,675 INFO 6100 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:51:04 GMT+0800 (GMT+08:00)
+2020-04-22 19:51:04,685 INFO 6100 [egg:core] dump config after ready, 8ms
+2020-04-22 19:51:39,505 INFO 21848 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:51:39,536 INFO 21848 [egg-multipart] stream mode enable
+2020-04-22 19:51:39,537 INFO 21848 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:51:39,707 INFO 21848 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:51:39,710 INFO 21848 [egg-security] use methodnoallow middleware
+2020-04-22 19:51:39,710 INFO 21848 [egg-security] use noopen middleware
+2020-04-22 19:51:39,711 INFO 21848 [egg-security] use nosniff middleware
+2020-04-22 19:51:39,712 INFO 21848 [egg-security] use xssProtection middleware
+2020-04-22 19:51:39,713 INFO 21848 [egg-security] use xframe middleware
+2020-04-22 19:51:39,714 INFO 21848 [egg-security] use dta middleware
+2020-04-22 19:51:39,714 INFO 21848 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:51:39,730 INFO 21848 [egg:core] dump config after load, 5ms
+2020-04-22 19:51:39,747 INFO 21848 [egg-watcher:application] watcher start success
+2020-04-22 19:51:39,749 INFO 21848 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:51:39 GMT+0800 (GMT+08:00)
+2020-04-22 19:51:39,758 INFO 21848 [egg:core] dump config after ready, 7ms
+2020-04-22 19:52:02,075 INFO 9132 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:52:02,108 INFO 9132 [egg-multipart] stream mode enable
+2020-04-22 19:52:02,108 INFO 9132 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:52:02,280 INFO 9132 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:52:02,283 INFO 9132 [egg-security] use methodnoallow middleware
+2020-04-22 19:52:02,284 INFO 9132 [egg-security] use noopen middleware
+2020-04-22 19:52:02,284 INFO 9132 [egg-security] use nosniff middleware
+2020-04-22 19:52:02,285 INFO 9132 [egg-security] use xssProtection middleware
+2020-04-22 19:52:02,287 INFO 9132 [egg-security] use xframe middleware
+2020-04-22 19:52:02,287 INFO 9132 [egg-security] use dta middleware
+2020-04-22 19:52:02,287 INFO 9132 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:52:02,306 INFO 9132 [egg:core] dump config after load, 6ms
+2020-04-22 19:52:02,322 INFO 9132 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:52:02 GMT+0800 (GMT+08:00)
+2020-04-22 19:52:02,325 INFO 9132 [egg-watcher:application] watcher start success
+2020-04-22 19:52:02,333 INFO 9132 [egg:core] dump config after ready, 6ms
+2020-04-22 19:52:10,746 INFO 20992 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:52:10,775 INFO 20992 [egg-multipart] stream mode enable
+2020-04-22 19:52:10,775 INFO 20992 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:52:10,937 INFO 20992 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:52:10,940 INFO 20992 [egg-security] use methodnoallow middleware
+2020-04-22 19:52:10,940 INFO 20992 [egg-security] use noopen middleware
+2020-04-22 19:52:10,941 INFO 20992 [egg-security] use nosniff middleware
+2020-04-22 19:52:10,941 INFO 20992 [egg-security] use xssProtection middleware
+2020-04-22 19:52:10,942 INFO 20992 [egg-security] use xframe middleware
+2020-04-22 19:52:10,943 INFO 20992 [egg-security] use dta middleware
+2020-04-22 19:52:10,943 INFO 20992 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:52:10,959 INFO 20992 [egg:core] dump config after load, 5ms
+2020-04-22 19:52:10,978 INFO 20992 [egg-watcher:application] watcher start success
+2020-04-22 19:52:10,979 INFO 20992 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:52:10 GMT+0800 (GMT+08:00)
+2020-04-22 19:52:10,989 INFO 20992 [egg:core] dump config after ready, 7ms
+2020-04-22 19:53:59,248 INFO 17652 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 19:53:59,279 INFO 17652 [egg-multipart] stream mode enable
+2020-04-22 19:53:59,280 INFO 17652 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 19:53:59,452 INFO 17652 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 19:53:59,455 INFO 17652 [egg-security] use methodnoallow middleware
+2020-04-22 19:53:59,455 INFO 17652 [egg-security] use noopen middleware
+2020-04-22 19:53:59,456 INFO 17652 [egg-security] use nosniff middleware
+2020-04-22 19:53:59,457 INFO 17652 [egg-security] use xssProtection middleware
+2020-04-22 19:53:59,457 INFO 17652 [egg-security] use xframe middleware
+2020-04-22 19:53:59,458 INFO 17652 [egg-security] use dta middleware
+2020-04-22 19:53:59,458 INFO 17652 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 19:53:59,477 INFO 17652 [egg:core] dump config after load, 6ms
+2020-04-22 19:53:59,494 INFO 17652 [egg-watcher:application] watcher start success
+2020-04-22 19:53:59,496 INFO 17652 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 19:53:59 GMT+0800 (GMT+08:00)
+2020-04-22 19:53:59,506 INFO 17652 [egg:core] dump config after ready, 7ms
+2020-04-22 20:06:13,627 INFO 18864 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 20:06:13,657 INFO 18864 [egg-multipart] stream mode enable
+2020-04-22 20:06:13,658 INFO 18864 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 20:06:13,824 INFO 18864 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 20:06:13,827 INFO 18864 [egg-security] use methodnoallow middleware
+2020-04-22 20:06:13,828 INFO 18864 [egg-security] use noopen middleware
+2020-04-22 20:06:13,829 INFO 18864 [egg-security] use nosniff middleware
+2020-04-22 20:06:13,829 INFO 18864 [egg-security] use xssProtection middleware
+2020-04-22 20:06:13,830 INFO 18864 [egg-security] use xframe middleware
+2020-04-22 20:06:13,831 INFO 18864 [egg-security] use dta middleware
+2020-04-22 20:06:13,831 INFO 18864 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 20:06:13,849 INFO 18864 [egg:core] dump config after load, 6ms
+2020-04-22 20:06:13,865 INFO 18864 [egg-watcher:application] watcher start success
+2020-04-22 20:06:13,868 INFO 18864 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 20:06:13 GMT+0800 (GMT+08:00)
+2020-04-22 20:06:13,877 INFO 18864 [egg:core] dump config after ready, 8ms
+2020-04-22 20:07:09,225 INFO 20676 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 20:07:09,257 INFO 20676 [egg-multipart] stream mode enable
+2020-04-22 20:07:09,258 INFO 20676 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 20:07:09,430 INFO 20676 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 20:07:09,433 INFO 20676 [egg-security] use methodnoallow middleware
+2020-04-22 20:07:09,434 INFO 20676 [egg-security] use noopen middleware
+2020-04-22 20:07:09,435 INFO 20676 [egg-security] use nosniff middleware
+2020-04-22 20:07:09,435 INFO 20676 [egg-security] use xssProtection middleware
+2020-04-22 20:07:09,436 INFO 20676 [egg-security] use xframe middleware
+2020-04-22 20:07:09,437 INFO 20676 [egg-security] use dta middleware
+2020-04-22 20:07:09,437 INFO 20676 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 20:07:09,455 INFO 20676 [egg:core] dump config after load, 6ms
+2020-04-22 20:07:09,473 INFO 20676 [egg-watcher:application] watcher start success
+2020-04-22 20:07:09,475 INFO 20676 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 20:07:09 GMT+0800 (GMT+08:00)
+2020-04-22 20:07:09,485 INFO 20676 [egg:core] dump config after ready, 7ms
+2020-04-22 20:22:00,310 INFO 19800 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 20:22:00,342 INFO 19800 [egg-multipart] stream mode enable
+2020-04-22 20:22:00,343 INFO 19800 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 20:22:00,513 INFO 19800 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 20:22:00,516 INFO 19800 [egg-security] use methodnoallow middleware
+2020-04-22 20:22:00,517 INFO 19800 [egg-security] use noopen middleware
+2020-04-22 20:22:00,518 INFO 19800 [egg-security] use nosniff middleware
+2020-04-22 20:22:00,518 INFO 19800 [egg-security] use xssProtection middleware
+2020-04-22 20:22:00,519 INFO 19800 [egg-security] use xframe middleware
+2020-04-22 20:22:00,520 INFO 19800 [egg-security] use dta middleware
+2020-04-22 20:22:00,520 INFO 19800 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 20:22:00,539 INFO 19800 [egg:core] dump config after load, 7ms
+2020-04-22 20:22:00,557 INFO 19800 [egg-watcher:application] watcher start success
+2020-04-22 20:22:00,559 INFO 19800 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 20:22:00 GMT+0800 (GMT+08:00)
+2020-04-22 20:22:00,567 INFO 19800 [egg:core] dump config after ready, 6ms
+2020-04-22 20:38:11,776 INFO 16412 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 20:38:11,808 INFO 16412 [egg-multipart] stream mode enable
+2020-04-22 20:38:11,809 INFO 16412 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 20:38:11,978 INFO 16412 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 20:38:11,981 INFO 16412 [egg-security] use methodnoallow middleware
+2020-04-22 20:38:11,982 INFO 16412 [egg-security] use noopen middleware
+2020-04-22 20:38:11,983 INFO 16412 [egg-security] use nosniff middleware
+2020-04-22 20:38:11,984 INFO 16412 [egg-security] use xssProtection middleware
+2020-04-22 20:38:11,985 INFO 16412 [egg-security] use xframe middleware
+2020-04-22 20:38:11,985 INFO 16412 [egg-security] use dta middleware
+2020-04-22 20:38:11,985 INFO 16412 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 20:38:12,002 INFO 16412 [egg:core] dump config after load, 6ms
+2020-04-22 20:38:12,018 INFO 16412 [egg-watcher:application] watcher start success
+2020-04-22 20:38:12,020 INFO 16412 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 20:38:12 GMT+0800 (GMT+08:00)
+2020-04-22 20:38:12,028 INFO 16412 [egg:core] dump config after ready, 6ms
+2020-04-22 20:38:30,372 INFO 21096 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 20:38:30,404 INFO 21096 [egg-multipart] stream mode enable
+2020-04-22 20:38:30,405 INFO 21096 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 20:38:30,578 INFO 21096 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 20:38:30,593 INFO 21096 [egg-security] use methodnoallow middleware
+2020-04-22 20:38:30,594 INFO 21096 [egg-security] use noopen middleware
+2020-04-22 20:38:30,596 INFO 21096 [egg-security] use nosniff middleware
+2020-04-22 20:38:30,597 INFO 21096 [egg-security] use xssProtection middleware
+2020-04-22 20:38:30,598 INFO 21096 [egg-security] use xframe middleware
+2020-04-22 20:38:30,600 INFO 21096 [egg-security] use dta middleware
+2020-04-22 20:38:30,600 INFO 21096 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 20:38:30,624 INFO 21096 [egg:core] dump config after load, 8ms
+2020-04-22 20:38:30,668 INFO 21096 [egg-watcher:application] watcher start success
+2020-04-22 20:38:30,672 INFO 21096 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 20:38:30 GMT+0800 (GMT+08:00)
+2020-04-22 20:38:30,736 INFO 21096 [egg:core] dump config after ready, 60ms
+2020-04-22 22:10:14,140 INFO 7020 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 22:10:14,172 INFO 7020 [egg-multipart] stream mode enable
+2020-04-22 22:10:14,173 INFO 7020 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 22:10:14,329 INFO 7020 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 22:10:14,332 INFO 7020 [egg-security] use methodnoallow middleware
+2020-04-22 22:10:14,333 INFO 7020 [egg-security] use noopen middleware
+2020-04-22 22:10:14,333 INFO 7020 [egg-security] use nosniff middleware
+2020-04-22 22:10:14,334 INFO 7020 [egg-security] use xssProtection middleware
+2020-04-22 22:10:14,334 INFO 7020 [egg-security] use xframe middleware
+2020-04-22 22:10:14,335 INFO 7020 [egg-security] use dta middleware
+2020-04-22 22:10:14,335 INFO 7020 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 22:10:14,352 INFO 7020 [egg:core] dump config after load, 6ms
+2020-04-22 22:10:14,371 INFO 7020 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 22:10:14 GMT+0800 (GMT+08:00)
+2020-04-22 22:10:14,372 INFO 7020 [egg-watcher:application] watcher start success
+2020-04-22 22:10:14,382 INFO 7020 [egg:core] dump config after ready, 8ms
+2020-04-22 22:12:09,961 INFO 12940 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 22:12:09,991 INFO 12940 [egg-multipart] stream mode enable
+2020-04-22 22:12:09,991 INFO 12940 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 22:12:10,177 INFO 12940 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 22:12:10,180 INFO 12940 [egg-security] use methodnoallow middleware
+2020-04-22 22:12:10,180 INFO 12940 [egg-security] use noopen middleware
+2020-04-22 22:12:10,187 INFO 12940 [egg-security] use nosniff middleware
+2020-04-22 22:12:10,190 INFO 12940 [egg-security] use xssProtection middleware
+2020-04-22 22:12:10,201 INFO 12940 [egg-security] use xframe middleware
+2020-04-22 22:12:10,202 INFO 12940 [egg-security] use dta middleware
+2020-04-22 22:12:10,202 INFO 12940 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 22:12:10,221 INFO 12940 [egg:core] dump config after load, 8ms
+2020-04-22 22:12:10,250 INFO 12940 [egg-watcher:application] watcher start success
+2020-04-22 22:12:10,252 INFO 12940 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 22:12:10 GMT+0800 (GMT+08:00)
+2020-04-22 22:12:10,264 INFO 12940 [egg:core] dump config after ready, 11ms
+2020-04-22 23:58:06,929 INFO 5984 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 23:58:06,960 INFO 5984 [egg-multipart] stream mode enable
+2020-04-22 23:58:06,960 INFO 5984 [egg-mysql] connecting root@127.0.0.1:3306/blessingtodo
+2020-04-22 23:58:07,140 INFO 5984 [egg-static] starting static serve /public/ -> C:\Users\LixWorth\Project\BlessingTodoBackend\app\public
+2020-04-22 23:58:07,143 INFO 5984 [egg-security] use methodnoallow middleware
+2020-04-22 23:58:07,144 INFO 5984 [egg-security] use noopen middleware
+2020-04-22 23:58:07,147 INFO 5984 [egg-security] use nosniff middleware
+2020-04-22 23:58:07,148 INFO 5984 [egg-security] use xssProtection middleware
+2020-04-22 23:58:07,149 INFO 5984 [egg-security] use xframe middleware
+2020-04-22 23:58:07,149 INFO 5984 [egg-security] use dta middleware
+2020-04-22 23:58:07,149 INFO 5984 [egg-security] compose 6 middlewares into one security middleware
+2020-04-22 23:58:07,170 INFO 5984 [egg:core] dump config after load, 8ms
+2020-04-22 23:58:07,188 INFO 5984 [egg-watcher:application] watcher start success
+2020-04-22 23:58:07,189 INFO 5984 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 22 2020 23:58:07 GMT+0800 (GMT+08:00)
+2020-04-22 23:58:07,201 INFO 5984 [egg:core] dump config after ready, 10ms
+2020-04-23 00:00:00,013 INFO 5984 [egg-logrotator] clean all log before 31 days
+2020-04-23 00:00:01,014 INFO 5984 [egg-logrotator] broadcast log-reload
+2020-04-23 00:00:01,014 INFO 5984 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\common-error.log -> C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\common-error.log.2020-04-22","C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\BlessingTodo-web.log -> C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\BlessingTodo-web.log.2020-04-22","C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\egg-web.log -> C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\egg-web.log.2020-04-22","C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\egg-schedule.log -> C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\egg-schedule.log.2020-04-22","C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\egg-agent.log -> C:\\Users\\LixWorth\\Project\\BlessingTodoBackend\\logs\\BlessingTodo\\egg-agent.log.2020-04-22"]

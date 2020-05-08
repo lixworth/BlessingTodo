@@ -28,6 +28,7 @@ class TodoController extends Controller {
             dataType: 'json',
             method: 'GET'
         });
+        console.log(result.data.all)
         if(result.data.status === 1){
             await Promise.all((result.data.message).all.map(async (item) => {
                 if(item.MOTHER === user.user.id){
@@ -62,6 +63,7 @@ class TodoController extends Controller {
                     item.MOTHER = mother_user.nickname;
                 }
             }));
+
             return this.ctx.body = result.data;
         }else{
             if(result.data.message.error === "ERR_UID_DECLINED"){
@@ -183,6 +185,7 @@ class TodoController extends Controller {
             method: 'GET',
             dataType: 'json'
         });
+        console.log(getCode)
         if(getCode.data.message.c.UID === null){
             getCode.data.message.c.user = null;
 
@@ -247,10 +250,10 @@ class TodoController extends Controller {
             };
         }
 
-/*        var access_token = await ctx.curl('https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='+this.config.wechatappid+'&secret='+this.config.wechatsecret,{
-            method: 'GET',
-            dataType: 'json'
-        });*/
+        /*        var access_token = await ctx.curl('https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='+this.config.wechatappid+'&secret='+this.config.wechatsecret,{
+                    method: 'GET',
+                    dataType: 'json'
+                });*/
         if(type === "YQCode"){ //邀请码
             var setCode = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=setCode&data='+urlencode(Base64.encode(JSON.stringify({
                 tid: tid,
@@ -325,9 +328,9 @@ class TodoController extends Controller {
             };
         }
         var fatherJoin = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=fatherJoin&data='+urlencode(Base64.encode(JSON.stringify({
-            tid: tid,
-            fuid: user.user.id,
-            suid: suid
+            tid: 0,
+            fuid: 2,
+            suid: 3,
         }))),{
             method: 'GET',
             dataType: 'json'
@@ -360,40 +363,31 @@ class TodoController extends Controller {
     }
     async test(){
         const { ctx } = this;
-        /* const data = JSON.stringify({
-             title: "伟哥测试2",
-             content: "王健懿写BUG一流",
-             missions: [
-                 {
-                     content: "BUGDHDJ",
-                     estarto: "2020-04-24 20:00:00",
-                     end: "2020-04-24 21:00:00"
-                 }
-             ],
-             creator: 1
-         });
-         var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=newTodo&data='+urlencode(Base64.encode(data)),{
-             method: 'GET',
-             dataType: 'json'
-         });
-         return this.ctx.body = {
-             status: newTodo.status,
-             headers: newTodo.headers,
-             package: newTodo.data.message
-         };*/
-        const data = JSON.stringify({
-            uid: 3,
-            tid: 2
-        });
-        var newTodo = await ctx.curl(this.config.api+'?pwd=dhdjnb&action=sonJoin&data='+urlencode(Base64.encode(data)),{
+        const user = await this.ctx.service.user.select(1);
+        var access_token = await ctx.curl('https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='+this.config.wechatappid+'&secret='+this.config.wechatsecret,{
             method: 'GET',
             dataType: 'json'
         });
-        return this.ctx.body = {
-            status: newTodo.status,
-            headers: newTodo.headers,
-            package: newTodo.data.message
-        };
+        var test = await ctx.curl('https://api.weixin.qq.com/cgi-bin/message/wxopen/template/uniform_send?access_token='+access_token.data.access_token,{
+            method: 'POST',
+            dataType: 'json',
+            data:{
+                touser: "oVGBI41KCziTzzDP-uj8DbRhuEFY",
+                weapp_template_msg:{
+                    template_id: "zBUFPgODa26jZTF9Z7kTGDlUEKdRXoAGS5ipigEpCgE",
+                    page: "/pages/list/list",
+                    form_id: "form_id",
+                    data: {
+                        "thing1.DATA": "测试",
+                        "thing4.DATA": "尽快确认todo哦，超过5分钟，会通知监督人",
+                        "time5.DATA": "20:10",
+                        "phrase6.DATA": "测试",
+                        "time11.DATA": "2020-04-27"
+                    }
+                }
+            }
+        });
+        console.log(test)
     }
     async newtodo(){
         const { ctx } = this;

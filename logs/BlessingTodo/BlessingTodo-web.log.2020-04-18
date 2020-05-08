@@ -1,0 +1,477 @@
+2020-04-14 11:06:03,858 ERROR 19708 [-/192.168.3.3/-/2282ms POST /login] nodejs.TypeError: Cannot read property 'openid' of undefined
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:14:70)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 19708
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:06:31,294 ERROR 804 [-/192.168.3.3/-/2335ms POST /login] nodejs.TypeError: this.ctx.service.user.find is not a function
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:14:48)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 804
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:08:06,217 ERROR 17620 [-/192.168.3.3/-/2310ms POST /login] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:14:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 17620
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:41:01,222 ERROR 16524 [-/192.168.3.3/-/2297ms POST /login] nodejs.TypeError: user.isEmpty is not a function
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:15:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16524
+hostname: DESKTOP-IFUQ83F
+
+2020-04-14 11:41:31,180 ERROR 5344 [-/192.168.3.3/-/2342ms POST /login] nodejs.TypeError: Cannot read property 'openid' of undefined
+    at UserController.login (W:\LeeXinMing\BlessingTodoBackend\app\controller\user.js:19:62)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (W:\LeeXinMing\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async W:\LeeXinMing\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 5344
+hostname: DESKTOP-IFUQ83F
+
+2020-04-15 10:32:02,761 ERROR 17556 [-/192.168.3.3/-/4078ms POST /login] nodejs.RequestError: getaddrinfo ENOTFOUND api.wexin.qq.com, GET https://api.wexin.qq.com/sns/jscode2session?appid=wx9895be4dce40a6c7&secret=54f2f5fae7af2fb39b15529101121e88&js_code=0335ALOc0b9cuz1z3ROc0Qs1Pc05ALOn&grant_type=authorization_code -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.wexin.qq.com:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "api.wexin.qq.com"
+name: "RequestError"
+data: undefined
+path: "/sns/jscode2session?appid=wx9895be4dce40a6c7&secret=54f2f5fae7af2fb39b15529101121e88&js_code=0335ALOc0b9cuz1z3ROc0Qs1Pc05ALOn&grant_type=authorization_code"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4059,"keepAliveSocket":false,"requestUrls":["https://api.wexin.qq.com/sns/jscode2session?appid=wx9895be4dce40a6c7&secret=54f2f5fae7af2fb39b15529101121e88&js_code=0335ALOc0b9cuz1z3ROc0Qs1Pc05ALOn&grant_type=authorization_code"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17556
+hostname: LixWorth-HP-PC
+
+2020-04-15 10:33:14,949 ERROR 18396 [-/192.168.3.3/-/2281ms POST /login] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 18396
+hostname: LixWorth-HP-PC
+
+2020-04-15 10:34:16,900 ERROR 4392 [-/192.168.3.3/-/2312ms POST /login] nodejs.TypeError: Cannot read property 'isEmpty' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:13:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 4392
+hostname: LixWorth-HP-PC
+
+2020-04-15 10:48:11,762 ERROR 14344 [-/192.168.3.3/-/2288ms POST /login] nodejs.TypeError: Cannot set property 'body' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 14344
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:07:35,201 ERROR 16716 [-/192.168.3.3/-/2290ms POST /login] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16716
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:09:06,108 ERROR 16716 [-/192.168.3.3/-/2264ms POST /login] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16716
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:20:21,328 ERROR 8144 [-/192.168.3.3/-/38ms POST /login] nodejs.TypeError: Cannot read property 'errcode' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:24)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 8144
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:21:09,113 ERROR 20756 [-/192.168.3.3/-/36ms POST /login] nodejs.TypeError: wechat.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:25)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-compose\index.js:36:12
+
+pid: 20756
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:24:54,787 ERROR 21088 [-/192.168.3.3/-/2279ms POST /login] nodejs.TypeError: console is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 21088
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:25:19,678 ERROR 16788 [-/192.168.3.3/-/2284ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:18:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16788
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:27:12,257 ERROR 16788 [-/192.168.3.3/-/2220ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:18:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16788
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:27:46,781 ERROR 13596 [-/192.168.3.3/-/2293ms POST /login] nodejs.TypeError: Cannot read property 'toString' of undefined
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:12:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 13596
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:44:52,909 ERROR 20756 [-/192.168.3.3/-/2326ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:19:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 20756
+hostname: LixWorth-HP-PC
+
+2020-04-15 16:46:40,852 ERROR 9084 [-/192.168.3.3/-/2290ms POST /login] nodejs.TypeError: wechat.data.toArray is not a function
+    at UserController.login (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\user.js:19:41)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-static-cache\index.js:51:63
+
+pid: 9084
+hostname: LixWorth-HP-PC
+
+2020-04-15 17:29:28,112 INFO 11104 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ不存在 开始注册
+2020-04-15 17:30:53,548 INFO 11192 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ登录系统
+2020-04-15 17:37:57,942 INFO 1040 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ登录系统
+2020-04-15 17:37:57,946 INFO 1040 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODY5NDM0NzcsImV4cCI6MTU4NzExNjI3N30.vY5kwjOPD-UYuLAlNnfkd4Ia9iChpXN4mIJNFS6KgLFr0czo2sDuNiJtlKfUT46DF3L8XdrgCc049i_Zx2bZjNCO9TLnS_P43QS66rQkvqgPrk409tl1BWXp704pxJadJKn30563TcrM9OiXaYZ4zgyIXrmI3cmea0cxtSMGi5o
+2020-04-15 17:38:23,669 INFO 16276 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ登录系统
+2020-04-15 17:38:23,673 INFO 16276 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODY5NDM1MDMsImV4cCI6MTU4NzExNjMwM30.cCXp7ESXfZ3-HJ-KHrTMDxiiXY1GrFcZ8EA0RX285rRWqhYUJ99aYixpGQEd-DRSuXt5Vz8D0vFdNEsBLd0v47_g8ObYsfiZBtizZUXtyJO8RgjBTRmi3emd95S0_tCA5ci6-A9Jw-IrCOJMSrp0SO19I4y_fISai8FBM3xbVsM
+2020-04-15 17:38:35,731 INFO 15836 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ登录系统
+2020-04-15 17:38:35,734 INFO 15836 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODY5NDM1MTUsImV4cCI6MTU4NzExNjMxNX0.sWVp42t5pwmMOxnunH7wlN1QVKx50x45ui-TmO_PTP3qKNqjWKliGy9TOJzyfodzzZYQvynA_6qkYTpIHGpAY8zdoQoAIt1xeEWTBtGXduCC6kYntb2dewJlTYyddCEtsDGZEXdH12TAfU10KU6LHeos2-SKzy2lh9Gj1nAc-Hw
+2020-04-15 17:50:14,425 INFO 2532 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ不存在 开始注册
+2020-04-15 17:50:14,431 INFO 2532 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 注册成功
+2020-04-15 17:50:14,434 INFO 2532 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk0NDIxNCwiZXhwIjoxNTg3MTE3MDE0fQ.2ye7X-8EFGe3B7iytvtBeILpfQj1n2n0DMccSzZGE-hVxJd7eSWGi61chwTvezPbiN1TGg4UanJjrDNTQbNhH1aiDV0d9SiEzHZmQEqZDRwIfyiddMNCh0BklnsKqBe5VSydfd2N_wEDwWc2lvzDAdqDuZ1aUlvPNUUDg_T3vXk
+2020-04-15 17:50:36,364 INFO 13484 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk0NDIzNiwiZXhwIjoxNTg3MTE3MDM2fQ.2B13Y9eeckrKdFC2rJolEJX7IqrKQUO0BnSQuQHlX8sKupLNBDSr1-WOWJrhzTh6xRbZbKJUVjPZ5360N808-YSd4UuYtybe5acAknziL0wplL_GWnxCVhVHOYOuY22o5tuZus82n7ZKpSkNztfwNlkVmiVuSKPGIbdpR-1yeKk
+2020-04-16 01:26:45,131 ERROR 19732 [-/192.168.3.3/-/2368ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.posts' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.posts' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 19732
+hostname: LixWorth-HP-PC
+
+2020-04-16 01:27:37,289 ERROR 19732 [-/192.168.3.3/-/2237ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.posts' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.posts' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "UPDATE `posts` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 19732
+hostname: LixWorth-HP-PC
+
+2020-04-16 01:27:57,988 ERROR 9084 [-/192.168.3.3/-/2293ms POST /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blessingtodo.users' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:65:19)
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\co\index.js:54:5
+    sql: UPDATE `users` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blessingtodo.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "UPDATE `users` SET `session_key` = 'E1Qa+U4dSlKa3JHm/5vIjg==' WHERE `id` = 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 9084
+hostname: LixWorth-HP-PC
+
+2020-04-16 01:28:43,364 INFO 18536 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3MTcyMywiZXhwIjoxNTg3MTQ0NTIzfQ.Z3RK4Hctvkt-9yBZ2aXdrXyB2etCoBVEbAZEiy-7ugyK2QALgp_4Esno4-40sSl3BzrjOcDIQFF02TPOzGjtco080hrZVYz8YeKjEFraqaX8rd9CwYuIxnZo9o7IJI__vrBtXQTimg0y5ZItYRA4A09LTVIGs9BkPozm8uqyTB8
+2020-04-16 01:39:24,656 INFO 12908 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3MjM2NCwiZXhwIjoxNTg3MTQ1MTY0fQ.FQIDZp3OlsvZpofrL80-dvmIwecB1Uh_lhXqYxaObKZIn91TFtKn6WcjNPnRyGS53ilprDN-2mSnRxUWlycBmouwOTNttAC01ZtOTigPaYKG-JeDS0Se80RFwpN4WxGO2de9jq7B7cK-F0oA08ev_7LcpgbYCrFETARgVdItuaE
+2020-04-16 01:39:37,157 INFO 12908 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3MjM3NywiZXhwIjoxNTg3MTQ1MTc3fQ.aU9pK4L3QeweHprFYIa2y2h-uxv1N8Ft_u_HZwfqS16Ky-wZpCkhHQ64fXc0oGCdI15d8aIpGYl2LcTBALG8QZA17fGZsKTr-Fcz6zB5bG2EjaGQjsh9dlacqndjZ5D1oR5WT73i3pBz4KhwdSSRO1vmMX0pkcL3gRdvkuz2t2A
+2020-04-16 01:39:48,565 INFO 12908 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3MjM4OCwiZXhwIjoxNTg3MTQ1MTg4fQ.R3zxmp-2SVAn8zcEHicoQnyYElmFI2YAQT9ZRruc_eNXgstKjkvTcWBpWpJj-8F61gvJN27NpHCJNngJvRaSTSCbgcN23rLg_kISzG17vKRP_8bVGnmg8_z-1-dugsYGP7kagjZpmpRjHWXvyF8HhXFsL2JkF9Zft2e0RtzOvTY
+2020-04-16 01:40:18,276 INFO 12908 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3MjQxOCwiZXhwIjoxNTg3MTQ1MjE4fQ.kFiKPGjOx-wsilQXTrCRs8utxlXw7WSkgENYAzZQphv-U9O77F7zGMPoeGAk4m9tevGeASUBhsiZH5he2Lovf2n8twznJCl0v4a2b_9eA2HVv44yLr60POLib-HFznMFHL5HUPrhT3LAVRniE-dcsftLbg2413bagPO7-UuN6VQ
+2020-04-16 01:40:40,082 INFO 12908 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3MjQ0MCwiZXhwIjoxNTg3MTQ1MjQwfQ.WSGG0Wld_bEPVEWLRdNHVYJD45t65SDB5ZaawYgf5Ptw0kb2VsyvOZ8Mw4gqXNJTmZwUnsYMEGm9cFgKxcca7BZOfOcUFcksQ3vTZIhLjVNYCzFvpkiPbPyrNU-t6WnWhmWr0nWfDSu9X5q14R-zWhPm09vPrN-t-cgx022P1AM
+2020-04-16 02:43:47,804 INFO 13100 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4Njk3NjIyNywiZXhwIjoxNTg3MTQ5MDI3fQ.fkrMhJbJYGHxbLYjorB4sjzRQPx1sHQc4Yk59Uv6FN6q_WQ2_AP49jc7Io-rG-bUrqtXYLoZIEjegvCitQ0dQoaBmOPE_nRxUXhZg5hszuPfIR0MdHCd4xPhjFjI1njzlXozIGNe1NxAMIDDA8R0CVDqCDWZIRCtP9Ti8QlgBl4
+2020-04-16 10:00:03,617 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwMjQwMywiZXhwIjoxNTg3MTc1MjAzfQ.6i5K3XV5TnE-1wXWsYfH40lGjiVBai6ZjsVx826uBZwVxxfN7IITeFhsIYCVrDOthVp8QIa7nHQvwNMm2swHIKDSS_Od1F65uzeev5HK_bMfupEUpSa2BQE62jk1MOAkdPKQ3CIhC_ZIhbVoaqSuDmZm-zR5gfSyQeCtcHP8kCY
+2020-04-16 10:01:25,645 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwMjQ4NSwiZXhwIjoxNTg3MTc1Mjg1fQ.nUW3uTRECi92eXc0zaak7wyqmynEgv68bijryN9a_vNHHVBA2GSmunzOAQl8GXFNPHQ-XVBsf2jMWa91TWLTmrDL5aEb8BEe3C6xdsJZEMXq3-B7Ge-nHRxqTdW1S6QNXhHVhcDwUOnE3E0PgSopmu7-1jVdbh5C0HhgleX40Fc
+2020-04-16 10:04:01,035 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwMjY0MCwiZXhwIjoxNTg3MTc1NDQwfQ.uWB0EODTyvGTOIEG5mYxCfZt0wBldmZBfE_C286Rrbr9u3ab5SDJBcCnXrbQm5StlrbyASuETcX4shf9Cj0LSYWWfhk9IeYDXylRV4R7athkP4n_jrHmhORQiCeea3lw8wwhJMoVvLji8_xlYLGGQH5tl2wU3TiGIdcI71Lj46Y
+2020-04-16 10:05:21,836 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwMjcyMSwiZXhwIjoxNTg3MTc1NTIxfQ.6dXAp-OvJz7o2RjOF_xSPkHgjMm6ZvGuobzIPg0dRFwA8IhkUI3HTY4Mf39DXb-f95JeWNq9W4OOFhMzbXyijOyggyAAP2Gz61R1QDx-YXyvpusg9ZucuMMZeBrTw7-wnvVWx2yJZu5Ne84d-vCajOcn1RgClFcUuB89oLnDkWQ
+2020-04-16 10:07:04,541 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwMjgyNCwiZXhwIjoxNTg3MTc1NjI0fQ.TC1pznNz10Q1bQ2_GT61_ASPZfFpL7i2w0EMKFVHv0CLJ9QcYZRBR5KMB71WyFdCWtZsWghpMgw6dTO8Qz4Ka5LKtsNKeaoBmN0RdsqFjOt8vXUUnEFLS8PWdzigfLXpz5LWZt7ABR-rKyKnpfqGS7uwwQ9JUaxi_mxWB_CLvGI
+2020-04-16 10:39:51,024 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwNDc5MCwiZXhwIjoxNTg3MTc3NTkwfQ.O7qIR7EYHKQt58GTPBkVzAzVTox2J-n14mT79PHdlSl5sfSIfCUcVE-CvwIX1lVxZUmLlmwxrGUtwp9tz1EJCXiFyleuwKNNnkm2DhysAFwibOXnj9gy4m0fgRWnRuL0QW3xvZtTEMPswXPV4aRzQ3owkC0l6oKPiR3lOltM3r8
+2020-04-16 10:55:56,536 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAwNTc1NiwiZXhwIjoxNTg3MTc4NTU2fQ.WOjoCRkG37kgaWU0K7_get7fi5yBXi7sRgfV9an7H2q2PpBSlVUnm8eGeZFL-x0id-7nmTrqloutDq5GStj_SWv3454xBm1DW5kPkNBgKIqAQUxelMr5xeMaz5OVyxzueXxrScmOk6sD5EcC6iOYrl-l7BQLu9s8tyE8NsklCb8
+2020-04-16 14:37:15,787 INFO 14708 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzAxOTAzNSwiZXhwIjoxNTg3MTkxODM1fQ.KXLPwZkeLXlurKrLh79N8EBIPfh3ffoFsXbAzVASHwSujy-RMudaWeTQFRChMBcbcIrbl-NZkfJYYSer02VwU7OEZQEdO8ab7Gy3IKtG9tDtfmYQn_RE5bMMoVkweNOwBU2XB5oqLSVgOajr5A4C99R6iTJX_XfJoj_01tm3g-4
+2020-04-17 01:50:36,299 INFO 12980 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzA1OTQzNiwiZXhwIjoxNTg3MjMyMjM2fQ.fLaXhIoyYlUxJXXRWycEwkzzQYeTQDn5lAuprs1X9eEGX2CHy0J88Xxyn1RvjhFicjLh4eT2duM91TNW0yNpvZaOX1CEql7w8vdWLIK_0LBGxQVnzYGLIVyaioIVfp5houE_FbsnZD1NlHJdy6ljdhXMnMVkdxD0pTFPo1VfbfE
+2020-04-17 02:14:13,058 INFO 12980 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzA2MDg1MywiZXhwIjoxNTg3MjMzNjUzfQ.u5ClHXqe16itygF6VmyJwkrjuP0tdDo5ZXdfVEFbNDEMNHiJfLivlu2a9R_uyjfZC0T3R6xq7wZI-47Qiwu8x5ts_-3ZfyH_k1-lAI0k8S-oHjpqF3STL_LjkWzW6QU1xPmA7h29vwKs4EU8XJbHkicxW5K1AANEnQEmKR1Djk0
+2020-04-18 10:34:25,621 INFO 5664 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzE3NzI2NSwiZXhwIjoxNTg3MzUwMDY1fQ.0fTMDz-P3quAJeg8cosFmZt0Fxtlx7JGcUl7nliGRGziXfIFif--6dZwtiKNKU5qXyBA5R8ZPvmMHEBAby_e7sfW6aOJXDwn9t0NEksh1Puw3yPcngejlSGCK9KjOXxkGf_2P3W_SGOBv2MU_F0cFgQQhajuZ4vmQbcMDXvhPj4
+2020-04-18 11:26:24,097 INFO 5664 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzE4MDM4NCwiZXhwIjoxNTg3MzUzMTg0fQ.EWyCBgRbIACeJI5OQZKPQMAgn_3Ihe3RGYUPrMYXJKQrYrIx1DbHh8Q2OaR_jeuxZb0DitGbApC3qocB1YcHN45gavY-5HynxwiVwhLCREDUZUQBoj3s-n9B63NSOQBFr_5OJ2EEBo5LZRMAbLtzEFYO6R9RuXRJji5KS95sESo
+2020-04-18 11:32:51,572 INFO 5664 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzE4MDc3MSwiZXhwIjoxNTg3MzUzNTcxfQ.UPHDxOsbchMn4pDOwiPKEY0AK7FDNCWaEq3XljZqa5H0EAEd6iJeCnvmN5_sba6LQcnRiaoabOtnlKLPvGG55rSbph13VQKZ2yxV7vCwlwdwl4vBFjbjmZUMm2B4QhHtYpIIoQ9cMHK1HCPLLEw7lxsxBNS_aQoXPG6Mph1BOfI
+2020-04-18 11:46:44,404 INFO 5664 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzE4MTYwNCwiZXhwIjoxNTg3MzU0NDA0fQ.YrTLlsLSRThVlWmZ3eKwVZ0TEC6VfVpLtOz9DSMes1KPE3jyJWGjTou1vJ5oqcUn0zr-JvllT9WziX2bpM02m2Hh6M2BFg0eXGiOL-dYw5aEmiDlSbwc213En1RPN04qOi5FEGpRrDjZnhfbBCliAdMKFnEai2hX27nXfqikQTw
+2020-04-18 20:20:33,806 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjQzMywiZXhwIjoxNTg3Mzg1MjMzfQ.LCC_BdwVstPx4FJ6QwwYnr0NGwJZg_SSJtG3EX0A1uyj6o-17Z8Kjo3sZrO6zo285vGG1lWDpFUWn350-h9NhDylvHx_sgO0vIb6qDOY5Nj-uwB5LOYGuFLuMHZWdOHtd6TeeyY3BI9souXq4pomr23cMAVzjqxuba39L_oiAPI
+2020-04-18 20:22:45,999 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjU2NSwiZXhwIjoxNTg3Mzg1MzY1fQ.FIFLcAfvyKWL8GaC87ZeTM3Yri0fFSAACH0Olk25qc1EsyUvT022nWtaJL1_iaPzuQ5YAkpm0hFC2D8cSpUV2ZgHQXHdJa3xauWRwBHPyKvjdvesXne0DGF3hj3sC639VltxJ1Q6kitRg88M94CJ-fLLu3mYI0oXCDXDGUZnhCQ
+2020-04-18 20:23:29,589 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjYwOSwiZXhwIjoxNTg3Mzg1NDA5fQ.HiWWFnyDor1dLKS2XoXQSPZopeLNUu6g-_VSAm5f1sv_RpW_2sZPx8WXvJ3CSBLNH0O5A7f-taSN61jKgSo8sLs2oog7UwCFxzkjW9uJXzLAl1tFJLSdti1rgIhBF-dasb9xLKt5gIdSGy4cgmjc9cRCHoXm2wICcatj4CM8DKs
+2020-04-18 20:24:17,242 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjY1NywiZXhwIjoxNTg3Mzg1NDU3fQ.rRSC3cm9d1irFEiBpMdg1fk1b7X2KtY7u25jHd0D9bnmgiNyD7d87Rly34Vrtzdi2Dg1pi2oG5EBPnDKdD_NFqawmu9RSX7k7a6nRGzeMmFWGt5aEuY3uD4v1Z7hKTJ9T7HmoxdWJnS86G6G-ZNKrYEgR2vQG0jOPoVxGNW4eZI
+2020-04-18 20:24:51,573 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjY5MSwiZXhwIjoxNTg3Mzg1NDkxfQ.wAFxtFSr07xrBtbpwaVnBKKwmUFONYjbo5NJ2N5dlBZJJFIlZjbUrWQ5-keOfaKBeC-x7vmZJw3nPNlwgRN55c2i0fdjL9_S7mthzDSJpV50KXjkWhVDYPqUPX4JDQJYTt3rXEB8ndkidmXWlTZn7nUQequlPqhl-nUPNlv7z2A
+2020-04-18 20:27:11,334 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjgzMSwiZXhwIjoxNTg3Mzg1NjMxfQ.gmDm_WScAFQPAPOFWU90s-97i5q-nA51r0k1cv6dnlGVfVJEJkfdztItZv7WaDmJpNjM5jrgrEOWgTHHpzSbrgmWrQDDFc5h-3h2YcnV15KxI4uHj5SzsqPwRgWl8B637ZhSyFRXqYCqQb2rHQSri7KvYN6joaVRFsAx3xYzWbQ
+2020-04-18 20:27:44,340 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjg2NCwiZXhwIjoxNTg3Mzg1NjY0fQ.EGXPqKYmNKcf4q9LH3dvosTRT3zpA6RqYVJKPsjH2Szm-XYzom_EjtRcoA3J2ezrtin-EmLeMmQkjQVvOrXHvoml2KdgPFo9xT6Gj1ceh8Gk9IBNYqtk-mmJtSK5u0bbj2JhoR0HXR1l0qUr8rDCQMnzZTvrIqMgtSeJxnyKrHA
+2020-04-18 20:28:05,411 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjg4NSwiZXhwIjoxNTg3Mzg1Njg1fQ.p8mk88Q2zyC-Bg56EbOThPoiI-g1LAaOPtom4AV-mPF3Atz_TqSf_DNNQZdv4ON-3BJXhw6fwDWuXyELmcW7M1yReFw40B5ycaJ2Iqzfq7EwFV1SJvN_2Dcaunn0j9wvJM5seWP2GI-7bri6a9ehh5d2dHfH1Jimzh15zJqX8_M
+2020-04-18 20:28:36,726 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjkxNiwiZXhwIjoxNTg3Mzg1NzE2fQ.ESvib7PaZglIwOScfM8DIddnajw9dC2NX1PrPdkLFL0MzOyVkkN7HqHaZj0rrh_1a7mc4RJ9jEfHldSyghITgfYxC7S_LVAw5PKMuX65xIs2Y4SWEejVc0Wm0JY8lmKf_vZ3hmOqwOzSgLUcd1i-LmFFT4GKS9Mi3VzOo1FBzng
+2020-04-18 20:29:20,395 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMjk2MCwiZXhwIjoxNTg3Mzg1NzYwfQ.CiZxbUZBfWl-7lzY3-_S8LKTq7_0kLytwP08jJuRnZa_P2Dm5s1SDoqSiZ76oQKJpcOzqcEPb3a-UeXuedvJhUlNLVfixL5KohGrW_w3n0PQhrLA5-ii0EgP1yj-qGdDhnkdspismKFv5VOLwNeXFTmGb2tC_hXkxlNyhkf0neE
+2020-04-18 20:30:06,620 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzAwNiwiZXhwIjoxNTg3Mzg1ODA2fQ.EIpYwfsNCCql4WLsFOzyk0EMfNU5mRSQnLS0c1Hpscyc5CifteIGa5lI2U0Ms_UU_dA2F2N1Lsya6STLVIoY3l8g87gAA--scOvsZWdWIdv6ZVh0kpqPSDg81gy3YRLDytYls7nF44uE5veJYL7e4IRRl1oulyKn_m9taABa8ys
+2020-04-18 20:30:34,816 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzAzNCwiZXhwIjoxNTg3Mzg1ODM0fQ.gOyeFI4mVhPEfNNv6LH2ugjvdBN8vd24hEdN1CvafbOGy-N_f-6fwyJ00Onk8degxXlGVT3PqSLN_EXuiVDbc9fwbT_H-T_EkTZXW96GywFPp__ppReLMb5UkFAI2VL4QvsvdmTPlIA-Se5ipAGxrJV9v2HtnWAyItpKRsf83lc
+2020-04-18 20:32:09,220 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzEyOSwiZXhwIjoxNTg3Mzg1OTI5fQ.PT9YQxVG3VJaxnGI7wg6F2bqAXw9vlM9ZrWtUfzMLqGs4J8UGDsOLjGncPzoB8O9qsO9d4o_YYpxg2sj7lfAGTsGxSFcy9Oa62_PUmHAbZfzyvxE9pDoW3hK75NZ8WnW9-Dyl5eJX2c0a290qHAEbX41_uYIJ7zGzWQ0_orF1ck
+2020-04-18 20:33:13,422 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzE5MywiZXhwIjoxNTg3Mzg1OTkzfQ.LMpcniF8PO5Wza4dR-bHe5lc4MQ05lSyRi_YwIEc6VD0qmZTCEDx0XSEIQUW8uYvLBORIGWzfLBvH12Qsxpcq16sC-Wm2BJsQTxbXBTayTpUEfjVDJyD4ryzejK4kwiOSERLJfqbTCXiFognk--Y-zYEIC8jGK0nV_WDGqAciD8
+2020-04-18 20:33:28,597 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzIwOCwiZXhwIjoxNTg3Mzg2MDA4fQ.pFFkHc92JhjqDw2Q1gwyKb8esuFE9QKu8ScpC9zGpPkFgMtnH9Fx71B61iOkeUVB0_v5rWoiXVjxOA0ZUlxI5vB2pQ7B669G0qvs76e5NDJEhN3yfrNazrX2M8Qb9Kk2kHL-ZSzFUl1ffRYTWUDKHBYxYFcCByUsvaQTVdwea_Y
+2020-04-18 20:34:47,426 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新session key并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzI4NywiZXhwIjoxNTg3Mzg2MDg3fQ.AjIfeC_jhXnXImsvbBtzkoH1vXWtRyqbar7gQ0USGsFNzyMUOj8Sd_V8kcKjpXHEVqCw0yQSFNXzjpiFVfshSRzMCNbQ9Np1ixdrkSl-KZUNLW1kWVeG5KQ3b76tG_7wM60pgaVLHgb7coClQUAoulWkQNj1-whEJZIsHaHePG8
+2020-04-18 20:35:23,232 INFO 9376 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxMzMyMywiZXhwIjoxNTg3Mzg2MTIzfQ.q5iMHfpRvvPfayr0BlE2P4WjLO58_pt1Gue140YRG5PX0WvAHPwx-GCTV82rqHmy-77ndcR2nEUHOJppr1w4a0Q6wxSR396vtQ9tZGvTkbIWPXR8kAmL1cqdnmMTMDszuiUXg5RM8GpowiLIRQOSIoKkb8LVBt7a_l-PQMKamt8
+2020-04-18 21:13:56,484 INFO 16812 [-/192.168.3.3/-/19ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-18 21:13:58,765 INFO 16812 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxNTYzOCwiZXhwIjoxNTg3Mzg4NDM4fQ.PsmjE7zfJ4GugYyI_PSVmuwONzDolKqre7QlrNk02aqKWoA3aT5Z34RbXt3c8pWmd11xtn2n2dsdbICewUP7_w_LQunJnfW7W3-sqrfLmsswoEXswcZg8_tGGHSNPMcafC3SXw-ffXhh71ENAaSN-4ZCrM-2j73LfK7cFigIR9o
+2020-04-18 21:17:33,886 INFO 16448 [-/192.168.3.3/-/19ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-18 21:17:36,184 INFO 16448 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxNTg1NiwiZXhwIjoxNTg3Mzg4NjU2fQ.W59h6h030pnl24fSZp5yQ_trvcli9SUbWNt4OWZjbkFtNveyhnFj_ZwL_0RrkTbNVgnlTawcVmibv6BWo1Mjejny34ALqSzoFmpYjTMRniwPafVrIu067BikSQh_P52zpkxpu8L7E1Dpj9Tg2VhTjHTjm4_lhfptfuBsL35C8ag
+2020-04-18 21:18:57,906 INFO 16544 [-/192.168.3.3/-/17ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-18 21:19:00,226 INFO 16544 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxNTk0MCwiZXhwIjoxNTg3Mzg4NzQwfQ.obH5tagaLxnki75Z25teUOmIASAv39CmSOiUrSrqrlJi_BRp0OSNuvKwul3Zfd-oKo2wrUz2Wxeymdqe1937O0cs7yMd4JKl60528wVkugm8V95F_I9sTXmZV6RRjoKu7zTsw1E5tD13SC3wE8Xp09u-uIMRbtOW4WxVA1dfPag
+2020-04-18 21:21:31,195 INFO 16544 [-/192.168.3.3/-/0ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIa8hIWQQSmFrGB1ShicZq4J7g/132'
+}
+2020-04-18 21:21:33,420 INFO 16544 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 不存在 开始注册
+2020-04-18 21:21:33,426 INFO 16544 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 注册成功
+2020-04-18 21:21:33,427 INFO 16544 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzIxNjA5MywiZXhwIjoxNTg3Mzg4ODkzfQ.eZtMgxJha2wy2x-q0AITuH-LkIcTJzwGIQFbSCxe3NAddXXyGU4kHb23jqBqRv3RFpMGMw7MswaaCsU-wGhGP7N1zUFmrS1jsS009a1n_-tiCMvFm7lfxY1VztwDO0AvR-34h13uCVZzcSGBe-IX2Aw8TFuFkl2pdXxtJJDXiQQ

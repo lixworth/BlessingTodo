@@ -1,0 +1,1290 @@
+2020-04-12 02:25:26,657 INFO 15396 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 02:25:26,703 INFO 15396 [egg-multipart] stream mode enable
+2020-04-12 02:25:26,969 INFO 15396 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 02:25:26,984 INFO 15396 [egg-security] use csrf middleware
+2020-04-12 02:25:26,985 INFO 15396 [egg-security] use methodnoallow middleware
+2020-04-12 02:25:26,986 INFO 15396 [egg-security] use noopen middleware
+2020-04-12 02:25:26,987 INFO 15396 [egg-security] use nosniff middleware
+2020-04-12 02:25:26,988 INFO 15396 [egg-security] use xssProtection middleware
+2020-04-12 02:25:26,989 INFO 15396 [egg-security] use xframe middleware
+2020-04-12 02:25:26,990 INFO 15396 [egg-security] use dta middleware
+2020-04-12 02:25:26,990 INFO 15396 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 02:25:27,002 INFO 15396 [egg:core] dump config after load, 8ms
+2020-04-12 02:25:27,017 INFO 15396 [egg-watcher:application] watcher start success
+2020-04-12 02:25:27,024 INFO 15396 [egg:core] dump config after ready, 4ms
+2020-04-12 21:29:13,023 INFO 14804 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 21:29:13,054 INFO 14804 [egg-multipart] stream mode enable
+2020-04-12 21:29:28,162 INFO 14804 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 21:29:28,854 INFO 14804 [egg-security] use csrf middleware
+2020-04-12 21:29:29,147 INFO 14804 [egg-security] use methodnoallow middleware
+2020-04-12 21:29:29,148 INFO 14804 [egg-security] use noopen middleware
+2020-04-12 21:29:29,149 INFO 14804 [egg-security] use nosniff middleware
+2020-04-12 21:29:29,150 INFO 14804 [egg-security] use xssProtection middleware
+2020-04-12 21:29:29,150 INFO 14804 [egg-security] use xframe middleware
+2020-04-12 21:29:29,152 INFO 14804 [egg-security] use dta middleware
+2020-04-12 21:29:29,152 INFO 14804 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 21:29:29,161 INFO 14804 [egg:core] dump config after load, 4ms
+2020-04-12 21:29:29,178 INFO 14804 [egg-watcher:application] watcher start success
+2020-04-12 21:29:29,722 INFO 14804 [egg:core] dump config after ready, 542ms
+2020-04-12 21:29:32,089 INFO 16052 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 21:29:32,123 INFO 16052 [egg-multipart] stream mode enable
+2020-04-12 21:29:32,189 INFO 16052 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 21:29:32,192 INFO 16052 [egg-security] use csrf middleware
+2020-04-12 21:29:32,193 INFO 16052 [egg-security] use methodnoallow middleware
+2020-04-12 21:29:32,194 INFO 16052 [egg-security] use noopen middleware
+2020-04-12 21:29:32,195 INFO 16052 [egg-security] use nosniff middleware
+2020-04-12 21:29:32,195 INFO 16052 [egg-security] use xssProtection middleware
+2020-04-12 21:29:32,196 INFO 16052 [egg-security] use xframe middleware
+2020-04-12 21:29:32,196 INFO 16052 [egg-security] use dta middleware
+2020-04-12 21:29:32,197 INFO 16052 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 21:29:32,259 INFO 16052 [egg:core] dump config after load, 58ms
+2020-04-12 21:29:32,270 INFO 16052 [egg-watcher:application] watcher start success
+2020-04-12 21:29:32,490 INFO 16052 [egg:core] dump config after ready, 219ms
+2020-04-12 22:32:38,535 INFO 8104 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:32:38,844 INFO 8104 [egg-multipart] stream mode enable
+2020-04-12 22:32:42,814 INFO 8104 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:32:42,831 INFO 8104 [egg-security] use csrf middleware
+2020-04-12 22:32:42,832 INFO 8104 [egg-security] use methodnoallow middleware
+2020-04-12 22:32:42,833 INFO 8104 [egg-security] use noopen middleware
+2020-04-12 22:32:42,834 INFO 8104 [egg-security] use nosniff middleware
+2020-04-12 22:32:42,835 INFO 8104 [egg-security] use xssProtection middleware
+2020-04-12 22:32:42,837 INFO 8104 [egg-security] use xframe middleware
+2020-04-12 22:32:42,838 INFO 8104 [egg-security] use dta middleware
+2020-04-12 22:32:42,838 INFO 8104 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:32:42,848 INFO 8104 [egg:core] dump config after load, 5ms
+2020-04-12 22:32:42,888 INFO 8104 [egg-watcher:application] watcher start success
+2020-04-12 22:32:42,894 INFO 8104 [egg:core] dump config after ready, 4ms
+2020-04-12 22:32:44,146 INFO 17356 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:32:44,175 INFO 17356 [egg-multipart] stream mode enable
+2020-04-12 22:32:44,247 INFO 17356 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:32:44,250 INFO 17356 [egg-security] use csrf middleware
+2020-04-12 22:32:44,250 INFO 17356 [egg-security] use methodnoallow middleware
+2020-04-12 22:32:44,251 INFO 17356 [egg-security] use noopen middleware
+2020-04-12 22:32:44,251 INFO 17356 [egg-security] use nosniff middleware
+2020-04-12 22:32:44,252 INFO 17356 [egg-security] use xssProtection middleware
+2020-04-12 22:32:44,252 INFO 17356 [egg-security] use xframe middleware
+2020-04-12 22:32:44,253 INFO 17356 [egg-security] use dta middleware
+2020-04-12 22:32:44,253 INFO 17356 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:32:44,262 INFO 17356 [egg:core] dump config after load, 4ms
+2020-04-12 22:32:44,452 INFO 17356 [egg-watcher:application] watcher start success
+2020-04-12 22:32:44,565 INFO 17356 [egg:core] dump config after ready, 111ms
+2020-04-12 22:55:38,479 INFO 19192 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:55:38,728 INFO 19192 [egg-multipart] stream mode enable
+2020-04-12 22:55:38,913 INFO 19192 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:55:38,921 INFO 19192 [egg-security] use csrf middleware
+2020-04-12 22:55:38,922 INFO 19192 [egg-security] use methodnoallow middleware
+2020-04-12 22:55:38,923 INFO 19192 [egg-security] use noopen middleware
+2020-04-12 22:55:38,924 INFO 19192 [egg-security] use nosniff middleware
+2020-04-12 22:55:38,925 INFO 19192 [egg-security] use xssProtection middleware
+2020-04-12 22:55:38,926 INFO 19192 [egg-security] use xframe middleware
+2020-04-12 22:55:38,927 INFO 19192 [egg-security] use dta middleware
+2020-04-12 22:55:38,927 INFO 19192 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:55:38,947 INFO 19192 [egg:core] dump config after load, 11ms
+2020-04-12 22:55:38,969 INFO 19192 [egg-watcher:application] watcher start success
+2020-04-12 22:55:38,977 INFO 19192 [egg:core] dump config after ready, 6ms
+2020-04-12 22:55:40,723 INFO 18172 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:55:40,758 INFO 18172 [egg-multipart] stream mode enable
+2020-04-12 22:55:40,837 INFO 18172 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:55:40,840 INFO 18172 [egg-security] use csrf middleware
+2020-04-12 22:55:40,842 INFO 18172 [egg-security] use methodnoallow middleware
+2020-04-12 22:55:40,843 INFO 18172 [egg-security] use noopen middleware
+2020-04-12 22:55:40,844 INFO 18172 [egg-security] use nosniff middleware
+2020-04-12 22:55:40,844 INFO 18172 [egg-security] use xssProtection middleware
+2020-04-12 22:55:40,846 INFO 18172 [egg-security] use xframe middleware
+2020-04-12 22:55:40,847 INFO 18172 [egg-security] use dta middleware
+2020-04-12 22:55:40,847 INFO 18172 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:55:40,860 INFO 18172 [egg:core] dump config after load, 5ms
+2020-04-12 22:55:40,870 INFO 18172 [egg-watcher:application] watcher start success
+2020-04-12 22:55:40,876 INFO 18172 [egg:core] dump config after ready, 4ms
+2020-04-12 22:55:47,674 INFO 16820 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:55:47,705 INFO 16820 [egg-multipart] stream mode enable
+2020-04-12 22:55:47,770 INFO 16820 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:55:47,773 INFO 16820 [egg-security] use csrf middleware
+2020-04-12 22:55:47,775 INFO 16820 [egg-security] use methodnoallow middleware
+2020-04-12 22:55:47,775 INFO 16820 [egg-security] use noopen middleware
+2020-04-12 22:55:47,776 INFO 16820 [egg-security] use nosniff middleware
+2020-04-12 22:55:47,777 INFO 16820 [egg-security] use xssProtection middleware
+2020-04-12 22:55:47,777 INFO 16820 [egg-security] use xframe middleware
+2020-04-12 22:55:47,778 INFO 16820 [egg-security] use dta middleware
+2020-04-12 22:55:47,778 INFO 16820 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:55:47,789 INFO 16820 [egg:core] dump config after load, 7ms
+2020-04-12 22:55:47,799 INFO 16820 [egg-watcher:application] watcher start success
+2020-04-12 22:55:47,806 INFO 16820 [egg:core] dump config after ready, 5ms
+2020-04-12 22:55:57,531 INFO 18496 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:55:57,562 INFO 18496 [egg-multipart] stream mode enable
+2020-04-12 22:55:57,628 INFO 18496 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:55:57,631 INFO 18496 [egg-security] use csrf middleware
+2020-04-12 22:55:57,632 INFO 18496 [egg-security] use methodnoallow middleware
+2020-04-12 22:55:57,633 INFO 18496 [egg-security] use noopen middleware
+2020-04-12 22:55:57,634 INFO 18496 [egg-security] use nosniff middleware
+2020-04-12 22:55:57,635 INFO 18496 [egg-security] use xssProtection middleware
+2020-04-12 22:55:57,635 INFO 18496 [egg-security] use xframe middleware
+2020-04-12 22:55:57,636 INFO 18496 [egg-security] use dta middleware
+2020-04-12 22:55:57,636 INFO 18496 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:55:57,645 INFO 18496 [egg:core] dump config after load, 5ms
+2020-04-12 22:55:57,655 INFO 18496 [egg-watcher:application] watcher start success
+2020-04-12 22:55:57,662 INFO 18496 [egg:core] dump config after ready, 5ms
+2020-04-12 22:56:03,136 INFO 18676 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:56:03,167 INFO 18676 [egg-multipart] stream mode enable
+2020-04-12 22:56:03,234 INFO 18676 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:56:03,236 INFO 18676 [egg-security] use csrf middleware
+2020-04-12 22:56:03,237 INFO 18676 [egg-security] use methodnoallow middleware
+2020-04-12 22:56:03,238 INFO 18676 [egg-security] use noopen middleware
+2020-04-12 22:56:03,239 INFO 18676 [egg-security] use nosniff middleware
+2020-04-12 22:56:03,240 INFO 18676 [egg-security] use xssProtection middleware
+2020-04-12 22:56:03,240 INFO 18676 [egg-security] use xframe middleware
+2020-04-12 22:56:03,241 INFO 18676 [egg-security] use dta middleware
+2020-04-12 22:56:03,241 INFO 18676 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:56:03,250 INFO 18676 [egg:core] dump config after load, 4ms
+2020-04-12 22:56:03,260 INFO 18676 [egg-watcher:application] watcher start success
+2020-04-12 22:56:03,266 INFO 18676 [egg:core] dump config after ready, 5ms
+2020-04-12 22:57:09,778 INFO 18708 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:57:09,806 INFO 18708 [egg-multipart] stream mode enable
+2020-04-12 22:57:09,875 INFO 18708 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:57:09,877 INFO 18708 [egg-security] use csrf middleware
+2020-04-12 22:57:09,878 INFO 18708 [egg-security] use methodnoallow middleware
+2020-04-12 22:57:09,878 INFO 18708 [egg-security] use noopen middleware
+2020-04-12 22:57:09,880 INFO 18708 [egg-security] use nosniff middleware
+2020-04-12 22:57:09,880 INFO 18708 [egg-security] use xssProtection middleware
+2020-04-12 22:57:09,881 INFO 18708 [egg-security] use xframe middleware
+2020-04-12 22:57:09,882 INFO 18708 [egg-security] use dta middleware
+2020-04-12 22:57:09,882 INFO 18708 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:57:09,890 INFO 18708 [egg:core] dump config after load, 5ms
+2020-04-12 22:57:09,900 INFO 18708 [egg-watcher:application] watcher start success
+2020-04-12 22:57:09,906 INFO 18708 [egg:core] dump config after ready, 4ms
+2020-04-12 22:57:37,532 INFO 2112 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:57:37,561 INFO 2112 [egg-multipart] stream mode enable
+2020-04-12 22:57:37,642 INFO 2112 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:57:37,645 INFO 2112 [egg-security] use csrf middleware
+2020-04-12 22:57:37,647 INFO 2112 [egg-security] use methodnoallow middleware
+2020-04-12 22:57:37,648 INFO 2112 [egg-security] use noopen middleware
+2020-04-12 22:57:37,649 INFO 2112 [egg-security] use nosniff middleware
+2020-04-12 22:57:37,649 INFO 2112 [egg-security] use xssProtection middleware
+2020-04-12 22:57:37,650 INFO 2112 [egg-security] use xframe middleware
+2020-04-12 22:57:37,651 INFO 2112 [egg-security] use dta middleware
+2020-04-12 22:57:37,651 INFO 2112 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:57:37,665 INFO 2112 [egg:core] dump config after load, 8ms
+2020-04-12 22:57:37,679 INFO 2112 [egg-watcher:application] watcher start success
+2020-04-12 22:57:37,688 INFO 2112 [egg:core] dump config after ready, 7ms
+2020-04-12 22:58:58,252 INFO 18144 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:58:58,283 INFO 18144 [egg-multipart] stream mode enable
+2020-04-12 22:58:58,438 INFO 18144 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 22:58:58,442 INFO 18144 [egg-security] use csrf middleware
+2020-04-12 22:58:58,443 INFO 18144 [egg-security] use methodnoallow middleware
+2020-04-12 22:58:58,443 INFO 18144 [egg-security] use noopen middleware
+2020-04-12 22:58:58,444 INFO 18144 [egg-security] use nosniff middleware
+2020-04-12 22:58:58,444 INFO 18144 [egg-security] use xssProtection middleware
+2020-04-12 22:58:58,445 INFO 18144 [egg-security] use xframe middleware
+2020-04-12 22:58:58,446 INFO 18144 [egg-security] use dta middleware
+2020-04-12 22:58:58,446 INFO 18144 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:58:58,458 INFO 18144 [egg:core] dump config after load, 6ms
+2020-04-12 22:58:58,471 INFO 18144 [egg-watcher:application] watcher start success
+2020-04-12 22:58:58,481 INFO 18144 [egg:core] dump config after ready, 8ms
+2020-04-12 23:00:37,424 INFO 16828 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:00:37,452 INFO 16828 [egg-multipart] stream mode enable
+2020-04-12 23:00:37,537 INFO 16828 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:00:37,540 INFO 16828 [egg-security] use csrf middleware
+2020-04-12 23:00:37,541 INFO 16828 [egg-security] use methodnoallow middleware
+2020-04-12 23:00:37,542 INFO 16828 [egg-security] use noopen middleware
+2020-04-12 23:00:37,545 INFO 16828 [egg-security] use nosniff middleware
+2020-04-12 23:00:37,545 INFO 16828 [egg-security] use xssProtection middleware
+2020-04-12 23:00:37,546 INFO 16828 [egg-security] use xframe middleware
+2020-04-12 23:00:37,547 INFO 16828 [egg-security] use dta middleware
+2020-04-12 23:00:37,547 INFO 16828 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:00:37,561 INFO 16828 [egg:core] dump config after load, 10ms
+2020-04-12 23:00:37,576 INFO 16828 [egg-watcher:application] watcher start success
+2020-04-12 23:00:37,584 INFO 16828 [egg:core] dump config after ready, 6ms
+2020-04-12 23:02:14,666 INFO 3672 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:02:14,696 INFO 3672 [egg-multipart] stream mode enable
+2020-04-12 23:02:14,767 INFO 3672 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:02:14,769 INFO 3672 [egg-security] use csrf middleware
+2020-04-12 23:02:14,770 INFO 3672 [egg-security] use methodnoallow middleware
+2020-04-12 23:02:14,771 INFO 3672 [egg-security] use noopen middleware
+2020-04-12 23:02:14,771 INFO 3672 [egg-security] use nosniff middleware
+2020-04-12 23:02:14,772 INFO 3672 [egg-security] use xssProtection middleware
+2020-04-12 23:02:14,773 INFO 3672 [egg-security] use xframe middleware
+2020-04-12 23:02:14,773 INFO 3672 [egg-security] use dta middleware
+2020-04-12 23:02:14,774 INFO 3672 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:02:14,782 INFO 3672 [egg:core] dump config after load, 4ms
+2020-04-12 23:02:14,791 INFO 3672 [egg-watcher:application] watcher start success
+2020-04-12 23:02:14,797 INFO 3672 [egg:core] dump config after ready, 4ms
+2020-04-12 23:02:35,971 INFO 9808 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:02:36,000 INFO 9808 [egg-multipart] stream mode enable
+2020-04-12 23:02:36,077 INFO 9808 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:02:36,080 INFO 9808 [egg-security] use csrf middleware
+2020-04-12 23:02:36,081 INFO 9808 [egg-security] use methodnoallow middleware
+2020-04-12 23:02:36,081 INFO 9808 [egg-security] use noopen middleware
+2020-04-12 23:02:36,083 INFO 9808 [egg-security] use nosniff middleware
+2020-04-12 23:02:36,084 INFO 9808 [egg-security] use xssProtection middleware
+2020-04-12 23:02:36,085 INFO 9808 [egg-security] use xframe middleware
+2020-04-12 23:02:36,086 INFO 9808 [egg-security] use dta middleware
+2020-04-12 23:02:36,086 INFO 9808 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:02:36,094 INFO 9808 [egg:core] dump config after load, 4ms
+2020-04-12 23:02:36,104 INFO 9808 [egg-watcher:application] watcher start success
+2020-04-12 23:02:36,110 INFO 9808 [egg:core] dump config after ready, 4ms
+2020-04-12 23:02:57,965 INFO 13024 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:02:57,995 INFO 13024 [egg-multipart] stream mode enable
+2020-04-12 23:02:58,073 INFO 13024 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:02:58,075 INFO 13024 [egg-security] use csrf middleware
+2020-04-12 23:02:58,076 INFO 13024 [egg-security] use methodnoallow middleware
+2020-04-12 23:02:58,076 INFO 13024 [egg-security] use noopen middleware
+2020-04-12 23:02:58,077 INFO 13024 [egg-security] use nosniff middleware
+2020-04-12 23:02:58,077 INFO 13024 [egg-security] use xssProtection middleware
+2020-04-12 23:02:58,078 INFO 13024 [egg-security] use xframe middleware
+2020-04-12 23:02:58,078 INFO 13024 [egg-security] use dta middleware
+2020-04-12 23:02:58,079 INFO 13024 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:02:58,089 INFO 13024 [egg:core] dump config after load, 5ms
+2020-04-12 23:02:58,099 INFO 13024 [egg-watcher:application] watcher start success
+2020-04-12 23:02:58,105 INFO 13024 [egg:core] dump config after ready, 4ms
+2020-04-12 23:03:16,528 INFO 9076 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:03:16,559 INFO 9076 [egg-multipart] stream mode enable
+2020-04-12 23:03:16,761 INFO 9076 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:03:16,764 INFO 9076 [egg-security] use csrf middleware
+2020-04-12 23:03:16,765 INFO 9076 [egg-security] use methodnoallow middleware
+2020-04-12 23:03:16,765 INFO 9076 [egg-security] use noopen middleware
+2020-04-12 23:03:16,767 INFO 9076 [egg-security] use nosniff middleware
+2020-04-12 23:03:16,770 INFO 9076 [egg-security] use xssProtection middleware
+2020-04-12 23:03:16,771 INFO 9076 [egg-security] use xframe middleware
+2020-04-12 23:03:16,774 INFO 9076 [egg-security] use dta middleware
+2020-04-12 23:03:16,774 INFO 9076 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:03:16,783 INFO 9076 [egg:core] dump config after load, 4ms
+2020-04-12 23:03:16,796 INFO 9076 [egg-watcher:application] watcher start success
+2020-04-12 23:03:16,810 INFO 9076 [egg:core] dump config after ready, 12ms
+2020-04-12 23:03:36,577 INFO 15400 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:03:36,609 INFO 15400 [egg-multipart] stream mode enable
+2020-04-12 23:03:36,684 INFO 15400 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:03:36,687 INFO 15400 [egg-security] use csrf middleware
+2020-04-12 23:03:36,688 INFO 15400 [egg-security] use methodnoallow middleware
+2020-04-12 23:03:36,688 INFO 15400 [egg-security] use noopen middleware
+2020-04-12 23:03:36,689 INFO 15400 [egg-security] use nosniff middleware
+2020-04-12 23:03:36,690 INFO 15400 [egg-security] use xssProtection middleware
+2020-04-12 23:03:36,691 INFO 15400 [egg-security] use xframe middleware
+2020-04-12 23:03:36,691 INFO 15400 [egg-security] use dta middleware
+2020-04-12 23:03:36,691 INFO 15400 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:03:36,701 INFO 15400 [egg:core] dump config after load, 6ms
+2020-04-12 23:03:36,714 INFO 15400 [egg-watcher:application] watcher start success
+2020-04-12 23:03:36,720 INFO 15400 [egg:core] dump config after ready, 5ms
+2020-04-12 23:08:02,980 INFO 17072 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:08:03,010 INFO 17072 [egg-multipart] stream mode enable
+2020-04-12 23:08:03,139 INFO 17072 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:08:03,143 INFO 17072 [egg-security] use csrf middleware
+2020-04-12 23:08:03,143 INFO 17072 [egg-security] use methodnoallow middleware
+2020-04-12 23:08:03,144 INFO 17072 [egg-security] use noopen middleware
+2020-04-12 23:08:03,145 INFO 17072 [egg-security] use nosniff middleware
+2020-04-12 23:08:03,145 INFO 17072 [egg-security] use xssProtection middleware
+2020-04-12 23:08:03,147 INFO 17072 [egg-security] use xframe middleware
+2020-04-12 23:08:03,148 INFO 17072 [egg-security] use dta middleware
+2020-04-12 23:08:03,148 INFO 17072 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:08:03,163 INFO 17072 [egg:core] dump config after load, 11ms
+2020-04-12 23:08:03,174 INFO 17072 [egg-watcher:application] watcher start success
+2020-04-12 23:08:03,184 INFO 17072 [egg:core] dump config after ready, 6ms
+2020-04-12 23:08:09,732 INFO 10176 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:08:09,765 INFO 10176 [egg-multipart] stream mode enable
+2020-04-12 23:08:09,837 INFO 10176 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:08:09,839 INFO 10176 [egg-security] use csrf middleware
+2020-04-12 23:08:09,840 INFO 10176 [egg-security] use methodnoallow middleware
+2020-04-12 23:08:09,841 INFO 10176 [egg-security] use noopen middleware
+2020-04-12 23:08:09,841 INFO 10176 [egg-security] use nosniff middleware
+2020-04-12 23:08:09,842 INFO 10176 [egg-security] use xssProtection middleware
+2020-04-12 23:08:09,842 INFO 10176 [egg-security] use xframe middleware
+2020-04-12 23:08:09,843 INFO 10176 [egg-security] use dta middleware
+2020-04-12 23:08:09,843 INFO 10176 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:08:09,856 INFO 10176 [egg:core] dump config after load, 7ms
+2020-04-12 23:08:09,871 INFO 10176 [egg-watcher:application] watcher start success
+2020-04-12 23:08:09,879 INFO 10176 [egg:core] dump config after ready, 6ms
+2020-04-12 23:08:22,514 INFO 3852 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:08:22,544 INFO 3852 [egg-multipart] stream mode enable
+2020-04-12 23:08:22,613 INFO 3852 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:08:22,617 INFO 3852 [egg-security] use csrf middleware
+2020-04-12 23:08:22,618 INFO 3852 [egg-security] use methodnoallow middleware
+2020-04-12 23:08:22,618 INFO 3852 [egg-security] use noopen middleware
+2020-04-12 23:08:22,619 INFO 3852 [egg-security] use nosniff middleware
+2020-04-12 23:08:22,620 INFO 3852 [egg-security] use xssProtection middleware
+2020-04-12 23:08:22,620 INFO 3852 [egg-security] use xframe middleware
+2020-04-12 23:08:22,621 INFO 3852 [egg-security] use dta middleware
+2020-04-12 23:08:22,621 INFO 3852 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:08:22,630 INFO 3852 [egg:core] dump config after load, 5ms
+2020-04-12 23:08:22,640 INFO 3852 [egg-watcher:application] watcher start success
+2020-04-12 23:08:22,650 INFO 3852 [egg:core] dump config after ready, 8ms
+2020-04-12 23:10:00,940 INFO 16040 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:10:00,979 INFO 16040 [egg-multipart] stream mode enable
+2020-04-12 23:10:01,061 INFO 16040 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:10:01,064 INFO 16040 [egg-security] use csrf middleware
+2020-04-12 23:10:01,065 INFO 16040 [egg-security] use methodnoallow middleware
+2020-04-12 23:10:01,066 INFO 16040 [egg-security] use noopen middleware
+2020-04-12 23:10:01,067 INFO 16040 [egg-security] use nosniff middleware
+2020-04-12 23:10:01,068 INFO 16040 [egg-security] use xssProtection middleware
+2020-04-12 23:10:01,071 INFO 16040 [egg-security] use xframe middleware
+2020-04-12 23:10:01,072 INFO 16040 [egg-security] use dta middleware
+2020-04-12 23:10:01,072 INFO 16040 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:10:01,086 INFO 16040 [egg:core] dump config after load, 9ms
+2020-04-12 23:10:01,098 INFO 16040 [egg-watcher:application] watcher start success
+2020-04-12 23:10:01,105 INFO 16040 [egg:core] dump config after ready, 5ms
+2020-04-12 23:10:17,492 INFO 18444 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:10:17,522 INFO 18444 [egg-multipart] stream mode enable
+2020-04-12 23:10:17,594 INFO 18444 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:10:17,803 INFO 18444 [egg-security] use csrf middleware
+2020-04-12 23:10:17,806 INFO 18444 [egg-security] use methodnoallow middleware
+2020-04-12 23:10:17,806 INFO 18444 [egg-security] use noopen middleware
+2020-04-12 23:10:17,807 INFO 18444 [egg-security] use nosniff middleware
+2020-04-12 23:10:17,808 INFO 18444 [egg-security] use xssProtection middleware
+2020-04-12 23:10:17,809 INFO 18444 [egg-security] use xframe middleware
+2020-04-12 23:10:17,810 INFO 18444 [egg-security] use dta middleware
+2020-04-12 23:10:17,810 INFO 18444 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:10:17,822 INFO 18444 [egg:core] dump config after load, 7ms
+2020-04-12 23:10:17,839 INFO 18444 [egg-watcher:application] watcher start success
+2020-04-12 23:10:17,850 INFO 18444 [egg:core] dump config after ready, 9ms
+2020-04-12 23:13:02,094 INFO 2576 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:13:02,125 INFO 2576 [egg-multipart] stream mode enable
+2020-04-12 23:13:02,197 INFO 2576 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:13:02,199 INFO 2576 [egg-security] use csrf middleware
+2020-04-12 23:13:02,200 INFO 2576 [egg-security] use methodnoallow middleware
+2020-04-12 23:13:02,201 INFO 2576 [egg-security] use noopen middleware
+2020-04-12 23:13:02,203 INFO 2576 [egg-security] use nosniff middleware
+2020-04-12 23:13:02,203 INFO 2576 [egg-security] use xssProtection middleware
+2020-04-12 23:13:02,204 INFO 2576 [egg-security] use xframe middleware
+2020-04-12 23:13:02,204 INFO 2576 [egg-security] use dta middleware
+2020-04-12 23:13:02,204 INFO 2576 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:13:02,215 INFO 2576 [egg:core] dump config after load, 5ms
+2020-04-12 23:13:02,225 INFO 2576 [egg-watcher:application] watcher start success
+2020-04-12 23:13:02,231 INFO 2576 [egg:core] dump config after ready, 4ms
+2020-04-12 23:15:44,518 INFO 17456 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:15:44,549 INFO 17456 [egg-multipart] stream mode enable
+2020-04-12 23:15:44,620 INFO 17456 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:15:44,622 INFO 17456 [egg-security] use csrf middleware
+2020-04-12 23:15:44,623 INFO 17456 [egg-security] use methodnoallow middleware
+2020-04-12 23:15:44,624 INFO 17456 [egg-security] use noopen middleware
+2020-04-12 23:15:44,624 INFO 17456 [egg-security] use nosniff middleware
+2020-04-12 23:15:44,625 INFO 17456 [egg-security] use xssProtection middleware
+2020-04-12 23:15:44,625 INFO 17456 [egg-security] use xframe middleware
+2020-04-12 23:15:44,626 INFO 17456 [egg-security] use dta middleware
+2020-04-12 23:15:44,626 INFO 17456 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:15:44,636 INFO 17456 [egg:core] dump config after load, 6ms
+2020-04-12 23:15:44,645 INFO 17456 [egg-watcher:application] watcher start success
+2020-04-12 23:15:44,656 INFO 17456 [egg:core] dump config after ready, 8ms
+2020-04-12 23:17:42,298 INFO 15840 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:17:42,376 INFO 15840 [egg-multipart] stream mode enable
+2020-04-12 23:17:42,460 INFO 15840 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:17:42,463 INFO 15840 [egg-security] use csrf middleware
+2020-04-12 23:17:42,464 INFO 15840 [egg-security] use methodnoallow middleware
+2020-04-12 23:17:42,465 INFO 15840 [egg-security] use noopen middleware
+2020-04-12 23:17:42,465 INFO 15840 [egg-security] use nosniff middleware
+2020-04-12 23:17:42,466 INFO 15840 [egg-security] use xssProtection middleware
+2020-04-12 23:17:42,466 INFO 15840 [egg-security] use xframe middleware
+2020-04-12 23:17:42,467 INFO 15840 [egg-security] use dta middleware
+2020-04-12 23:17:42,467 INFO 15840 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:17:42,476 INFO 15840 [egg:core] dump config after load, 5ms
+2020-04-12 23:17:42,487 INFO 15840 [egg-watcher:application] watcher start success
+2020-04-12 23:17:42,494 INFO 15840 [egg:core] dump config after ready, 5ms
+2020-04-12 23:17:56,278 INFO 19380 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:17:56,308 INFO 19380 [egg-multipart] stream mode enable
+2020-04-12 23:17:56,372 INFO 19380 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:17:56,374 INFO 19380 [egg-security] use csrf middleware
+2020-04-12 23:17:56,375 INFO 19380 [egg-security] use methodnoallow middleware
+2020-04-12 23:17:56,375 INFO 19380 [egg-security] use noopen middleware
+2020-04-12 23:17:56,376 INFO 19380 [egg-security] use nosniff middleware
+2020-04-12 23:17:56,376 INFO 19380 [egg-security] use xssProtection middleware
+2020-04-12 23:17:56,377 INFO 19380 [egg-security] use xframe middleware
+2020-04-12 23:17:56,377 INFO 19380 [egg-security] use dta middleware
+2020-04-12 23:17:56,377 INFO 19380 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:17:56,386 INFO 19380 [egg:core] dump config after load, 4ms
+2020-04-12 23:17:56,397 INFO 19380 [egg-watcher:application] watcher start success
+2020-04-12 23:17:56,403 INFO 19380 [egg:core] dump config after ready, 5ms
+2020-04-12 23:18:00,972 INFO 9728 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:18:01,011 INFO 9728 [egg-multipart] stream mode enable
+2020-04-12 23:18:01,079 INFO 9728 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:18:01,083 INFO 9728 [egg-security] use csrf middleware
+2020-04-12 23:18:01,084 INFO 9728 [egg-security] use methodnoallow middleware
+2020-04-12 23:18:01,084 INFO 9728 [egg-security] use noopen middleware
+2020-04-12 23:18:01,085 INFO 9728 [egg-security] use nosniff middleware
+2020-04-12 23:18:01,085 INFO 9728 [egg-security] use xssProtection middleware
+2020-04-12 23:18:01,086 INFO 9728 [egg-security] use xframe middleware
+2020-04-12 23:18:01,086 INFO 9728 [egg-security] use dta middleware
+2020-04-12 23:18:01,086 INFO 9728 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:18:01,095 INFO 9728 [egg:core] dump config after load, 4ms
+2020-04-12 23:18:01,106 INFO 9728 [egg-watcher:application] watcher start success
+2020-04-12 23:18:01,113 INFO 9728 [egg:core] dump config after ready, 5ms
+2020-04-12 23:19:06,430 INFO 18864 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:19:06,468 INFO 18864 [egg-multipart] stream mode enable
+2020-04-12 23:19:06,548 INFO 18864 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:19:06,551 INFO 18864 [egg-security] use csrf middleware
+2020-04-12 23:19:06,552 INFO 18864 [egg-security] use methodnoallow middleware
+2020-04-12 23:19:06,552 INFO 18864 [egg-security] use noopen middleware
+2020-04-12 23:19:06,553 INFO 18864 [egg-security] use nosniff middleware
+2020-04-12 23:19:06,555 INFO 18864 [egg-security] use xssProtection middleware
+2020-04-12 23:19:06,556 INFO 18864 [egg-security] use xframe middleware
+2020-04-12 23:19:06,557 INFO 18864 [egg-security] use dta middleware
+2020-04-12 23:19:06,557 INFO 18864 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:19:06,567 INFO 18864 [egg:core] dump config after load, 6ms
+2020-04-12 23:19:06,578 INFO 18864 [egg-watcher:application] watcher start success
+2020-04-12 23:19:06,587 INFO 18864 [egg:core] dump config after ready, 8ms
+2020-04-12 23:19:12,198 INFO 18632 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:19:12,235 INFO 18632 [egg-multipart] stream mode enable
+2020-04-12 23:19:12,313 INFO 18632 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:19:12,316 INFO 18632 [egg-security] use csrf middleware
+2020-04-12 23:19:12,317 INFO 18632 [egg-security] use methodnoallow middleware
+2020-04-12 23:19:12,318 INFO 18632 [egg-security] use noopen middleware
+2020-04-12 23:19:12,320 INFO 18632 [egg-security] use nosniff middleware
+2020-04-12 23:19:12,320 INFO 18632 [egg-security] use xssProtection middleware
+2020-04-12 23:19:12,321 INFO 18632 [egg-security] use xframe middleware
+2020-04-12 23:19:12,321 INFO 18632 [egg-security] use dta middleware
+2020-04-12 23:19:12,321 INFO 18632 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:19:12,333 INFO 18632 [egg:core] dump config after load, 5ms
+2020-04-12 23:19:12,344 INFO 18632 [egg-watcher:application] watcher start success
+2020-04-12 23:19:12,352 INFO 18632 [egg:core] dump config after ready, 7ms
+2020-04-12 23:21:34,107 INFO 18500 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:21:34,137 INFO 18500 [egg-multipart] stream mode enable
+2020-04-12 23:21:34,212 INFO 18500 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:21:34,215 INFO 18500 [egg-security] use csrf middleware
+2020-04-12 23:21:34,216 INFO 18500 [egg-security] use methodnoallow middleware
+2020-04-12 23:21:34,216 INFO 18500 [egg-security] use noopen middleware
+2020-04-12 23:21:34,217 INFO 18500 [egg-security] use nosniff middleware
+2020-04-12 23:21:34,217 INFO 18500 [egg-security] use xssProtection middleware
+2020-04-12 23:21:34,218 INFO 18500 [egg-security] use xframe middleware
+2020-04-12 23:21:34,218 INFO 18500 [egg-security] use dta middleware
+2020-04-12 23:21:34,218 INFO 18500 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:21:34,228 INFO 18500 [egg:core] dump config after load, 5ms
+2020-04-12 23:21:34,238 INFO 18500 [egg-watcher:application] watcher start success
+2020-04-12 23:21:34,247 INFO 18500 [egg:core] dump config after ready, 6ms
+2020-04-12 23:23:34,039 INFO 19056 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:23:34,071 INFO 19056 [egg-multipart] stream mode enable
+2020-04-12 23:23:34,141 INFO 19056 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:23:34,144 INFO 19056 [egg-security] use csrf middleware
+2020-04-12 23:23:34,145 INFO 19056 [egg-security] use methodnoallow middleware
+2020-04-12 23:23:34,146 INFO 19056 [egg-security] use noopen middleware
+2020-04-12 23:23:34,147 INFO 19056 [egg-security] use nosniff middleware
+2020-04-12 23:23:34,147 INFO 19056 [egg-security] use xssProtection middleware
+2020-04-12 23:23:34,148 INFO 19056 [egg-security] use xframe middleware
+2020-04-12 23:23:34,148 INFO 19056 [egg-security] use dta middleware
+2020-04-12 23:23:34,149 INFO 19056 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:23:34,158 INFO 19056 [egg:core] dump config after load, 4ms
+2020-04-12 23:23:34,169 INFO 19056 [egg-watcher:application] watcher start success
+2020-04-12 23:23:34,178 INFO 19056 [egg:core] dump config after ready, 8ms
+2020-04-12 23:23:38,733 INFO 9816 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:23:38,763 INFO 9816 [egg-multipart] stream mode enable
+2020-04-12 23:23:38,834 INFO 9816 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:23:38,838 INFO 9816 [egg-security] use csrf middleware
+2020-04-12 23:23:38,838 INFO 9816 [egg-security] use methodnoallow middleware
+2020-04-12 23:23:38,839 INFO 9816 [egg-security] use noopen middleware
+2020-04-12 23:23:38,840 INFO 9816 [egg-security] use nosniff middleware
+2020-04-12 23:23:38,840 INFO 9816 [egg-security] use xssProtection middleware
+2020-04-12 23:23:38,841 INFO 9816 [egg-security] use xframe middleware
+2020-04-12 23:23:38,841 INFO 9816 [egg-security] use dta middleware
+2020-04-12 23:23:38,841 INFO 9816 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:23:38,851 INFO 9816 [egg:core] dump config after load, 5ms
+2020-04-12 23:23:38,860 INFO 9816 [egg-watcher:application] watcher start success
+2020-04-12 23:23:38,869 INFO 9816 [egg:core] dump config after ready, 7ms
+2020-04-12 23:25:08,337 INFO 1304 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:25:08,366 INFO 1304 [egg-multipart] stream mode enable
+2020-04-12 23:25:08,442 INFO 1304 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:25:08,446 INFO 1304 [egg-security] use csrf middleware
+2020-04-12 23:25:08,447 INFO 1304 [egg-security] use methodnoallow middleware
+2020-04-12 23:25:08,447 INFO 1304 [egg-security] use noopen middleware
+2020-04-12 23:25:08,448 INFO 1304 [egg-security] use nosniff middleware
+2020-04-12 23:25:08,448 INFO 1304 [egg-security] use xssProtection middleware
+2020-04-12 23:25:08,449 INFO 1304 [egg-security] use xframe middleware
+2020-04-12 23:25:08,449 INFO 1304 [egg-security] use dta middleware
+2020-04-12 23:25:08,449 INFO 1304 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:25:08,458 INFO 1304 [egg:core] dump config after load, 4ms
+2020-04-12 23:25:08,469 INFO 1304 [egg-watcher:application] watcher start success
+2020-04-12 23:25:08,476 INFO 1304 [egg:core] dump config after ready, 6ms
+2020-04-12 23:25:13,239 INFO 19372 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:25:13,276 INFO 19372 [egg-multipart] stream mode enable
+2020-04-12 23:25:13,349 INFO 19372 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:25:13,351 INFO 19372 [egg-security] use csrf middleware
+2020-04-12 23:25:13,352 INFO 19372 [egg-security] use methodnoallow middleware
+2020-04-12 23:25:13,353 INFO 19372 [egg-security] use noopen middleware
+2020-04-12 23:25:13,353 INFO 19372 [egg-security] use nosniff middleware
+2020-04-12 23:25:13,354 INFO 19372 [egg-security] use xssProtection middleware
+2020-04-12 23:25:13,354 INFO 19372 [egg-security] use xframe middleware
+2020-04-12 23:25:13,355 INFO 19372 [egg-security] use dta middleware
+2020-04-12 23:25:13,355 INFO 19372 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:25:13,364 INFO 19372 [egg:core] dump config after load, 5ms
+2020-04-12 23:25:13,374 INFO 19372 [egg-watcher:application] watcher start success
+2020-04-12 23:25:13,384 INFO 19372 [egg:core] dump config after ready, 8ms
+2020-04-12 23:26:36,955 INFO 17772 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:26:36,996 INFO 17772 [egg-multipart] stream mode enable
+2020-04-12 23:26:37,101 INFO 17772 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:26:37,104 INFO 17772 [egg-security] use csrf middleware
+2020-04-12 23:26:37,105 INFO 17772 [egg-security] use methodnoallow middleware
+2020-04-12 23:26:37,106 INFO 17772 [egg-security] use noopen middleware
+2020-04-12 23:26:37,106 INFO 17772 [egg-security] use nosniff middleware
+2020-04-12 23:26:37,107 INFO 17772 [egg-security] use xssProtection middleware
+2020-04-12 23:26:37,107 INFO 17772 [egg-security] use xframe middleware
+2020-04-12 23:26:37,108 INFO 17772 [egg-security] use dta middleware
+2020-04-12 23:26:37,108 INFO 17772 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:26:37,119 INFO 17772 [egg:core] dump config after load, 7ms
+2020-04-12 23:26:37,153 INFO 17772 [egg-watcher:application] watcher start success
+2020-04-12 23:26:37,223 INFO 17772 [egg:core] dump config after ready, 68ms
+2020-04-12 23:26:42,798 INFO 20236 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:26:42,844 INFO 20236 [egg-multipart] stream mode enable
+2020-04-12 23:26:43,082 INFO 20236 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:26:43,092 INFO 20236 [egg-security] use csrf middleware
+2020-04-12 23:26:43,093 INFO 20236 [egg-security] use methodnoallow middleware
+2020-04-12 23:26:43,094 INFO 20236 [egg-security] use noopen middleware
+2020-04-12 23:26:43,095 INFO 20236 [egg-security] use nosniff middleware
+2020-04-12 23:26:43,096 INFO 20236 [egg-security] use xssProtection middleware
+2020-04-12 23:26:43,097 INFO 20236 [egg-security] use xframe middleware
+2020-04-12 23:26:43,098 INFO 20236 [egg-security] use dta middleware
+2020-04-12 23:26:43,098 INFO 20236 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:26:43,121 INFO 20236 [egg:core] dump config after load, 10ms
+2020-04-12 23:26:43,138 INFO 20236 [egg-watcher:application] watcher start success
+2020-04-12 23:26:43,145 INFO 20236 [egg:core] dump config after ready, 5ms
+2020-04-12 23:26:45,293 INFO 14644 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:26:45,323 INFO 14644 [egg-multipart] stream mode enable
+2020-04-12 23:26:45,390 INFO 14644 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:26:45,392 INFO 14644 [egg-security] use csrf middleware
+2020-04-12 23:26:45,393 INFO 14644 [egg-security] use methodnoallow middleware
+2020-04-12 23:26:45,394 INFO 14644 [egg-security] use noopen middleware
+2020-04-12 23:26:45,394 INFO 14644 [egg-security] use nosniff middleware
+2020-04-12 23:26:45,395 INFO 14644 [egg-security] use xssProtection middleware
+2020-04-12 23:26:45,395 INFO 14644 [egg-security] use xframe middleware
+2020-04-12 23:26:45,396 INFO 14644 [egg-security] use dta middleware
+2020-04-12 23:26:45,396 INFO 14644 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 23:26:45,406 INFO 14644 [egg:core] dump config after load, 6ms
+2020-04-12 23:26:45,417 INFO 14644 [egg-watcher:application] watcher start success
+2020-04-12 23:26:45,423 INFO 14644 [egg:core] dump config after ready, 4ms
+2020-04-12 23:26:54,307 INFO 20224 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:26:54,351 INFO 20224 [egg-multipart] stream mode enable
+2020-04-12 23:26:54,424 INFO 20224 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:26:54,432 INFO 20224 [egg-security] use methodnoallow middleware
+2020-04-12 23:26:54,432 INFO 20224 [egg-security] use noopen middleware
+2020-04-12 23:26:54,433 INFO 20224 [egg-security] use nosniff middleware
+2020-04-12 23:26:54,434 INFO 20224 [egg-security] use xssProtection middleware
+2020-04-12 23:26:54,434 INFO 20224 [egg-security] use xframe middleware
+2020-04-12 23:26:54,435 INFO 20224 [egg-security] use dta middleware
+2020-04-12 23:26:54,435 INFO 20224 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:26:54,452 INFO 20224 [egg:core] dump config after load, 8ms
+2020-04-12 23:26:54,466 INFO 20224 [egg-watcher:application] watcher start success
+2020-04-12 23:26:54,473 INFO 20224 [egg:core] dump config after ready, 5ms
+2020-04-12 23:26:59,080 INFO 20124 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:26:59,199 INFO 20124 [egg-multipart] stream mode enable
+2020-04-12 23:26:59,272 INFO 20124 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:26:59,274 INFO 20124 [egg-security] use methodnoallow middleware
+2020-04-12 23:26:59,275 INFO 20124 [egg-security] use noopen middleware
+2020-04-12 23:26:59,275 INFO 20124 [egg-security] use nosniff middleware
+2020-04-12 23:26:59,276 INFO 20124 [egg-security] use xssProtection middleware
+2020-04-12 23:26:59,276 INFO 20124 [egg-security] use xframe middleware
+2020-04-12 23:26:59,277 INFO 20124 [egg-security] use dta middleware
+2020-04-12 23:26:59,277 INFO 20124 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:26:59,285 INFO 20124 [egg:core] dump config after load, 4ms
+2020-04-12 23:26:59,295 INFO 20124 [egg-watcher:application] watcher start success
+2020-04-12 23:26:59,301 INFO 20124 [egg:core] dump config after ready, 4ms
+2020-04-12 23:27:31,969 INFO 9816 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:27:32,003 INFO 9816 [egg-multipart] stream mode enable
+2020-04-12 23:27:32,076 INFO 9816 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:27:32,078 INFO 9816 [egg-security] use methodnoallow middleware
+2020-04-12 23:27:32,079 INFO 9816 [egg-security] use noopen middleware
+2020-04-12 23:27:32,080 INFO 9816 [egg-security] use nosniff middleware
+2020-04-12 23:27:32,080 INFO 9816 [egg-security] use xssProtection middleware
+2020-04-12 23:27:32,081 INFO 9816 [egg-security] use xframe middleware
+2020-04-12 23:27:32,081 INFO 9816 [egg-security] use dta middleware
+2020-04-12 23:27:32,081 INFO 9816 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:27:32,090 INFO 9816 [egg:core] dump config after load, 4ms
+2020-04-12 23:27:32,101 INFO 9816 [egg-watcher:application] watcher start success
+2020-04-12 23:27:32,107 INFO 9816 [egg:core] dump config after ready, 4ms
+2020-04-12 23:28:25,216 INFO 19516 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:28:25,246 INFO 19516 [egg-multipart] stream mode enable
+2020-04-12 23:28:25,318 INFO 19516 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:28:25,322 INFO 19516 [egg-security] use methodnoallow middleware
+2020-04-12 23:28:25,322 INFO 19516 [egg-security] use noopen middleware
+2020-04-12 23:28:25,323 INFO 19516 [egg-security] use nosniff middleware
+2020-04-12 23:28:25,324 INFO 19516 [egg-security] use xssProtection middleware
+2020-04-12 23:28:25,324 INFO 19516 [egg-security] use xframe middleware
+2020-04-12 23:28:25,325 INFO 19516 [egg-security] use dta middleware
+2020-04-12 23:28:25,325 INFO 19516 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:28:25,333 INFO 19516 [egg:core] dump config after load, 4ms
+2020-04-12 23:28:25,343 INFO 19516 [egg-watcher:application] watcher start success
+2020-04-12 23:28:25,349 INFO 19516 [egg:core] dump config after ready, 4ms
+2020-04-12 23:28:37,719 INFO 19628 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:28:37,757 INFO 19628 [egg-multipart] stream mode enable
+2020-04-12 23:28:37,850 INFO 19628 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:28:37,853 INFO 19628 [egg-security] use methodnoallow middleware
+2020-04-12 23:28:37,853 INFO 19628 [egg-security] use noopen middleware
+2020-04-12 23:28:37,854 INFO 19628 [egg-security] use nosniff middleware
+2020-04-12 23:28:37,854 INFO 19628 [egg-security] use xssProtection middleware
+2020-04-12 23:28:37,855 INFO 19628 [egg-security] use xframe middleware
+2020-04-12 23:28:37,855 INFO 19628 [egg-security] use dta middleware
+2020-04-12 23:28:37,855 INFO 19628 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:28:37,865 INFO 19628 [egg:core] dump config after load, 5ms
+2020-04-12 23:28:37,874 INFO 19628 [egg-watcher:application] watcher start success
+2020-04-12 23:28:37,884 INFO 19628 [egg:core] dump config after ready, 8ms
+2020-04-12 23:28:39,748 INFO 6400 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:28:39,781 INFO 6400 [egg-multipart] stream mode enable
+2020-04-12 23:28:39,847 INFO 6400 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:28:39,850 INFO 6400 [egg-security] use methodnoallow middleware
+2020-04-12 23:28:39,851 INFO 6400 [egg-security] use noopen middleware
+2020-04-12 23:28:39,852 INFO 6400 [egg-security] use nosniff middleware
+2020-04-12 23:28:39,852 INFO 6400 [egg-security] use xssProtection middleware
+2020-04-12 23:28:39,853 INFO 6400 [egg-security] use xframe middleware
+2020-04-12 23:28:39,853 INFO 6400 [egg-security] use dta middleware
+2020-04-12 23:28:39,853 INFO 6400 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:28:39,864 INFO 6400 [egg:core] dump config after load, 5ms
+2020-04-12 23:28:39,875 INFO 6400 [egg-watcher:application] watcher start success
+2020-04-12 23:28:39,883 INFO 6400 [egg:core] dump config after ready, 6ms
+2020-04-12 23:28:51,434 INFO 19840 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:28:51,485 INFO 19840 [egg-multipart] stream mode enable
+2020-04-12 23:28:51,553 INFO 19840 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:28:51,555 INFO 19840 [egg-security] use methodnoallow middleware
+2020-04-12 23:28:51,556 INFO 19840 [egg-security] use noopen middleware
+2020-04-12 23:28:51,556 INFO 19840 [egg-security] use nosniff middleware
+2020-04-12 23:28:51,557 INFO 19840 [egg-security] use xssProtection middleware
+2020-04-12 23:28:51,557 INFO 19840 [egg-security] use xframe middleware
+2020-04-12 23:28:51,558 INFO 19840 [egg-security] use dta middleware
+2020-04-12 23:28:51,558 INFO 19840 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:28:51,568 INFO 19840 [egg:core] dump config after load, 6ms
+2020-04-12 23:28:51,579 INFO 19840 [egg-watcher:application] watcher start success
+2020-04-12 23:28:51,585 INFO 19840 [egg:core] dump config after ready, 5ms
+2020-04-12 23:29:27,353 INFO 19212 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:29:27,386 INFO 19212 [egg-multipart] stream mode enable
+2020-04-12 23:29:27,456 INFO 19212 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:29:27,459 INFO 19212 [egg-security] use methodnoallow middleware
+2020-04-12 23:29:27,459 INFO 19212 [egg-security] use noopen middleware
+2020-04-12 23:29:27,460 INFO 19212 [egg-security] use nosniff middleware
+2020-04-12 23:29:27,460 INFO 19212 [egg-security] use xssProtection middleware
+2020-04-12 23:29:27,461 INFO 19212 [egg-security] use xframe middleware
+2020-04-12 23:29:27,461 INFO 19212 [egg-security] use dta middleware
+2020-04-12 23:29:27,461 INFO 19212 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:29:27,472 INFO 19212 [egg:core] dump config after load, 5ms
+2020-04-12 23:29:27,483 INFO 19212 [egg-watcher:application] watcher start success
+2020-04-12 23:29:27,489 INFO 19212 [egg:core] dump config after ready, 5ms
+2020-04-12 23:29:34,587 INFO 20468 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:29:34,615 INFO 20468 [egg-multipart] stream mode enable
+2020-04-12 23:29:34,686 INFO 20468 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:29:34,689 INFO 20468 [egg-security] use methodnoallow middleware
+2020-04-12 23:29:34,689 INFO 20468 [egg-security] use noopen middleware
+2020-04-12 23:29:34,690 INFO 20468 [egg-security] use nosniff middleware
+2020-04-12 23:29:34,690 INFO 20468 [egg-security] use xssProtection middleware
+2020-04-12 23:29:34,691 INFO 20468 [egg-security] use xframe middleware
+2020-04-12 23:29:34,692 INFO 20468 [egg-security] use dta middleware
+2020-04-12 23:29:34,692 INFO 20468 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:29:34,703 INFO 20468 [egg:core] dump config after load, 4ms
+2020-04-12 23:29:34,713 INFO 20468 [egg-watcher:application] watcher start success
+2020-04-12 23:29:34,722 INFO 20468 [egg:core] dump config after ready, 7ms
+2020-04-12 23:29:52,899 INFO 6888 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:29:52,929 INFO 6888 [egg-multipart] stream mode enable
+2020-04-12 23:29:53,007 INFO 6888 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:29:53,011 INFO 6888 [egg-security] use methodnoallow middleware
+2020-04-12 23:29:53,011 INFO 6888 [egg-security] use noopen middleware
+2020-04-12 23:29:53,012 INFO 6888 [egg-security] use nosniff middleware
+2020-04-12 23:29:53,013 INFO 6888 [egg-security] use xssProtection middleware
+2020-04-12 23:29:53,013 INFO 6888 [egg-security] use xframe middleware
+2020-04-12 23:29:53,013 INFO 6888 [egg-security] use dta middleware
+2020-04-12 23:29:53,014 INFO 6888 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:29:53,023 INFO 6888 [egg:core] dump config after load, 5ms
+2020-04-12 23:29:53,033 INFO 6888 [egg-watcher:application] watcher start success
+2020-04-12 23:29:53,046 INFO 6888 [egg:core] dump config after ready, 11ms
+2020-04-12 23:30:07,993 INFO 19096 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:30:08,024 INFO 19096 [egg-multipart] stream mode enable
+2020-04-12 23:30:08,094 INFO 19096 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:30:08,098 INFO 19096 [egg-security] use methodnoallow middleware
+2020-04-12 23:30:08,098 INFO 19096 [egg-security] use noopen middleware
+2020-04-12 23:30:08,099 INFO 19096 [egg-security] use nosniff middleware
+2020-04-12 23:30:08,100 INFO 19096 [egg-security] use xssProtection middleware
+2020-04-12 23:30:08,101 INFO 19096 [egg-security] use xframe middleware
+2020-04-12 23:30:08,101 INFO 19096 [egg-security] use dta middleware
+2020-04-12 23:30:08,101 INFO 19096 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:30:08,112 INFO 19096 [egg:core] dump config after load, 6ms
+2020-04-12 23:30:08,125 INFO 19096 [egg-watcher:application] watcher start success
+2020-04-12 23:30:08,134 INFO 19096 [egg:core] dump config after ready, 5ms
+2020-04-12 23:30:11,521 INFO 19492 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:30:11,553 INFO 19492 [egg-multipart] stream mode enable
+2020-04-12 23:30:11,633 INFO 19492 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:30:11,635 INFO 19492 [egg-security] use methodnoallow middleware
+2020-04-12 23:30:11,636 INFO 19492 [egg-security] use noopen middleware
+2020-04-12 23:30:11,636 INFO 19492 [egg-security] use nosniff middleware
+2020-04-12 23:30:11,637 INFO 19492 [egg-security] use xssProtection middleware
+2020-04-12 23:30:11,637 INFO 19492 [egg-security] use xframe middleware
+2020-04-12 23:30:11,638 INFO 19492 [egg-security] use dta middleware
+2020-04-12 23:30:11,638 INFO 19492 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:30:11,648 INFO 19492 [egg:core] dump config after load, 5ms
+2020-04-12 23:30:11,658 INFO 19492 [egg-watcher:application] watcher start success
+2020-04-12 23:30:11,670 INFO 19492 [egg:core] dump config after ready, 10ms
+2020-04-12 23:30:21,868 INFO 17376 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:30:21,897 INFO 17376 [egg-multipart] stream mode enable
+2020-04-12 23:30:21,967 INFO 17376 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:30:21,969 INFO 17376 [egg-security] use methodnoallow middleware
+2020-04-12 23:30:21,970 INFO 17376 [egg-security] use noopen middleware
+2020-04-12 23:30:21,971 INFO 17376 [egg-security] use nosniff middleware
+2020-04-12 23:30:21,971 INFO 17376 [egg-security] use xssProtection middleware
+2020-04-12 23:30:21,972 INFO 17376 [egg-security] use xframe middleware
+2020-04-12 23:30:21,972 INFO 17376 [egg-security] use dta middleware
+2020-04-12 23:30:21,972 INFO 17376 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:30:21,987 INFO 17376 [egg:core] dump config after load, 8ms
+2020-04-12 23:30:21,998 INFO 17376 [egg-watcher:application] watcher start success
+2020-04-12 23:30:22,005 INFO 17376 [egg:core] dump config after ready, 5ms
+2020-04-12 23:30:35,833 INFO 19464 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:30:35,887 INFO 19464 [egg-multipart] stream mode enable
+2020-04-12 23:30:35,978 INFO 19464 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:30:35,981 INFO 19464 [egg-security] use methodnoallow middleware
+2020-04-12 23:30:35,981 INFO 19464 [egg-security] use noopen middleware
+2020-04-12 23:30:35,982 INFO 19464 [egg-security] use nosniff middleware
+2020-04-12 23:30:35,982 INFO 19464 [egg-security] use xssProtection middleware
+2020-04-12 23:30:35,983 INFO 19464 [egg-security] use xframe middleware
+2020-04-12 23:30:35,984 INFO 19464 [egg-security] use dta middleware
+2020-04-12 23:30:35,984 INFO 19464 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:30:35,993 INFO 19464 [egg:core] dump config after load, 5ms
+2020-04-12 23:30:36,003 INFO 19464 [egg-watcher:application] watcher start success
+2020-04-12 23:30:36,010 INFO 19464 [egg:core] dump config after ready, 4ms
+2020-04-12 23:30:46,622 INFO 7604 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:30:46,652 INFO 7604 [egg-multipart] stream mode enable
+2020-04-12 23:30:46,719 INFO 7604 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:30:46,721 INFO 7604 [egg-security] use methodnoallow middleware
+2020-04-12 23:30:46,722 INFO 7604 [egg-security] use noopen middleware
+2020-04-12 23:30:46,722 INFO 7604 [egg-security] use nosniff middleware
+2020-04-12 23:30:46,723 INFO 7604 [egg-security] use xssProtection middleware
+2020-04-12 23:30:46,723 INFO 7604 [egg-security] use xframe middleware
+2020-04-12 23:30:46,724 INFO 7604 [egg-security] use dta middleware
+2020-04-12 23:30:46,724 INFO 7604 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:30:46,734 INFO 7604 [egg:core] dump config after load, 5ms
+2020-04-12 23:30:46,745 INFO 7604 [egg-watcher:application] watcher start success
+2020-04-12 23:30:46,752 INFO 7604 [egg:core] dump config after ready, 5ms
+2020-04-12 23:31:18,299 INFO 15352 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:31:18,333 INFO 15352 [egg-multipart] stream mode enable
+2020-04-12 23:31:18,426 INFO 15352 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:31:18,428 INFO 15352 [egg-security] use methodnoallow middleware
+2020-04-12 23:31:18,430 INFO 15352 [egg-security] use noopen middleware
+2020-04-12 23:31:18,431 INFO 15352 [egg-security] use nosniff middleware
+2020-04-12 23:31:18,432 INFO 15352 [egg-security] use xssProtection middleware
+2020-04-12 23:31:18,432 INFO 15352 [egg-security] use xframe middleware
+2020-04-12 23:31:18,433 INFO 15352 [egg-security] use dta middleware
+2020-04-12 23:31:18,433 INFO 15352 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:31:18,442 INFO 15352 [egg:core] dump config after load, 5ms
+2020-04-12 23:31:18,458 INFO 15352 [egg-watcher:application] watcher start success
+2020-04-12 23:31:18,474 INFO 15352 [egg:core] dump config after ready, 10ms
+2020-04-12 23:31:21,449 INFO 14136 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:31:21,478 INFO 14136 [egg-multipart] stream mode enable
+2020-04-12 23:31:21,552 INFO 14136 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:31:21,554 INFO 14136 [egg-security] use methodnoallow middleware
+2020-04-12 23:31:21,555 INFO 14136 [egg-security] use noopen middleware
+2020-04-12 23:31:21,556 INFO 14136 [egg-security] use nosniff middleware
+2020-04-12 23:31:21,556 INFO 14136 [egg-security] use xssProtection middleware
+2020-04-12 23:31:21,556 INFO 14136 [egg-security] use xframe middleware
+2020-04-12 23:31:21,557 INFO 14136 [egg-security] use dta middleware
+2020-04-12 23:31:21,557 INFO 14136 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:31:21,572 INFO 14136 [egg:core] dump config after load, 8ms
+2020-04-12 23:31:21,582 INFO 14136 [egg-watcher:application] watcher start success
+2020-04-12 23:31:21,589 INFO 14136 [egg:core] dump config after ready, 5ms
+2020-04-12 23:31:30,398 INFO 16004 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:31:30,433 INFO 16004 [egg-multipart] stream mode enable
+2020-04-12 23:31:30,520 INFO 16004 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:31:30,526 INFO 16004 [egg-security] use methodnoallow middleware
+2020-04-12 23:31:30,527 INFO 16004 [egg-security] use noopen middleware
+2020-04-12 23:31:30,528 INFO 16004 [egg-security] use nosniff middleware
+2020-04-12 23:31:30,529 INFO 16004 [egg-security] use xssProtection middleware
+2020-04-12 23:31:30,529 INFO 16004 [egg-security] use xframe middleware
+2020-04-12 23:31:30,530 INFO 16004 [egg-security] use dta middleware
+2020-04-12 23:31:30,530 INFO 16004 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:31:30,552 INFO 16004 [egg:core] dump config after load, 9ms
+2020-04-12 23:31:30,604 INFO 16004 [egg-watcher:application] watcher start success
+2020-04-12 23:31:30,667 INFO 16004 [egg:core] dump config after ready, 52ms
+2020-04-12 23:31:42,164 INFO 12872 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:31:42,193 INFO 12872 [egg-multipart] stream mode enable
+2020-04-12 23:31:42,260 INFO 12872 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:31:42,262 INFO 12872 [egg-security] use methodnoallow middleware
+2020-04-12 23:31:42,263 INFO 12872 [egg-security] use noopen middleware
+2020-04-12 23:31:42,263 INFO 12872 [egg-security] use nosniff middleware
+2020-04-12 23:31:42,264 INFO 12872 [egg-security] use xssProtection middleware
+2020-04-12 23:31:42,264 INFO 12872 [egg-security] use xframe middleware
+2020-04-12 23:31:42,265 INFO 12872 [egg-security] use dta middleware
+2020-04-12 23:31:42,265 INFO 12872 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:31:42,275 INFO 12872 [egg:core] dump config after load, 5ms
+2020-04-12 23:31:42,285 INFO 12872 [egg-watcher:application] watcher start success
+2020-04-12 23:31:42,293 INFO 12872 [egg:core] dump config after ready, 7ms
+2020-04-12 23:31:49,677 INFO 16096 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:31:49,710 INFO 16096 [egg-multipart] stream mode enable
+2020-04-12 23:31:49,791 INFO 16096 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:31:49,793 INFO 16096 [egg-security] use methodnoallow middleware
+2020-04-12 23:31:49,794 INFO 16096 [egg-security] use noopen middleware
+2020-04-12 23:31:49,795 INFO 16096 [egg-security] use nosniff middleware
+2020-04-12 23:31:49,795 INFO 16096 [egg-security] use xssProtection middleware
+2020-04-12 23:31:49,796 INFO 16096 [egg-security] use xframe middleware
+2020-04-12 23:31:49,796 INFO 16096 [egg-security] use dta middleware
+2020-04-12 23:31:49,796 INFO 16096 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:31:49,805 INFO 16096 [egg:core] dump config after load, 4ms
+2020-04-12 23:31:49,816 INFO 16096 [egg-watcher:application] watcher start success
+2020-04-12 23:31:49,823 INFO 16096 [egg:core] dump config after ready, 5ms
+2020-04-12 23:32:07,421 INFO 19472 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:32:07,451 INFO 19472 [egg-multipart] stream mode enable
+2020-04-12 23:32:07,531 INFO 19472 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:32:07,533 INFO 19472 [egg-security] use methodnoallow middleware
+2020-04-12 23:32:07,534 INFO 19472 [egg-security] use noopen middleware
+2020-04-12 23:32:07,535 INFO 19472 [egg-security] use nosniff middleware
+2020-04-12 23:32:07,536 INFO 19472 [egg-security] use xssProtection middleware
+2020-04-12 23:32:07,537 INFO 19472 [egg-security] use xframe middleware
+2020-04-12 23:32:07,538 INFO 19472 [egg-security] use dta middleware
+2020-04-12 23:32:07,538 INFO 19472 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:32:07,556 INFO 19472 [egg:core] dump config after load, 12ms
+2020-04-12 23:32:07,566 INFO 19472 [egg-watcher:application] watcher start success
+2020-04-12 23:32:07,575 INFO 19472 [egg:core] dump config after ready, 5ms
+2020-04-12 23:32:08,977 INFO 17328 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:32:09,008 INFO 17328 [egg-multipart] stream mode enable
+2020-04-12 23:32:09,077 INFO 17328 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:32:09,079 INFO 17328 [egg-security] use methodnoallow middleware
+2020-04-12 23:32:09,080 INFO 17328 [egg-security] use noopen middleware
+2020-04-12 23:32:09,080 INFO 17328 [egg-security] use nosniff middleware
+2020-04-12 23:32:09,081 INFO 17328 [egg-security] use xssProtection middleware
+2020-04-12 23:32:09,081 INFO 17328 [egg-security] use xframe middleware
+2020-04-12 23:32:09,082 INFO 17328 [egg-security] use dta middleware
+2020-04-12 23:32:09,082 INFO 17328 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:32:09,094 INFO 17328 [egg:core] dump config after load, 7ms
+2020-04-12 23:32:09,109 INFO 17328 [egg-watcher:application] watcher start success
+2020-04-12 23:32:09,120 INFO 17328 [egg:core] dump config after ready, 8ms
+2020-04-12 23:33:26,564 INFO 17424 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:33:26,594 INFO 17424 [egg-multipart] stream mode enable
+2020-04-12 23:33:26,683 INFO 17424 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:33:26,685 INFO 17424 [egg-security] use methodnoallow middleware
+2020-04-12 23:33:26,686 INFO 17424 [egg-security] use noopen middleware
+2020-04-12 23:33:26,686 INFO 17424 [egg-security] use nosniff middleware
+2020-04-12 23:33:26,687 INFO 17424 [egg-security] use xssProtection middleware
+2020-04-12 23:33:26,687 INFO 17424 [egg-security] use xframe middleware
+2020-04-12 23:33:26,688 INFO 17424 [egg-security] use dta middleware
+2020-04-12 23:33:26,688 INFO 17424 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:33:26,697 INFO 17424 [egg:core] dump config after load, 4ms
+2020-04-12 23:33:26,712 INFO 17424 [egg-watcher:application] watcher start success
+2020-04-12 23:33:26,719 INFO 17424 [egg:core] dump config after ready, 5ms
+2020-04-12 23:35:48,261 INFO 5896 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:35:48,290 INFO 5896 [egg-multipart] stream mode enable
+2020-04-12 23:35:48,362 INFO 5896 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:35:48,364 INFO 5896 [egg-security] use methodnoallow middleware
+2020-04-12 23:35:48,365 INFO 5896 [egg-security] use noopen middleware
+2020-04-12 23:35:48,366 INFO 5896 [egg-security] use nosniff middleware
+2020-04-12 23:35:48,367 INFO 5896 [egg-security] use xssProtection middleware
+2020-04-12 23:35:48,367 INFO 5896 [egg-security] use xframe middleware
+2020-04-12 23:35:48,368 INFO 5896 [egg-security] use dta middleware
+2020-04-12 23:35:48,368 INFO 5896 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:35:48,377 INFO 5896 [egg:core] dump config after load, 5ms
+2020-04-12 23:35:48,387 INFO 5896 [egg-watcher:application] watcher start success
+2020-04-12 23:35:48,393 INFO 5896 [egg:core] dump config after ready, 4ms
+2020-04-12 23:36:01,786 INFO 14036 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:36:01,814 INFO 14036 [egg-multipart] stream mode enable
+2020-04-12 23:36:01,884 INFO 14036 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:36:01,886 INFO 14036 [egg-security] use methodnoallow middleware
+2020-04-12 23:36:01,887 INFO 14036 [egg-security] use noopen middleware
+2020-04-12 23:36:01,888 INFO 14036 [egg-security] use nosniff middleware
+2020-04-12 23:36:01,888 INFO 14036 [egg-security] use xssProtection middleware
+2020-04-12 23:36:01,889 INFO 14036 [egg-security] use xframe middleware
+2020-04-12 23:36:01,889 INFO 14036 [egg-security] use dta middleware
+2020-04-12 23:36:01,889 INFO 14036 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:36:01,900 INFO 14036 [egg:core] dump config after load, 6ms
+2020-04-12 23:36:01,909 INFO 14036 [egg-watcher:application] watcher start success
+2020-04-12 23:36:01,916 INFO 14036 [egg:core] dump config after ready, 4ms
+2020-04-12 23:37:07,143 INFO 8532 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:37:07,174 INFO 8532 [egg-multipart] stream mode enable
+2020-04-12 23:37:07,245 INFO 8532 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:37:07,247 INFO 8532 [egg-security] use methodnoallow middleware
+2020-04-12 23:37:07,248 INFO 8532 [egg-security] use noopen middleware
+2020-04-12 23:37:07,248 INFO 8532 [egg-security] use nosniff middleware
+2020-04-12 23:37:07,249 INFO 8532 [egg-security] use xssProtection middleware
+2020-04-12 23:37:07,249 INFO 8532 [egg-security] use xframe middleware
+2020-04-12 23:37:07,250 INFO 8532 [egg-security] use dta middleware
+2020-04-12 23:37:07,250 INFO 8532 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:37:07,260 INFO 8532 [egg:core] dump config after load, 6ms
+2020-04-12 23:37:07,271 INFO 8532 [egg-watcher:application] watcher start success
+2020-04-12 23:37:07,280 INFO 8532 [egg:core] dump config after ready, 8ms
+2020-04-12 23:37:14,452 INFO 6208 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:37:14,483 INFO 6208 [egg-multipart] stream mode enable
+2020-04-12 23:37:14,550 INFO 6208 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:37:14,554 INFO 6208 [egg-security] use methodnoallow middleware
+2020-04-12 23:37:14,555 INFO 6208 [egg-security] use noopen middleware
+2020-04-12 23:37:14,555 INFO 6208 [egg-security] use nosniff middleware
+2020-04-12 23:37:14,556 INFO 6208 [egg-security] use xssProtection middleware
+2020-04-12 23:37:14,556 INFO 6208 [egg-security] use xframe middleware
+2020-04-12 23:37:14,557 INFO 6208 [egg-security] use dta middleware
+2020-04-12 23:37:14,557 INFO 6208 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:37:14,566 INFO 6208 [egg:core] dump config after load, 5ms
+2020-04-12 23:37:14,576 INFO 6208 [egg-watcher:application] watcher start success
+2020-04-12 23:37:14,701 INFO 6208 [egg:core] dump config after ready, 122ms
+2020-04-12 23:37:38,123 INFO 18504 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:37:38,154 INFO 18504 [egg-multipart] stream mode enable
+2020-04-12 23:37:38,235 INFO 18504 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:37:38,237 INFO 18504 [egg-security] use methodnoallow middleware
+2020-04-12 23:37:38,240 INFO 18504 [egg-security] use noopen middleware
+2020-04-12 23:37:38,241 INFO 18504 [egg-security] use nosniff middleware
+2020-04-12 23:37:38,241 INFO 18504 [egg-security] use xssProtection middleware
+2020-04-12 23:37:38,242 INFO 18504 [egg-security] use xframe middleware
+2020-04-12 23:37:38,243 INFO 18504 [egg-security] use dta middleware
+2020-04-12 23:37:38,243 INFO 18504 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:37:38,256 INFO 18504 [egg:core] dump config after load, 6ms
+2020-04-12 23:37:38,266 INFO 18504 [egg-watcher:application] watcher start success
+2020-04-12 23:37:38,276 INFO 18504 [egg:core] dump config after ready, 8ms
+2020-04-12 23:38:08,904 INFO 19524 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:38:08,934 INFO 19524 [egg-multipart] stream mode enable
+2020-04-12 23:38:09,002 INFO 19524 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:38:09,004 INFO 19524 [egg-security] use methodnoallow middleware
+2020-04-12 23:38:09,004 INFO 19524 [egg-security] use noopen middleware
+2020-04-12 23:38:09,005 INFO 19524 [egg-security] use nosniff middleware
+2020-04-12 23:38:09,006 INFO 19524 [egg-security] use xssProtection middleware
+2020-04-12 23:38:09,006 INFO 19524 [egg-security] use xframe middleware
+2020-04-12 23:38:09,007 INFO 19524 [egg-security] use dta middleware
+2020-04-12 23:38:09,007 INFO 19524 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:38:09,017 INFO 19524 [egg:core] dump config after load, 6ms
+2020-04-12 23:38:09,028 INFO 19524 [egg-watcher:application] watcher start success
+2020-04-12 23:38:09,037 INFO 19524 [egg:core] dump config after ready, 8ms
+2020-04-12 23:38:20,592 INFO 17852 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:38:20,620 INFO 17852 [egg-multipart] stream mode enable
+2020-04-12 23:38:20,709 INFO 17852 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:38:20,713 INFO 17852 [egg-security] use methodnoallow middleware
+2020-04-12 23:38:20,713 INFO 17852 [egg-security] use noopen middleware
+2020-04-12 23:38:20,714 INFO 17852 [egg-security] use nosniff middleware
+2020-04-12 23:38:20,715 INFO 17852 [egg-security] use xssProtection middleware
+2020-04-12 23:38:20,715 INFO 17852 [egg-security] use xframe middleware
+2020-04-12 23:38:20,716 INFO 17852 [egg-security] use dta middleware
+2020-04-12 23:38:20,716 INFO 17852 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:38:20,725 INFO 17852 [egg:core] dump config after load, 5ms
+2020-04-12 23:38:20,735 INFO 17852 [egg-watcher:application] watcher start success
+2020-04-12 23:38:20,742 INFO 17852 [egg:core] dump config after ready, 5ms
+2020-04-12 23:38:29,577 INFO 18140 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:38:29,610 INFO 18140 [egg-multipart] stream mode enable
+2020-04-12 23:38:29,688 INFO 18140 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:38:29,691 INFO 18140 [egg-security] use methodnoallow middleware
+2020-04-12 23:38:29,692 INFO 18140 [egg-security] use noopen middleware
+2020-04-12 23:38:29,693 INFO 18140 [egg-security] use nosniff middleware
+2020-04-12 23:38:29,693 INFO 18140 [egg-security] use xssProtection middleware
+2020-04-12 23:38:29,694 INFO 18140 [egg-security] use xframe middleware
+2020-04-12 23:38:29,694 INFO 18140 [egg-security] use dta middleware
+2020-04-12 23:38:29,694 INFO 18140 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:38:29,704 INFO 18140 [egg:core] dump config after load, 5ms
+2020-04-12 23:38:29,715 INFO 18140 [egg-watcher:application] watcher start success
+2020-04-12 23:38:29,721 INFO 18140 [egg:core] dump config after ready, 4ms
+2020-04-12 23:39:32,150 INFO 13540 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:39:32,177 INFO 13540 [egg-multipart] stream mode enable
+2020-04-12 23:39:32,251 INFO 13540 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:39:32,253 INFO 13540 [egg-security] use methodnoallow middleware
+2020-04-12 23:39:32,254 INFO 13540 [egg-security] use noopen middleware
+2020-04-12 23:39:32,255 INFO 13540 [egg-security] use nosniff middleware
+2020-04-12 23:39:32,255 INFO 13540 [egg-security] use xssProtection middleware
+2020-04-12 23:39:32,256 INFO 13540 [egg-security] use xframe middleware
+2020-04-12 23:39:32,256 INFO 13540 [egg-security] use dta middleware
+2020-04-12 23:39:32,257 INFO 13540 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:39:32,265 INFO 13540 [egg:core] dump config after load, 4ms
+2020-04-12 23:39:32,274 INFO 13540 [egg-watcher:application] watcher start success
+2020-04-12 23:39:32,281 INFO 13540 [egg:core] dump config after ready, 4ms
+2020-04-12 23:39:43,175 INFO 17496 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:39:43,220 INFO 17496 [egg-multipart] stream mode enable
+2020-04-12 23:39:43,348 INFO 17496 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:39:43,351 INFO 17496 [egg-security] use methodnoallow middleware
+2020-04-12 23:39:43,352 INFO 17496 [egg-security] use noopen middleware
+2020-04-12 23:39:43,353 INFO 17496 [egg-security] use nosniff middleware
+2020-04-12 23:39:43,353 INFO 17496 [egg-security] use xssProtection middleware
+2020-04-12 23:39:43,354 INFO 17496 [egg-security] use xframe middleware
+2020-04-12 23:39:43,354 INFO 17496 [egg-security] use dta middleware
+2020-04-12 23:39:43,355 INFO 17496 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:39:43,363 INFO 17496 [egg:core] dump config after load, 4ms
+2020-04-12 23:39:43,372 INFO 17496 [egg-watcher:application] watcher start success
+2020-04-12 23:39:43,378 INFO 17496 [egg:core] dump config after ready, 4ms
+2020-04-12 23:40:24,415 INFO 17664 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:40:24,447 INFO 17664 [egg-multipart] stream mode enable
+2020-04-12 23:40:24,517 INFO 17664 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:40:24,520 INFO 17664 [egg-security] use methodnoallow middleware
+2020-04-12 23:40:24,521 INFO 17664 [egg-security] use noopen middleware
+2020-04-12 23:40:24,522 INFO 17664 [egg-security] use nosniff middleware
+2020-04-12 23:40:24,522 INFO 17664 [egg-security] use xssProtection middleware
+2020-04-12 23:40:24,523 INFO 17664 [egg-security] use xframe middleware
+2020-04-12 23:40:24,524 INFO 17664 [egg-security] use dta middleware
+2020-04-12 23:40:24,524 INFO 17664 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:40:24,535 INFO 17664 [egg:core] dump config after load, 6ms
+2020-04-12 23:40:24,546 INFO 17664 [egg-watcher:application] watcher start success
+2020-04-12 23:40:24,557 INFO 17664 [egg:core] dump config after ready, 8ms
+2020-04-12 23:40:37,867 INFO 7852 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:40:37,895 INFO 7852 [egg-multipart] stream mode enable
+2020-04-12 23:40:37,999 INFO 7852 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:40:38,006 INFO 7852 [egg-security] use methodnoallow middleware
+2020-04-12 23:40:38,007 INFO 7852 [egg-security] use noopen middleware
+2020-04-12 23:40:38,008 INFO 7852 [egg-security] use nosniff middleware
+2020-04-12 23:40:38,008 INFO 7852 [egg-security] use xssProtection middleware
+2020-04-12 23:40:38,010 INFO 7852 [egg-security] use xframe middleware
+2020-04-12 23:40:38,011 INFO 7852 [egg-security] use dta middleware
+2020-04-12 23:40:38,011 INFO 7852 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:40:38,027 INFO 7852 [egg:core] dump config after load, 8ms
+2020-04-12 23:40:38,042 INFO 7852 [egg-watcher:application] watcher start success
+2020-04-12 23:40:38,050 INFO 7852 [egg:core] dump config after ready, 6ms
+2020-04-12 23:42:13,204 INFO 18416 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:42:13,235 INFO 18416 [egg-multipart] stream mode enable
+2020-04-12 23:42:13,305 INFO 18416 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:42:13,307 INFO 18416 [egg-security] use methodnoallow middleware
+2020-04-12 23:42:13,308 INFO 18416 [egg-security] use noopen middleware
+2020-04-12 23:42:13,308 INFO 18416 [egg-security] use nosniff middleware
+2020-04-12 23:42:13,309 INFO 18416 [egg-security] use xssProtection middleware
+2020-04-12 23:42:13,309 INFO 18416 [egg-security] use xframe middleware
+2020-04-12 23:42:13,310 INFO 18416 [egg-security] use dta middleware
+2020-04-12 23:42:13,310 INFO 18416 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:42:13,324 INFO 18416 [egg:core] dump config after load, 5ms
+2020-04-12 23:42:13,337 INFO 18416 [egg-watcher:application] watcher start success
+2020-04-12 23:42:13,458 INFO 18416 [egg:core] dump config after ready, 119ms
+2020-04-12 23:42:24,881 INFO 19756 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:42:24,911 INFO 19756 [egg-multipart] stream mode enable
+2020-04-12 23:42:24,985 INFO 19756 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:42:24,987 INFO 19756 [egg-security] use methodnoallow middleware
+2020-04-12 23:42:24,989 INFO 19756 [egg-security] use noopen middleware
+2020-04-12 23:42:24,990 INFO 19756 [egg-security] use nosniff middleware
+2020-04-12 23:42:24,991 INFO 19756 [egg-security] use xssProtection middleware
+2020-04-12 23:42:24,991 INFO 19756 [egg-security] use xframe middleware
+2020-04-12 23:42:24,992 INFO 19756 [egg-security] use dta middleware
+2020-04-12 23:42:24,992 INFO 19756 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:42:25,000 INFO 19756 [egg:core] dump config after load, 4ms
+2020-04-12 23:42:25,010 INFO 19756 [egg-watcher:application] watcher start success
+2020-04-12 23:42:25,015 INFO 19756 [egg:core] dump config after ready, 4ms
+2020-04-12 23:43:11,148 INFO 7248 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:43:11,176 INFO 7248 [egg-multipart] stream mode enable
+2020-04-12 23:43:11,250 INFO 7248 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:43:11,252 INFO 7248 [egg-security] use methodnoallow middleware
+2020-04-12 23:43:11,253 INFO 7248 [egg-security] use noopen middleware
+2020-04-12 23:43:11,253 INFO 7248 [egg-security] use nosniff middleware
+2020-04-12 23:43:11,254 INFO 7248 [egg-security] use xssProtection middleware
+2020-04-12 23:43:11,254 INFO 7248 [egg-security] use xframe middleware
+2020-04-12 23:43:11,255 INFO 7248 [egg-security] use dta middleware
+2020-04-12 23:43:11,255 INFO 7248 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:43:11,267 INFO 7248 [egg:core] dump config after load, 4ms
+2020-04-12 23:43:11,277 INFO 7248 [egg-watcher:application] watcher start success
+2020-04-12 23:43:11,283 INFO 7248 [egg:core] dump config after ready, 4ms
+2020-04-12 23:44:05,429 INFO 15268 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:44:05,466 INFO 15268 [egg-multipart] stream mode enable
+2020-04-12 23:44:05,533 INFO 15268 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:44:05,535 INFO 15268 [egg-security] use methodnoallow middleware
+2020-04-12 23:44:05,535 INFO 15268 [egg-security] use noopen middleware
+2020-04-12 23:44:05,536 INFO 15268 [egg-security] use nosniff middleware
+2020-04-12 23:44:05,537 INFO 15268 [egg-security] use xssProtection middleware
+2020-04-12 23:44:05,537 INFO 15268 [egg-security] use xframe middleware
+2020-04-12 23:44:05,538 INFO 15268 [egg-security] use dta middleware
+2020-04-12 23:44:05,538 INFO 15268 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:44:05,547 INFO 15268 [egg:core] dump config after load, 4ms
+2020-04-12 23:44:05,557 INFO 15268 [egg-watcher:application] watcher start success
+2020-04-12 23:44:05,562 INFO 15268 [egg:core] dump config after ready, 4ms
+2020-04-12 23:44:27,689 INFO 11284 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:44:27,731 INFO 11284 [egg-multipart] stream mode enable
+2020-04-12 23:44:27,844 INFO 11284 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:44:27,849 INFO 11284 [egg-security] use methodnoallow middleware
+2020-04-12 23:44:27,850 INFO 11284 [egg-security] use noopen middleware
+2020-04-12 23:44:27,851 INFO 11284 [egg-security] use nosniff middleware
+2020-04-12 23:44:27,852 INFO 11284 [egg-security] use xssProtection middleware
+2020-04-12 23:44:27,853 INFO 11284 [egg-security] use xframe middleware
+2020-04-12 23:44:27,854 INFO 11284 [egg-security] use dta middleware
+2020-04-12 23:44:27,854 INFO 11284 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:44:27,867 INFO 11284 [egg:core] dump config after load, 7ms
+2020-04-12 23:44:27,880 INFO 11284 [egg-watcher:application] watcher start success
+2020-04-12 23:44:27,886 INFO 11284 [egg:core] dump config after ready, 4ms
+2020-04-12 23:44:57,124 INFO 18796 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:44:57,220 INFO 18796 [egg-multipart] stream mode enable
+2020-04-12 23:44:57,348 INFO 18796 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:44:57,350 INFO 18796 [egg-security] use methodnoallow middleware
+2020-04-12 23:44:57,351 INFO 18796 [egg-security] use noopen middleware
+2020-04-12 23:44:57,352 INFO 18796 [egg-security] use nosniff middleware
+2020-04-12 23:44:57,353 INFO 18796 [egg-security] use xssProtection middleware
+2020-04-12 23:44:57,354 INFO 18796 [egg-security] use xframe middleware
+2020-04-12 23:44:57,354 INFO 18796 [egg-security] use dta middleware
+2020-04-12 23:44:57,354 INFO 18796 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:44:57,365 INFO 18796 [egg:core] dump config after load, 5ms
+2020-04-12 23:44:57,376 INFO 18796 [egg-watcher:application] watcher start success
+2020-04-12 23:44:57,385 INFO 18796 [egg:core] dump config after ready, 8ms
+2020-04-12 23:48:16,483 INFO 3548 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:48:16,512 INFO 3548 [egg-multipart] stream mode enable
+2020-04-12 23:48:16,583 INFO 3548 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:48:16,586 INFO 3548 [egg-security] use methodnoallow middleware
+2020-04-12 23:48:16,587 INFO 3548 [egg-security] use noopen middleware
+2020-04-12 23:48:16,588 INFO 3548 [egg-security] use nosniff middleware
+2020-04-12 23:48:16,588 INFO 3548 [egg-security] use xssProtection middleware
+2020-04-12 23:48:16,589 INFO 3548 [egg-security] use xframe middleware
+2020-04-12 23:48:16,589 INFO 3548 [egg-security] use dta middleware
+2020-04-12 23:48:16,589 INFO 3548 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:48:16,598 INFO 3548 [egg:core] dump config after load, 5ms
+2020-04-12 23:48:16,609 INFO 3548 [egg-watcher:application] watcher start success
+2020-04-12 23:48:16,616 INFO 3548 [egg:core] dump config after ready, 6ms
+2020-04-12 23:48:27,817 INFO 18876 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:48:27,854 INFO 18876 [egg-multipart] stream mode enable
+2020-04-12 23:48:27,918 INFO 18876 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:48:27,920 INFO 18876 [egg-security] use methodnoallow middleware
+2020-04-12 23:48:27,921 INFO 18876 [egg-security] use noopen middleware
+2020-04-12 23:48:27,922 INFO 18876 [egg-security] use nosniff middleware
+2020-04-12 23:48:27,923 INFO 18876 [egg-security] use xssProtection middleware
+2020-04-12 23:48:27,923 INFO 18876 [egg-security] use xframe middleware
+2020-04-12 23:48:27,924 INFO 18876 [egg-security] use dta middleware
+2020-04-12 23:48:27,924 INFO 18876 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:48:27,934 INFO 18876 [egg:core] dump config after load, 5ms
+2020-04-12 23:48:27,943 INFO 18876 [egg-watcher:application] watcher start success
+2020-04-12 23:48:27,954 INFO 18876 [egg:core] dump config after ready, 9ms
+2020-04-12 23:48:33,987 INFO 19508 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:48:34,016 INFO 19508 [egg-multipart] stream mode enable
+2020-04-12 23:48:34,082 INFO 19508 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:48:34,086 INFO 19508 [egg-security] use methodnoallow middleware
+2020-04-12 23:48:34,087 INFO 19508 [egg-security] use noopen middleware
+2020-04-12 23:48:34,087 INFO 19508 [egg-security] use nosniff middleware
+2020-04-12 23:48:34,088 INFO 19508 [egg-security] use xssProtection middleware
+2020-04-12 23:48:34,088 INFO 19508 [egg-security] use xframe middleware
+2020-04-12 23:48:34,089 INFO 19508 [egg-security] use dta middleware
+2020-04-12 23:48:34,089 INFO 19508 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:48:34,098 INFO 19508 [egg:core] dump config after load, 4ms
+2020-04-12 23:48:34,107 INFO 19508 [egg-watcher:application] watcher start success
+2020-04-12 23:48:34,117 INFO 19508 [egg:core] dump config after ready, 7ms
+2020-04-12 23:49:29,737 INFO 7960 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:49:29,773 INFO 7960 [egg-multipart] stream mode enable
+2020-04-12 23:49:29,840 INFO 7960 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:49:29,843 INFO 7960 [egg-security] use methodnoallow middleware
+2020-04-12 23:49:29,843 INFO 7960 [egg-security] use noopen middleware
+2020-04-12 23:49:29,844 INFO 7960 [egg-security] use nosniff middleware
+2020-04-12 23:49:29,844 INFO 7960 [egg-security] use xssProtection middleware
+2020-04-12 23:49:29,845 INFO 7960 [egg-security] use xframe middleware
+2020-04-12 23:49:29,845 INFO 7960 [egg-security] use dta middleware
+2020-04-12 23:49:29,845 INFO 7960 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:49:29,905 INFO 7960 [egg:core] dump config after load, 54ms
+2020-04-12 23:49:29,917 INFO 7960 [egg-watcher:application] watcher start success
+2020-04-12 23:49:29,927 INFO 7960 [egg:core] dump config after ready, 8ms
+2020-04-12 23:49:37,436 INFO 14728 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:49:37,469 INFO 14728 [egg-multipart] stream mode enable
+2020-04-12 23:49:37,534 INFO 14728 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:49:37,536 INFO 14728 [egg-security] use methodnoallow middleware
+2020-04-12 23:49:37,537 INFO 14728 [egg-security] use noopen middleware
+2020-04-12 23:49:37,537 INFO 14728 [egg-security] use nosniff middleware
+2020-04-12 23:49:37,538 INFO 14728 [egg-security] use xssProtection middleware
+2020-04-12 23:49:37,538 INFO 14728 [egg-security] use xframe middleware
+2020-04-12 23:49:37,539 INFO 14728 [egg-security] use dta middleware
+2020-04-12 23:49:37,539 INFO 14728 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:49:37,549 INFO 14728 [egg:core] dump config after load, 4ms
+2020-04-12 23:49:37,561 INFO 14728 [egg-watcher:application] watcher start success
+2020-04-12 23:49:37,571 INFO 14728 [egg:core] dump config after ready, 9ms
+2020-04-12 23:49:58,966 INFO 18748 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:49:58,996 INFO 18748 [egg-multipart] stream mode enable
+2020-04-12 23:49:59,064 INFO 18748 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:49:59,066 INFO 18748 [egg-security] use methodnoallow middleware
+2020-04-12 23:49:59,066 INFO 18748 [egg-security] use noopen middleware
+2020-04-12 23:49:59,067 INFO 18748 [egg-security] use nosniff middleware
+2020-04-12 23:49:59,068 INFO 18748 [egg-security] use xssProtection middleware
+2020-04-12 23:49:59,068 INFO 18748 [egg-security] use xframe middleware
+2020-04-12 23:49:59,069 INFO 18748 [egg-security] use dta middleware
+2020-04-12 23:49:59,069 INFO 18748 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:49:59,078 INFO 18748 [egg:core] dump config after load, 4ms
+2020-04-12 23:49:59,089 INFO 18748 [egg-watcher:application] watcher start success
+2020-04-12 23:49:59,096 INFO 18748 [egg:core] dump config after ready, 5ms
+2020-04-12 23:50:08,309 INFO 11812 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:50:08,365 INFO 11812 [egg-multipart] stream mode enable
+2020-04-12 23:50:08,438 INFO 11812 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:50:08,440 INFO 11812 [egg-security] use methodnoallow middleware
+2020-04-12 23:50:08,441 INFO 11812 [egg-security] use noopen middleware
+2020-04-12 23:50:08,442 INFO 11812 [egg-security] use nosniff middleware
+2020-04-12 23:50:08,442 INFO 11812 [egg-security] use xssProtection middleware
+2020-04-12 23:50:08,443 INFO 11812 [egg-security] use xframe middleware
+2020-04-12 23:50:08,443 INFO 11812 [egg-security] use dta middleware
+2020-04-12 23:50:08,443 INFO 11812 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:50:08,454 INFO 11812 [egg:core] dump config after load, 6ms
+2020-04-12 23:50:08,466 INFO 11812 [egg-watcher:application] watcher start success
+2020-04-12 23:50:08,474 INFO 11812 [egg:core] dump config after ready, 7ms
+2020-04-12 23:50:28,458 INFO 8968 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:50:28,486 INFO 8968 [egg-multipart] stream mode enable
+2020-04-12 23:50:28,560 INFO 8968 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:50:28,562 INFO 8968 [egg-security] use methodnoallow middleware
+2020-04-12 23:50:28,563 INFO 8968 [egg-security] use noopen middleware
+2020-04-12 23:50:28,563 INFO 8968 [egg-security] use nosniff middleware
+2020-04-12 23:50:28,564 INFO 8968 [egg-security] use xssProtection middleware
+2020-04-12 23:50:28,564 INFO 8968 [egg-security] use xframe middleware
+2020-04-12 23:50:28,565 INFO 8968 [egg-security] use dta middleware
+2020-04-12 23:50:28,565 INFO 8968 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:50:28,575 INFO 8968 [egg:core] dump config after load, 6ms
+2020-04-12 23:50:28,587 INFO 8968 [egg-watcher:application] watcher start success
+2020-04-12 23:50:28,593 INFO 8968 [egg:core] dump config after ready, 4ms
+2020-04-12 23:51:11,298 INFO 19620 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:51:11,328 INFO 19620 [egg-multipart] stream mode enable
+2020-04-12 23:51:11,400 INFO 19620 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:51:11,403 INFO 19620 [egg-security] use methodnoallow middleware
+2020-04-12 23:51:11,403 INFO 19620 [egg-security] use noopen middleware
+2020-04-12 23:51:11,404 INFO 19620 [egg-security] use nosniff middleware
+2020-04-12 23:51:11,405 INFO 19620 [egg-security] use xssProtection middleware
+2020-04-12 23:51:11,405 INFO 19620 [egg-security] use xframe middleware
+2020-04-12 23:51:11,406 INFO 19620 [egg-security] use dta middleware
+2020-04-12 23:51:11,406 INFO 19620 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:51:11,416 INFO 19620 [egg:core] dump config after load, 5ms
+2020-04-12 23:51:11,426 INFO 19620 [egg-watcher:application] watcher start success
+2020-04-12 23:51:11,432 INFO 19620 [egg:core] dump config after ready, 5ms
+2020-04-12 23:51:22,618 INFO 16104 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:51:22,647 INFO 16104 [egg-multipart] stream mode enable
+2020-04-12 23:51:22,719 INFO 16104 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:51:22,722 INFO 16104 [egg-security] use methodnoallow middleware
+2020-04-12 23:51:22,723 INFO 16104 [egg-security] use noopen middleware
+2020-04-12 23:51:22,723 INFO 16104 [egg-security] use nosniff middleware
+2020-04-12 23:51:22,724 INFO 16104 [egg-security] use xssProtection middleware
+2020-04-12 23:51:22,724 INFO 16104 [egg-security] use xframe middleware
+2020-04-12 23:51:22,725 INFO 16104 [egg-security] use dta middleware
+2020-04-12 23:51:22,725 INFO 16104 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:51:22,736 INFO 16104 [egg:core] dump config after load, 5ms
+2020-04-12 23:51:22,746 INFO 16104 [egg-watcher:application] watcher start success
+2020-04-12 23:51:22,752 INFO 16104 [egg:core] dump config after ready, 4ms
+2020-04-12 23:51:30,471 INFO 10984 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:51:30,499 INFO 10984 [egg-multipart] stream mode enable
+2020-04-12 23:51:30,577 INFO 10984 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:51:30,580 INFO 10984 [egg-security] use methodnoallow middleware
+2020-04-12 23:51:30,580 INFO 10984 [egg-security] use noopen middleware
+2020-04-12 23:51:30,583 INFO 10984 [egg-security] use nosniff middleware
+2020-04-12 23:51:30,584 INFO 10984 [egg-security] use xssProtection middleware
+2020-04-12 23:51:30,586 INFO 10984 [egg-security] use xframe middleware
+2020-04-12 23:51:30,587 INFO 10984 [egg-security] use dta middleware
+2020-04-12 23:51:30,587 INFO 10984 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:51:30,603 INFO 10984 [egg:core] dump config after load, 7ms
+2020-04-12 23:51:30,614 INFO 10984 [egg-watcher:application] watcher start success
+2020-04-12 23:51:30,634 INFO 10984 [egg:core] dump config after ready, 17ms
+2020-04-12 23:52:28,239 INFO 12384 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:52:28,267 INFO 12384 [egg-multipart] stream mode enable
+2020-04-12 23:52:28,335 INFO 12384 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:52:28,338 INFO 12384 [egg-security] use methodnoallow middleware
+2020-04-12 23:52:28,338 INFO 12384 [egg-security] use noopen middleware
+2020-04-12 23:52:28,339 INFO 12384 [egg-security] use nosniff middleware
+2020-04-12 23:52:28,339 INFO 12384 [egg-security] use xssProtection middleware
+2020-04-12 23:52:28,340 INFO 12384 [egg-security] use xframe middleware
+2020-04-12 23:52:28,341 INFO 12384 [egg-security] use dta middleware
+2020-04-12 23:52:28,341 INFO 12384 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:52:28,350 INFO 12384 [egg:core] dump config after load, 5ms
+2020-04-12 23:52:28,360 INFO 12384 [egg-watcher:application] watcher start success
+2020-04-12 23:52:28,370 INFO 12384 [egg:core] dump config after ready, 8ms
+2020-04-12 23:52:46,401 INFO 10648 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:52:46,431 INFO 10648 [egg-multipart] stream mode enable
+2020-04-12 23:52:46,502 INFO 10648 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:52:46,505 INFO 10648 [egg-security] use methodnoallow middleware
+2020-04-12 23:52:46,506 INFO 10648 [egg-security] use noopen middleware
+2020-04-12 23:52:46,506 INFO 10648 [egg-security] use nosniff middleware
+2020-04-12 23:52:46,507 INFO 10648 [egg-security] use xssProtection middleware
+2020-04-12 23:52:46,507 INFO 10648 [egg-security] use xframe middleware
+2020-04-12 23:52:46,508 INFO 10648 [egg-security] use dta middleware
+2020-04-12 23:52:46,508 INFO 10648 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:52:46,519 INFO 10648 [egg:core] dump config after load, 5ms
+2020-04-12 23:52:46,535 INFO 10648 [egg-watcher:application] watcher start success
+2020-04-12 23:52:46,541 INFO 10648 [egg:core] dump config after ready, 4ms
+2020-04-12 23:52:53,927 INFO 18796 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:52:53,955 INFO 18796 [egg-multipart] stream mode enable
+2020-04-12 23:52:54,026 INFO 18796 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:52:54,028 INFO 18796 [egg-security] use methodnoallow middleware
+2020-04-12 23:52:54,028 INFO 18796 [egg-security] use noopen middleware
+2020-04-12 23:52:54,029 INFO 18796 [egg-security] use nosniff middleware
+2020-04-12 23:52:54,029 INFO 18796 [egg-security] use xssProtection middleware
+2020-04-12 23:52:54,030 INFO 18796 [egg-security] use xframe middleware
+2020-04-12 23:52:54,030 INFO 18796 [egg-security] use dta middleware
+2020-04-12 23:52:54,030 INFO 18796 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:52:54,043 INFO 18796 [egg:core] dump config after load, 8ms
+2020-04-12 23:52:54,058 INFO 18796 [egg-watcher:application] watcher start success
+2020-04-12 23:52:54,065 INFO 18796 [egg:core] dump config after ready, 5ms
+2020-04-12 23:52:57,798 INFO 6208 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:52:57,826 INFO 6208 [egg-multipart] stream mode enable
+2020-04-12 23:52:57,896 INFO 6208 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:52:57,898 INFO 6208 [egg-security] use methodnoallow middleware
+2020-04-12 23:52:57,898 INFO 6208 [egg-security] use noopen middleware
+2020-04-12 23:52:57,899 INFO 6208 [egg-security] use nosniff middleware
+2020-04-12 23:52:57,900 INFO 6208 [egg-security] use xssProtection middleware
+2020-04-12 23:52:57,900 INFO 6208 [egg-security] use xframe middleware
+2020-04-12 23:52:57,901 INFO 6208 [egg-security] use dta middleware
+2020-04-12 23:52:57,901 INFO 6208 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:52:57,910 INFO 6208 [egg:core] dump config after load, 5ms
+2020-04-12 23:52:57,920 INFO 6208 [egg-watcher:application] watcher start success
+2020-04-12 23:52:57,926 INFO 6208 [egg:core] dump config after ready, 4ms
+2020-04-12 23:53:00,943 INFO 19636 [egg:logger] init all loggers with options: {"dir":"W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"BlessingTodo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 23:53:00,969 INFO 19636 [egg-multipart] stream mode enable
+2020-04-12 23:53:01,190 INFO 19636 [egg-static] starting static serve /public/ -> W:\LeeXinMing\BlessingTodo\app\public
+2020-04-12 23:53:01,202 INFO 19636 [egg-security] use methodnoallow middleware
+2020-04-12 23:53:01,203 INFO 19636 [egg-security] use noopen middleware
+2020-04-12 23:53:01,206 INFO 19636 [egg-security] use nosniff middleware
+2020-04-12 23:53:01,216 INFO 19636 [egg-security] use xssProtection middleware
+2020-04-12 23:53:01,221 INFO 19636 [egg-security] use xframe middleware
+2020-04-12 23:53:01,222 INFO 19636 [egg-security] use dta middleware
+2020-04-12 23:53:01,222 INFO 19636 [egg-security] compose 6 middlewares into one security middleware
+2020-04-12 23:53:01,238 INFO 19636 [egg:core] dump config after load, 7ms
+2020-04-12 23:53:01,253 INFO 19636 [egg-watcher:application] watcher start success
+2020-04-12 23:53:01,263 INFO 19636 [egg:core] dump config after ready, 5ms
+2020-04-13 00:00:00,015 INFO 19636 [egg-logrotator] clean all log before 31 days
+2020-04-13 00:00:01,175 INFO 19636 [egg-logrotator] broadcast log-reload
+2020-04-13 00:00:01,175 INFO 19636 [egg-logrotator] rotate files success by DayRotator, files ["W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\common-error.log -> W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\common-error.log.2020-04-12","W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\BlessingTodo-web.log -> W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\BlessingTodo-web.log.2020-04-12","W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\egg-web.log -> W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\egg-web.log.2020-04-12","W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\egg-schedule.log -> W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\egg-schedule.log.2020-04-12","W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\egg-agent.log -> W:\\LeeXinMing\\BlessingTodo\\logs\\BlessingTodo\\egg-agent.log.2020-04-12"]

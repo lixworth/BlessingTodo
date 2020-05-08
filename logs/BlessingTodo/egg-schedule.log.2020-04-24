@@ -1,0 +1,117 @@
+2020-04-24 02:10:17,771 INFO 13484 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:10:17,771 INFO 13484 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:10:17,771 INFO 13484 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:12:38,432 INFO 14660 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:12:38,432 INFO 14660 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:12:38,432 INFO 14660 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:13:06,629 INFO 15432 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:13:06,630 INFO 15432 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:13:06,630 INFO 15432 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:15:08,243 INFO 8136 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:15:08,243 INFO 8136 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:15:08,243 INFO 8136 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:17:08,694 INFO 9668 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:17:08,694 INFO 9668 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:17:08,694 INFO 9668 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:19:16,630 INFO 17748 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:19:16,630 INFO 17748 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:19:16,630 INFO 17748 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:20:25,273 INFO 16276 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:20:25,273 INFO 16276 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:20:25,273 INFO 16276 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:21:08,969 INFO 11408 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:21:08,969 INFO 11408 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:21:08,969 INFO 11408 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:21:31,779 INFO 16108 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:21:31,779 INFO 16108 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:21:31,779 INFO 16108 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:21:38,204 INFO 2704 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:21:38,204 INFO 2704 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:21:38,204 INFO 2704 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:21:43,130 INFO 13076 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:21:43,130 INFO 13076 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:21:43,130 INFO 13076 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:21:45,240 INFO 17188 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:21:45,240 INFO 17188 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:21:45,240 INFO 17188 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 02:21:58,134 INFO 236 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 02:21:58,134 INFO 236 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 02:21:58,134 INFO 236 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 09:17:39,857 INFO 11360 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 09:17:39,857 INFO 11360 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 09:17:39,857 INFO 11360 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 09:18:06,888 INFO 17068 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69113114ms at 2020-04-25 04:30:00.002
+2020-04-24 09:18:06,889 INFO 17068 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52913112ms at 2020-04-25 00:00:00.001
+2020-04-24 09:18:06,889 INFO 17068 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52914111ms at 2020-04-25 00:00:01.000
+2020-04-24 09:18:06,654 INFO 12144 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 09:18:06,654 INFO 12144 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 09:18:06,654 INFO 12144 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 19:07:12,393 INFO 21020 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 19:07:12,393 INFO 21020 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 19:07:12,393 INFO 21020 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 19:07:12,863 INFO 25380 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 33767139ms at 2020-04-25 04:30:00.002
+2020-04-24 19:07:12,863 INFO 25380 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 17567137ms at 2020-04-25 00:00:00.000
+2020-04-24 19:07:12,864 INFO 25380 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 17568136ms at 2020-04-25 00:00:01.000
+2020-04-24 19:07:36,708 INFO 14148 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 19:07:36,708 INFO 14148 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 19:07:36,709 INFO 14148 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 19:09:21,355 INFO 18144 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 19:09:21,355 INFO 18144 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 19:09:21,355 INFO 18144 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 19:14:13,101 INFO 23576 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 19:14:13,101 INFO 23576 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 19:14:13,101 INFO 23576 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 21:18:33,704 INFO 7508 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 25886299ms at 2020-04-25 04:30:00.003
+2020-04-24 21:18:33,704 INFO 7508 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 9686296ms at 2020-04-25 00:00:00.000
+2020-04-24 21:18:33,704 INFO 7508 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 9687296ms at 2020-04-25 00:00:01.000
+2020-04-24 21:18:33,421 INFO 7372 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 21:18:33,422 INFO 7372 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 21:18:33,422 INFO 7372 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 22:09:52,270 INFO 13720 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 22:09:52,270 INFO 13720 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 22:09:52,270 INFO 13720 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 22:10:24,865 INFO 616 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 22:10:24,865 INFO 616 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 22:10:24,865 INFO 616 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 22:16:48,564 INFO 6836 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 22:16:48,564 INFO 6836 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 22:16:48,564 INFO 6836 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 22:16:50,044 INFO 2512 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 22:16:50,044 INFO 2512 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 22:16:50,044 INFO 2512 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 22:22:30,745 INFO 4856 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 22:22:30,745 INFO 4856 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 22:22:30,745 INFO 4856 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 22:44:11,640 INFO 13268 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 22:44:11,640 INFO 13268 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 22:44:11,640 INFO 13268 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:52:15,181 INFO 18380 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:52:15,181 INFO 18380 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:52:15,181 INFO 18380 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:52:27,117 INFO 8312 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:52:27,117 INFO 8312 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:52:27,117 INFO 8312 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:53:21,605 INFO 5288 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:53:21,605 INFO 5288 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:53:21,605 INFO 5288 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:54:04,379 INFO 6960 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:54:04,379 INFO 6960 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:54:04,379 INFO 6960 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:54:22,058 INFO 18168 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:54:22,058 INFO 18168 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:54:22,058 INFO 18168 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:57:03,333 INFO 17636 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:57:03,333 INFO 17636 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:57:03,333 INFO 17636 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:59:33,654 INFO 17532 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:59:33,654 INFO 17532 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:59:33,654 INFO 17532 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-24 23:59:39,583 INFO 7948 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-04-24 23:59:39,583 INFO 7948 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-04-24 23:59:39,583 INFO 7948 [egg-schedule]: register schedule C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-04-25 00:00:00,010 INFO 7508 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399997ms at 2020-04-26 00:00:00.007
+2020-04-25 00:00:00,003 INFO 7948 [Job#1587744000001113771726650001] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-04-25 00:00:00,010 INFO 7948 [Job#1587744000001113771726650001] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 7ms
+2020-04-25 00:00:01,001 INFO 7948 [Job#1587744001001113781722490001] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-04-25 00:00:01,010 INFO 7948 [Job#1587744001001113781722490001] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 9ms
+2020-04-25 00:00:01,004 INFO 7508 [Timer] C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399999ms at 2020-04-26 00:00:01.003

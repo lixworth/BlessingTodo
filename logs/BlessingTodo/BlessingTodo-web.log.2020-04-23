@@ -1,0 +1,277 @@
+2020-04-23 00:31:10,094 INFO 22992 [-/192.168.3.2/-/13ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:31:12,348 INFO 22992 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 不存在 开始注册
+2020-04-23 00:31:12,355 INFO 22992 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 注册成功
+2020-04-23 00:31:12,358 INFO 22992 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzA3MiwiZXhwIjoxNTg3NzQ1ODcyfQ.O1HXN6uGIyKz2lzTWkYppiyDnoCM-06dMYdD-WW1OeVn1MahEwsEc0bBOL8sfUjZKh7AkZmektiM02K8BHB1YDVJP8NRrSA1ekdwi4A-mMcgNBuM-mZlm_cl6lkV0-Yu_816xtUjIGdnNw-D7xi2OmkO8axTAMnu6TgT6b6zbbM
+2020-04-23 00:31:45,412 INFO 22992 [-/192.168.3.2/-/0ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:31:47,661 INFO 22992 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzEwNywiZXhwIjoxNTg3NzQ1OTA3fQ.pMwUftin5HS6kp92jeCa9yY_gGbNPFzDaQatfg6-mW0uxm7TStk-FG19KKID28JaaIsPWKSLaYRp8Y5fpHxDRuM9faXKpIhj5yIIVvf5dyoBhKkOtz7anL6KvTkmjVgBQDDoyxPMYqtn7EwQnNNLBvfiSEkUIdex8Vpy07eGKZ4
+2020-04-23 00:36:29,366 INFO 20516 [-/192.168.3.3/-/12ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:36:31,640 INFO 20516 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzM5MSwiZXhwIjoxNTg3NzQ2MTkxfQ.zk4TLuX9eeQNyOETBecEKIPbUkCfV0ph9ETuIyB-Zidb9ZUnk4uJpR1rgCDiwInj_7PKGcxc1aetoHR4hId9GjlSn0fQxShjiUbcHAF3KDJ4Y9FTQ5b9zYcIHmjw5Sk6f-0l5QkT6kptM-yRWlIMP0VLJ8zHYFmud9Z6uMCzgF0
+2020-04-23 00:38:12,540 INFO 20516 [-/192.168.3.2/-/1ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:38:14,782 INFO 20516 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzQ5NCwiZXhwIjoxNTg3NzQ2Mjk0fQ.y2-UsEYZ6f7IUQrKYMm5zxu1Wnblt9gkgfPuQeO6TPVVkx7mCgBde3DEtTm1RK9it5EtaDpfVMDc6bnLDd978ZJ5geIcYqha04zy7oKdHzXEnkISgXQlZ0-EZN0d3DfdhjZ8mPvLDM6O684EpGSCa-wFV3bPw2Qk5CfXjCto0KM
+2020-04-23 00:39:46,959 INFO 9536 [-/192.168.3.2/-/13ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:39:49,193 INFO 9536 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzU4OSwiZXhwIjoxNTg3NzQ2Mzg5fQ.PSy2_AK3JJxXL24JGmqYtx0aHMnKfQ1SV41JnnMUmCVACMfqOZoRNRDCM3Aq9rXcVrL26wO2kMWXBXzTE-ocOSdss7XGrSuFyDzA6buydPUM1-nSse5MsrmUlo1pvrAS9l7UDYkSDrKT41bHi_YzaJ6W88G4oytXAAp11X9CQgM
+2020-04-23 00:40:26,966 INFO 9536 [-/192.168.3.2/-/1ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:40:29,216 INFO 9536 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzYyOSwiZXhwIjoxNTg3NzQ2NDI5fQ.GlZmG6LhQkokGrfFV6MJHk-PjBGLbNi--FcQenu8n_7kAsk7pKIsL-DVJ1-XzKJB1F_GB1x5oE8RPk20o0bSdPdbWGqmY4VBzMKrXOKo7xW5BudUcoCOJQBRLRPWfJOeNYEDtENoIu8lG7a8-xzKcz51DuR21FCLEEwo-tk08vg
+2020-04-23 00:41:59,445 INFO 9536 [-/192.168.3.3/-/0ms POST /login] {
+  nickName: '神乐七奈',
+  gender: 0,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: '',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/cu1JaBmRuiaibXwqnH3E7TDdNRvSZhjZibiaibjGolw5ZRMfyn8ylBIG2e0Lib06IIBNgbtVP4uj8licCsmDekYmaKjGw/132'
+}
+2020-04-23 00:42:01,759 INFO 9536 UID:2 OpenID:oVGBI41KCziTzzDP-uj8DbRhuEFY 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwib3BlbmlkIjoib1ZHQkk0MUtDemlUenpEUC11ajhEYlJodUVGWSIsImlhdCI6MTU4NzU3MzcyMSwiZXhwIjoxNTg3NzQ2NTIxfQ.MZ1DdvgQDrCVbDuePt4kto-tK-hKhceid2uDFHiJQFzP4lLLtHW_fRSea8HHUU94EOmR7xlQmKWVRTYVosLi7x69G9YZXE_UU25WlOzu-Gp_HdInngAb-DzlUj_BjyhNr5onwuS-DLwSJRDEt6fDLsiNnWJcKcwv_XWjGkKVomw
+2020-04-23 00:47:43,095 ERROR 21276 [-/192.168.3.3/-/54ms GET /list] nodejs.TypeError: Cannot read property 'nickName' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:54:52
+    at Array.forEach (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:38)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 21276
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:47:58,748 ERROR 21276 [-/192.168.3.3/-/40ms GET /list] nodejs.TypeError: Cannot read property 'nickName' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:54:52
+    at Array.forEach (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:38)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 21276
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:48:07,016 ERROR 20680 [-/192.168.3.3/-/63ms GET /list] nodejs.TypeError: Cannot read property 'nickName' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:55:52
+    at Array.forEach (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:38)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 20680
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:48:21,779 ERROR 20680 [-/192.168.3.3/-/30ms GET /list] nodejs.TypeError: Cannot read property 'nickName' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:55:52
+    at Array.forEach (<anonymous>)
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:38)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 20680
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:52:40,896 ERROR 9240 [-/192.168.3.3/-/48ms GET /list] nodejs.TypeError: Cannot read property 'todo' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9240
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:52:42,414 ERROR 9240 [-/192.168.3.3/-/20ms GET /list] nodejs.TypeError: Cannot read property 'todo' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9240
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:53:02,813 ERROR 9240 [-/192.168.3.3/-/31ms GET /list] nodejs.TypeError: Cannot read property 'todo' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9240
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:53:03,896 ERROR 9240 [-/192.168.3.3/-/17ms GET /list] nodejs.TypeError: Cannot read property 'todo' of undefined
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9240
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:54:53,799 ERROR 19764 [-/192.168.3.3/-/62ms GET /list] nodejs.TypeError: Cannot read property 'nickName' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:55:52
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 1)
+    at async TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:13)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 19764
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:55:25,393 ERROR 15708 [-/192.168.3.3/-/93ms GET /list] nodejs.TypeError: Cannot read property 'nickName' of undefined
+    at C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:55:52
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 1)
+    at async TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:49:13)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 15708
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:59:12,844 ERROR 22600 [-/192.168.3.3/-/47ms GET /list] nodejs.TypeError: Promise.t is not a function
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 22600
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:59:15,645 ERROR 22600 [-/192.168.3.3/-/17ms GET /list] nodejs.TypeError: Promise.t is not a function
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 22600
+hostname: LixWorth-HP-PC
+
+2020-04-23 00:59:52,188 ERROR 22600 [-/192.168.3.3/-/35ms GET /list] nodejs.TypeError: Promise.t is not a function
+    at TodoController.getList (C:\Users\LixWorth\Project\BlessingTodoBackend\app\controller\todo.js:32:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userInterceptor (C:\Users\LixWorth\Project\BlessingTodoBackend\app\middleware\jwt.js:33:9)
+    at async C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LixWorth\Project\BlessingTodoBackend\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 22600
+hostname: LixWorth-HP-PC
+
+2020-04-23 11:51:25,001 INFO 12640 [-/192.168.3.40/-/1ms POST /login] {
+  nickName: 'LixWorth',
+  gender: 1,
+  language: 'zh_CN',
+  city: '',
+  province: '',
+  country: 'China',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/tIcbDrrpfyic5eT6j8Oibq472aCCRy91JyJ4hqsicAiadWGMcX3wl66yteLJnA7OBIIaEDMicjBvD6klHK9NpPvEKug/132'
+}
+2020-04-23 11:51:27,330 INFO 12640 UID:1 OpenID:oVGBI40ANe5bd0EdMItJYQwT_4FQ 登录系统 已更新用户信息 并颁发Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib3BlbmlkIjoib1ZHQkk0MEFOZTViZDBFZE1JdEpZUXdUXzRGUSIsImlhdCI6MTU4NzYxMzg4NywiZXhwIjoxNTg3Nzg2Njg3fQ.VxJ2gocJzDUWyI58nlfwdQNjBOthXBzDE91DO39aF7jvcLjVULJNWVm6Iq9Lnwt70JGQL6X7S8FkXrUG-bvyn97bWSJojeWEwvIQwalYxJ40Eo7JCC7QUqzIYwocwOpRhSZxTJaocRCeIkFRliw4On_n2G7nMxqX2aKXNrP9uTc

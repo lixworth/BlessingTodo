@@ -1,0 +1,175 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/yiyan",
+    "regexp": "/^\\/yiyan(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/login",
+    "regexp": "/^\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/list",
+    "regexp": "/^\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/test",
+    "regexp": "/^\\/test(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/user",
+    "regexp": "/^\\/user(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sonComplete",
+    "regexp": "/^\\/sonComplete(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getTodo",
+    "regexp": "/^\\/getTodo(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/newTodo",
+    "regexp": "/^\\/newTodo(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getCode",
+    "regexp": "/^\\/getCode(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/loadCode",
+    "regexp": "/^\\/loadCode(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/fatherJoin",
+    "regexp": "/^\\/fatherJoin(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sonJoin",
+    "regexp": "/^\\/sonJoin(?:\\/(?=$))?$/",
+    "stack": [
+      "userInterceptor",
+      "wrappedController"
+    ]
+  }
+]
