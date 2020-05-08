@@ -62,7 +62,6 @@ class TodoController extends Controller {
                     item.MOTHER = mother_user.nickname;
                 }
             }));
-
             return this.ctx.body = result.data;
         }else{
             if(result.data.message.error === "ERR_UID_DECLINED"){
